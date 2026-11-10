@@ -1,0 +1,113 @@
+{
+  "project_id": "big_bang_pigeons",
+  "title": "The Pigeon Poop That Heard the Big Bang",
+  "subtitle": "How Bell Labs Accidentally Tuned Into the Birth of the Universe",
+  "format": "16:9 Long-Form Documentary Essay",
+  "target_duration_minutes": 12,
+  "style_profile": "Tactile Retro-Digital Ephemera + Swiss Technical Infographic",
+  "core_thesis": "In 1964, two radio astronomers trying to calibrate a satellite antenna at Bell Labs thought an omnipresent 3.5 Kelvin microwave hiss was caused by pigeon droppings inside their horn antenna. In scrubbing away the droppings, they proved that the static was actually the 13.8-billion-year-old cosmic microwave background—the thermal echo of the Big Bang.",
+  "counter_intuitive_hook": "The most important cosmological discovery of the 20th century was nearly written off as pigeon poop.",
+  "visual_style": {
+    "canvas": "Cream deckle cardstock (#F4EFE6) layered over 1960s Bell Labs technical schematics and deep matte carbon void (#0C0C0C)",
+    "typography": "1-bit coarse dithered serif with active typewriter cursor (_) and Swiss high-contrast data charts",
+    "portals": "1960s cathode oscilloscopes, analog radio dials, and pen strip-chart recorders as framing windows",
+    "motion_cadence": "Hybrid: 12-15fps stepped stop-motion on archival cutouts, 30fps smooth waves & CMB visualizers",
+    "asset_sourcing": "Real archival assets first (Wikimedia Commons, NASA, Bell Labs public domain); AI only as fallback"
+  },
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "title": "The Annoying Hum at Crawford Hill",
+      "time_range": "0:00 - 2:00",
+      "key_events": [
+        "May 1964: Arno Penzias and Robert Wilson take over the 50-foot Holmdel Horn Antenna in Crawford Hill, New Jersey",
+        "Antenna originally built for NASA Project Echo and Telstar satellite communications",
+        "Goal: Measure radio noise in the Milky Way halo at 4,080 MHz (7.35 cm)",
+        "The Anomaly: An unexpected 3.5 Kelvin excess temperature omnidirectionally in the sky"
+      ]
+    },
+    {
+      "chapter_number": 2,
+      "title": "The Elimination of All Reason",
+      "time_range": "2:00 - 4:15",
+      "key_events": [
+        "Suspect 1: New York City urban broadcast noise (Pointing away showed zero change)",
+        "Suspect 2: Coastal military radar installations (Frequencies did not match)",
+        "Suspect 3: 1962 Starfish Prime high-altitude thermonuclear radiation fallout (Decay math failed)",
+        "Suspect 4: Terrestrial radio sources or the Milky Way galaxy (Isotropic in all directions, day and night)"
+      ]
+    },
+    {
+      "chapter_number": 3,
+      "title": "The 'White Dielectric Substance'",
+      "time_range": "4:15 - 6:30",
+      "key_events": [
+        "Penzias and Wilson climb into the throat/stinger of the horn with flashlights",
+        "Two pigeons nesting in the throat coated with droppings ('white dielectric material')",
+        "The capture: Trapping the pigeons and mailing them 30 miles away in a box",
+        "The return: Pigeons homing back into the antenna",
+        "The deep scrub: Scraping droppings, taping seams with aluminum foil",
+        "The result: The 3.5 Kelvin hiss remained identical down to 0.1 Kelvin"
+      ]
+    },
+    {
+      "chapter_number": 4,
+      "title": "The 30-Mile Secret at Princeton",
+      "time_range": "6:30 - 8:45",
+      "key_events": [
+        "30 miles away at Princeton University: Robert Dicke, Jim Peebles, and David Wilkinson",
+        "Dicke hypothesizes that a hot Big Bang must leave a lingering low-temperature bath (~3K to 5K)",
+        "Princeton team begins constructing a small radiometer on the roof of Palmer Physical Laboratory",
+        "The phone call: Penzias calls Dicke asking for advice on the unexplained 3.5K excess noise",
+        "Dicke hangs up the receiver and tells his team: 'Well boys, we’ve been scooped.'"
+      ]
+    },
+    {
+      "chapter_number": 5,
+      "title": "The Dual Papers & The Death of Steady State",
+      "time_range": "8:45 - 10:30",
+      "key_events": [
+        "July 1965: The Astrophysical Journal publishes companion papers",
+        "Paper 1: Penzias & Wilson 'A Measurement of Excess Antenna Temperature at 4080 Mc/s' (2 pages, completely understated)",
+        "Paper 2: Dicke, Peebles, Roll & Wilkinson 'Cosmic Black-Body Radiation' (The cosmological explanation)",
+        "Fred Hoyle's Steady State model effectively disproven overnight",
+        "1978 Nobel Prize in Physics awarded to Penzias and Wilson"
+      ]
+    },
+    {
+      "chapter_number": 6,
+      "title": "Tuning Into the Void",
+      "time_range": "10:30 - 12:00",
+      "key_events": [
+        "The physics: Photons decoupled 380,000 years after the Big Bang (Recombination Era) stretched into microwaves",
+        "Space telescopes: COBE (1992, Smoot & Mather), WMAP (2003), and ESA Planck (2013) all-sky maps",
+        "The analog television easter egg: 1% of static snow on untuned analog TVs is the Big Bang afterglow",
+        "Closing philosophical reflection: Human curiosity transforming bird droppings into the birth certificate of the universe"
+      ]
+    }
+  ],
+  "archival_asset_manifest": [
+    {
+      "name": "Holmdel Horn Antenna with Penzias & Wilson",
+      "source": "Wikimedia Commons",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Horn_Antenna-in_Holmdel%2C_New_Jersey_-_restoration1.jpg",
+      "license": "Public Domain (NASA / Bell Labs)"
+    },
+    {
+      "name": "Holmdel Horn Antenna Interior View",
+      "source": "Wikimedia Commons",
+      "title": "File:Holmdel Horn Antenna view of inside of horn.jpg",
+      "license": "CC-BY-SA"
+    },
+    {
+      "name": "Planck All-Sky CMB Map",
+      "source": "ESA / NASA / Wikimedia Commons",
+      "license": "Public Domain"
+    },
+    {
+      "name": "1965 Astrophysical Journal Paper Header",
+      "source": "Astrophysical Journal (NASA ADS)",
+      "license": "Fair Use Archival Document"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build & Render Outputs
+out/
+dist/
+build/
+
+# Generated Media (Audio, Video, Images, 3D Assets)
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+*.mp3
+*.wav
+*.aac
+*.m4a
+*.flac
+*.ogg
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.bmp
+*.tiff
+*.glb
+*.gltf
+*.blend
+*.blend1
+
+# Large Binaries & Third-party Tools
+tools/
+*.zip
+*.tar.*
+*.7z
+*.msi
+*.exe
+
+# Sensitive & Secret Files
+cookies.txt
+*.env
+*.env.*
+!.env.example
+
+# Temporary & Scratch Files
+*.log
+pinterest_raw.html
+dicke-robert.pdf
+test_chunk.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# AG / Tooling Metadata & Backups
+.ag-kit-backups/
+.mimosa/
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

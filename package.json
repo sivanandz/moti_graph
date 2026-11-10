@@ -1,0 +1,32 @@
+{
+  "name": "vox-motion-graphics-video",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "remotion preview",
+    "studio": "node server.js",
+    "build": "remotion render MainExplainer out/video.mp4",
+    "render:bird": "remotion render BirdLightspeedReel-EN projects/Bird_Flaps_To_Lightspeed_2026-11-09/05_output/final_video_v3_physics.mp4 --concurrency=2 --gl=angle",
+    "still:bird": "remotion still BirdLightspeedReel-EN projects/Bird_Flaps_To_Lightspeed_2026-11-09/05_output/benchmark_clean_mach_cone_f350.png --frame=350 --gl=angle",
+    "render:needle": "remotion render NeedleImpactReel-EN projects/Relativistic_Needle_Impact_2026-11-09/05_output/final_needle_impact.mp4 --concurrency=2 --gl=angle",
+    "render:v2": "remotion render NeedleImpactReel-EN projects/Relativistic_Needle_Impact_2026-11-09/05_output/final_needle_impact_v2_realistic.mp4 --concurrency=2 --gl=angle",
+    "preview:needle": "remotion render NeedleImpactReel-EN projects/Relativistic_Needle_Impact_2026-11-09/05_output/test_preview.mp4 --frames=100-140 --concurrency=2 --gl=angle",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.105.6",
+    "@react-three/fiber": "^8.16.6",
+    "@remotion/cli": "^4.0.218",
+    "@remotion/three": "^4.0.218",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.218",
+    "three": "^0.164.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "@types/three": "^0.164.0",
+    "puppeteer": "^25.16.0",
+    "typescript": "^5.4.5"
+  }
+}

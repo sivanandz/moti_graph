@@ -1,0 +1,7 @@
+file 'E:/Local_GIT_2/motion_graphics_videos/projects/sun_fooled_norad_2026-11-09/03_voiceover/_tmp/pad_01.wav'
+file 'E:/Local_GIT_2/motion_graphics_videos/projects/sun_fooled_norad_2026-11-09/03_voiceover/_tmp/pad_02.wav'
+file 'E:/Local_GIT_2/motion_graphics_videos/projects/sun_fooled_norad_2026-11-09/03_voiceover/_tmp/pad_03.wav'
+file 'E:/Local_GIT_2/motion_graphics_videos/projects/sun_fooled_norad_2026-11-09/03_voiceover/_tmp/pad_04.wav'
+file 'E:/Local_GIT_2/motion_graphics_videos/projects/sun_fooled_norad_2026-11-09/03_voiceover/_tmp/pad_05.wav'
+file 'E:/Local_GIT_2/motion_graphics_videos/projects/sun_fooled_norad_2026-11-09/03_voiceover/_tmp/pad_06.wav'
+file 'E:/Local_GIT_2/motion_graphics_videos/projects/sun_fooled_norad_2026-11-09/03_voiceover/_tmp/pad_07.wav'

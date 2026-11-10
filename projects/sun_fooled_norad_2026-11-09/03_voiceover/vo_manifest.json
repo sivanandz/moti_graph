@@ -1,0 +1,66 @@
+{
+  "voice": "en-US-AvaNeural",
+  "style": "expressive female narrator; per-sentence rate/pitch direction",
+  "master": "master_vo.mp3",
+  "total_seconds": 180.05,
+  "beats": [
+    {
+      "id": 1,
+      "start_s": 0,
+      "slot_s": 27,
+      "audio": "beat_01.wav",
+      "caption": "May 23, 1967. The three radar sites guarding America from Soviet missiles go dark — all at the same second."
+    },
+    {
+      "id": 2,
+      "start_s": 27,
+      "slot_s": 28,
+      "audio": "beat_02.wav",
+      "caption": "In Cold War doctrine, jamming meant one thing: Soviet attack was imminent. Nuclear-armed bombers were moved to ready-to-launch."
+    },
+    {
+      "id": 3,
+      "start_s": 55,
+      "slot_s": 27,
+      "audio": "beat_03.wav",
+      "caption": "Days earlier, a vast sunspot group had rotated onto the Sun. On May 21 and 23 it erupted — flares, then the century's biggest radio burst."
+    },
+    {
+      "id": 4,
+      "start_s": 82,
+      "slot_s": 28,
+      "audio": "beat_04.wav",
+      "caption": "At Ent Air Force Base, Colorado, forecaster Arnold Snyder got the panicked call. His answer: 'Yes — half the sun has blown away.'"
+    },
+    {
+      "id": 5,
+      "start_s": 110,
+      "slot_s": 25,
+      "audio": "beat_05.wav",
+      "caption": "Forecasters confirmed all three radar sites sat in daylight. As the Sun's burst faded, the 'jamming' faded with it. The launch order never came."
+    },
+    {
+      "id": 6,
+      "start_s": 135,
+      "slot_s": 27,
+      "audio": "beat_06.wav",
+      "caption": "The near-war stayed secret for half a century — until 2016, when a declassified study named the culprit: the May 1967 Great Storm."
+    },
+    {
+      "id": 7,
+      "start_s": 162,
+      "slot_s": 18,
+      "audio": "beat_07.wav",
+      "caption": "Quebec went dark in 1989. Earth missed a Carrington-class blast by days in 2012. We just passed solar maximum. The Sun never demobilized."
+    }
+  ],
+  "word_timings": {
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": [],
+    "6": [],
+    "7": []
+  }
+}

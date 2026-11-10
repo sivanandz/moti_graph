@@ -1,0 +1,250 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "project_title": "The Pigeon Poop That Heard the Big Bang",
+  "fps": 30,
+  "voice_model": "edge-tts (en-US-ChristopherNeural)",
+  "beats": [
+    {
+      "beat_id": "beat_01_hook_holmdel",
+      "narration_text": "In May of 1964, on a quiet hill in Monmouth County, New Jersey, two physicists had access to the most sensitive listening device ever constructed by human hands.",
+      "visual_type": "paper_cutout_montage",
+      "visual_description": "1960s blueprint of the 50-foot Holmdel Horn Antenna sliding over cream deckle paper with tactile drop shadow and red ribbon ink highlights.",
+      "assigned_editor": "antigravity",
+      "audio_file": "03_voiceover/beat_01_hook_holmdel.mp3",
+      "duration_seconds": 11.04,
+      "duration_frames": 331
+    },
+    {
+      "beat_id": "beat_02_penzias_wilson_intro",
+      "narration_text": "Their names were Arno Penzias and Robert Wilson, and their machine was originally built to catch satellite signals bounced off NASA's giant orbiting mylar balloons.",
+      "visual_type": "paper_cutout_montage",
+      "visual_description": "Archival photo cutout of young Penzias and Wilson in front of the giant aluminum horn antenna with 1-bit dithered typography.",
+      "assigned_editor": "antigravity",
+      "audio_file": "03_voiceover/beat_02_penzias_wilson_intro.mp3",
+      "duration_seconds": 9.912,
+      "duration_frames": 297
+    },
+    {
+      "beat_id": "beat_03_the_4080mhz_mission",
+      "narration_text": "Their mission was pure science: point the antenna into the halo of the Milky Way, tune their liquid-helium receiver to 4,080 megahertz, and measure the faintest cosmic radio emissions.",
+      "visual_type": "3d_isometric_doc",
+      "visual_description": "3D isometric technical diagram of the horn waveguide entering the cryogenic maser receiver with 4080 MHz frequency dial.",
+      "assigned_editor": "opencode",
+      "audio_file": "03_voiceover/beat_03_the_4080mhz_mission.mp3",
+      "duration_seconds": 12.048,
+      "duration_frames": 361
+    },
+    {
+      "beat_id": "beat_04_the_excess_noise",
+      "narration_text": "Their calculations predicted a baseline temperature of 3.3 Kelvin. Instead, their chart recorder registered an unyielding 6.7 Kelvin\u2014an extra 3.5 Kelvin of pure, persistent noise.",
+      "visual_type": "kinetic_chart",
+      "visual_description": "Stylus needle strip-chart recorder rolling forward. Needle jumps from predicted 3.3K line to red 6.7K line with blinking typewriter annotation.",
+      "assigned_editor": "antigravity",
+      "audio_file": "03_voiceover/beat_04_the_excess_noise.mp3",
+      "duration_seconds": 14.352,
+      "duration_frames": 431
+    },
+    {
+      "beat_id": "beat_05_rule_one_broken_gear",
+      "narration_text": "In professional physics, when your instrument detects something inexplicable, you don't call Stockholm for a Nobel Prize. You assume your equipment is broken.",
+      "visual_type": "typography_slam",
+      "visual_description": "1-bit dithered typewriter typography slam: 'RULE 1: IT IS ALWAYS OUR FAULT' framed by physical desk tools (ruler, marker pen).",
+      "assigned_editor": "antigravity",
+      "audio_file": "03_voiceover/beat_05_rule_one_broken_gear.mp3",
+      "duration_seconds": 10.152,
+      "duration_frames": 305
+    },
+    {
+      "beat_id": "beat_06_suspect_nyc_broadcasts",
+      "narration_text": "Suspect number one was New York City, thirty miles north. Wilson pointed the horn directly at Manhattan, then 180 degrees away. The noise floor didn't flinch by a fraction of a decibel.",
+      "visual_type": "3d_geo_globe",
+      "visual_description": "1960s state map of New Jersey and NYC. Red dashed directional vector rotates 360 degrees while the oscilloscope signal trace stays flat.",
+      "assigned_editor": "opencode",
+      "audio_file": "03_voiceover/beat_06_suspect_nyc_broadcasts.mp3",
+      "duration_seconds": 14.016,
+      "duration_frames": 420
+    },
+    {
+      "beat_id": "beat_07_radar_and_starfish_prime",
+      "narration_text": "They checked military coastal radars, and calculated fallout decay from the 1962 Starfish Prime high-altitude nuclear detonation. Every calculation came up empty.",
+      "visual_type": "paper_cutout_montage",
+      "visual_description": "Archival document collage with radar circular reticle, newspaper clipping of Starfish Prime nuclear blast, and handwritten math formulas.",
+      "assigned_editor": "antigravity",
+      "audio_file": "03_voiceover/beat_07_radar_and_starfish_prime.mp3",
+      "duration_seconds": 11.88,
+      "duration_frames": 356
+    },
+    {
+      "beat_id": "beat_08_the_isotropic_mystery",
+      "narration_text": "Through day and night, spring and winter, the hiss was completely isotropic\u2014coming from everywhere at once across the sky with absolute, unwavering uniformity.",
+      "visual_type": "kinetic_chart",
+      "visual_description": "Celestial dome hemisphere mapping four seasons. Uniform golden grid lines demonstrate isotropic emission arriving from every azimuth.",
+      "assigned_editor": "opencode",
+      "audio_file": "03_voiceover/beat_08_the_isotropic_mystery.mp3",
+      "duration_seconds": 10.536,
+      "duration_frames": 316
+    },
+    {
+      "beat_id": "beat_09_climbing_the_horn",
+      "narration_text": "Running out of celestial explanations, Penzias and Wilson put on coveralls, grabbed flashlights, and crawled inside the narrow aluminum throat of the antenna.",
+      "visual_type": "paper_cutout_montage",
+      "visual_description": "Archival photo looking directly down the hollow aluminum funnel of the Holmdel horn. Spotlight beam sweeps across metal rivets.",
+      "assigned_editor": "antigravity",
+      "audio_file": "03_voiceover/beat_09_climbing_the_horn.mp3",
+      "duration_seconds": 10.296,
+      "duration_frames": 309
+    },
+    {
+      "beat_id": "beat_10_the_pigeon_discovery",
+      "narration_text": "Deep in the waveguide throat, they found two street pigeons nesting in the bottleneck, coating the precision aluminum with what Penzias dryly termed 'a white dielectric material.'",
+      "visual_type": "typography_slam",
+      "visual_description": "Cutout of two pigeons perched inside the horn. Bold label 'WHITE DIELECTRIC MATERIAL' punches in with vermilion red underline.",
+      "assigned_editor": "antigravity",
+      "audio_file": "03_voiceover/beat_10_the_pigeon_discovery.mp3",
+      "duration_seconds": 10.68,
+      "duration_frames": 320
+    },
+    {
+      "beat_id": "beat_11_the_homing_pigeon_return",
+      "narration_text": "They trapped the pigeons in a mail box and shipped them thirty miles away to Morris County. Two days later, both pigeons used their homing instincts and flew straight back inside.",
+      "visual_type": "paper_cutout_montage",
+      "visual_description": "Vintage US Postal truck cutout traveling along a map route, overlaid with an animated flight path looping back to Crawford Hill.",
+      "assigned_editor": "antigravity",
+      "audio_file": "03_voiceover/beat_11_the_homing_pigeon_return.mp3",
+      "duration_seconds": 11.328,
+      "duration_frames": 340
+    },
+    {
+      "beat_id": "beat_12_the_broom_scrub_climax",
+      "narration_text": "The pigeons were permanently evicted. Penzias and Wilson scrubbed every inch with wire brushes, sealed the seams with aluminum tape, chilled the receiver, and fired it up. Three point five Kelvin. Still there.",
+      "visual_type": "kinetic_chart",
+      "visual_description": "Fast-paced montage of scrub brushes, tape sealing, and the strip-chart recorder needle snapping immediately back to the exact same 3.5K level.",
+      "assigned_editor": "opencode",
+      "audio_file": "03_voiceover/beat_12_the_broom_scrub_climax.mp3",
+      "duration_seconds": 15.48,
+      "duration_frames": 464
+    },
+    {
+      "beat_id": "beat_13_the_princeton_blackboard",
+      "narration_text": "Thirty miles away at Princeton University, theoretical physicists Robert Dicke and Jim Peebles were staring at blackboards, searching for the physical signature of the beginning of time.",
+      "visual_type": "paper_cutout_montage",
+      "visual_description": "Archival portraits of Robert Dicke and Jim Peebles standing before chalkboard equations detailing cosmic expansion.",
+      "assigned_editor": "antigravity",
+      "audio_file": "03_voiceover/beat_13_the_princeton_blackboard.mp3",
+      "duration_seconds": 10.728,
+      "duration_frames": 322
+    },
+    {
+      "beat_id": "beat_14_the_big_bang_fireball",
+      "narration_text": "Peebles calculated that the primordial fireball of creation couldn't just vanish. Over thirteen billion years of expansion, that blinding light would stretch into a cold bath of microwaves around three Kelvin.",
+      "visual_type": "kinetic_chart",
+      "visual_description": "Animated wavelength stretching simulation: high-frequency blue/gamma waves expanding into long red microwave frequencies.",
+      "assigned_editor": "opencode",
+      "audio_file": "03_voiceover/beat_14_the_big_bang_fireball.mp3",
+      "duration_seconds": 13.176,
+      "duration_frames": 395
+    },
+    {
+      "beat_id": "beat_15_the_palmer_rooftop_hunt",
+      "narration_text": "Up on the roof of Palmer Laboratory, two young researchers, David Wilkinson and Peter Roll, were shivering in the New Jersey wind, hand-building a rooftop radiometer to hunt for this exact signal.",
+      "visual_type": "paper_cutout_montage",
+      "visual_description": "Archival photo of Wilkinson and Roll assembling the small wooden housing of the Princeton rooftop radiometer.",
+      "assigned_editor": "antigravity",
+      "audio_file": "03_voiceover/beat_15_the_palmer_rooftop_hunt.mp3",
+      "duration_seconds": 12.24,
+      "duration_frames": 367
+    },
+    {
+      "beat_id": "beat_16_weve_been_scooped",
+      "narration_text": "Then Penzias called Dicke to ask about the 3.5 Kelvin noise. Dicke listened, hung up the rotary phone, turned to his team, and uttered five immortal words: 'Well boys, we\u2019ve been scooped.'",
+      "visual_type": "typography_slam",
+      "visual_description": "Rotary telephone receiver cutout settling into its cradle. Screen goes dark as quotation punches in: 'WELL BOYS, WE'VE BEEN SCOOPED.'",
+      "assigned_editor": "antigravity",
+      "audio_file": "03_voiceover/beat_16_weve_been_scooped.mp3",
+      "duration_seconds": 13.584,
+      "duration_frames": 408
+    },
+    {
+      "beat_id": "beat_17_the_gentlemans_agreement",
+      "narration_text": "Instead of fighting over credit, Bell Labs and Princeton agreed to publish companion letters side-by-side in the July 1965 issue of The Astrophysical Journal.",
+      "visual_type": "paper_cutout_montage",
+      "visual_description": "Two copies of The Astrophysical Journal (Volume 142) drop onto the desk side-by-side, held together with vintage metal binder clips.",
+      "assigned_editor": "antigravity",
+      "audio_file": "03_voiceover/beat_17_the_gentlemans_agreement.mp3",
+      "duration_seconds": 10.152,
+      "duration_frames": 305
+    },
+    {
+      "beat_id": "beat_18_the_two_contrasting_papers",
+      "narration_text": "Penzias and Wilson submitted a purely empirical two-page report with zero cosmology. Behind it, Princeton supplied the theory: this was the relic heat of the Big Bang.",
+      "visual_type": "3d_isometric_doc",
+      "visual_description": "Split 3D isometric view comparing the understated Bell Labs measurement title against Princeton's 'Cosmic Black-Body Radiation'.",
+      "assigned_editor": "opencode",
+      "audio_file": "03_voiceover/beat_18_the_two_contrasting_papers.mp3",
+      "duration_seconds": 11.52,
+      "duration_frames": 346
+    },
+    {
+      "beat_id": "beat_19_death_of_steady_state",
+      "narration_text": "Overnight, Fred Hoyle's Steady State theory collapsed under the weight of hard data. The universe was no longer infinite and static\u2014it had a clear beginning.",
+      "visual_type": "kinetic_chart",
+      "visual_description": "Precision blackbody curve chart. Observational frequency points snap onto Planck's theoretical curve with zero deviation.",
+      "assigned_editor": "opencode",
+      "audio_file": "03_voiceover/beat_19_death_of_steady_state.mp3",
+      "duration_seconds": 9.984,
+      "duration_frames": 300
+    },
+    {
+      "beat_id": "beat_20_the_1978_nobel_prize",
+      "narration_text": "Thirteen years later, in 1978, Arno Penzias and Robert Wilson received the Nobel Prize in Physics. The pigeon droppings were left out of the official citation, but secured in legend forever.",
+      "visual_type": "paper_cutout_montage",
+      "visual_description": "Photographic cutouts of Penzias and Wilson in Stockholm formal wear with an embossed gold Nobel medal graphic.",
+      "assigned_editor": "antigravity",
+      "audio_file": "03_voiceover/beat_20_the_1978_nobel_prize.mp3",
+      "duration_seconds": 13.68,
+      "duration_frames": 410
+    },
+    {
+      "beat_id": "beat_21_the_recombination_epoch",
+      "narration_text": "Today we know that 380,000 years after the Big Bang, neutral hydrogen formed, the fog cleared, and a flash of light burst forward into the void.",
+      "visual_type": "kinetic_chart",
+      "visual_description": "Subatomic visualizer: free protons and electrons binding into neutral atoms as light rays break free across deep space.",
+      "assigned_editor": "opencode",
+      "audio_file": "03_voiceover/beat_21_the_recombination_epoch.mp3",
+      "duration_seconds": 10.176,
+      "duration_frames": 305
+    },
+    {
+      "beat_id": "beat_22_from_horn_to_satellites",
+      "narration_text": "From the Holmdel horn to NASA's COBE, WMAP, and ESA's Planck satellite, that primordial light gave us the baby picture of our cosmos.",
+      "visual_type": "3d_geo_globe",
+      "visual_description": "Chronological evolution: Holmdel horn dissolving into the 1992 COBE satellite, culminating in the 2013 Planck all-sky oval CMB heatmap.",
+      "assigned_editor": "opencode",
+      "audio_file": "03_voiceover/beat_22_from_horn_to_satellites.mp3",
+      "duration_seconds": 9.696,
+      "duration_frames": 291
+    },
+    {
+      "beat_id": "beat_23_the_crt_television_static",
+      "narration_text": "And if you ever watched an old analog TV tuned between stations, roughly one percent of that dancing static snow was the lingering radiation of the Big Bang.",
+      "visual_type": "paper_cutout_montage",
+      "visual_description": "Vintage 1980s wood-grain CRT television portal. Screen displays black-and-white static snow with 60Hz cathode flicker.",
+      "assigned_editor": "antigravity",
+      "audio_file": "03_voiceover/beat_23_the_crt_television_static.mp3",
+      "duration_seconds": 9.696,
+      "duration_frames": 291
+    },
+    {
+      "beat_id": "beat_24_closing_philosophical_punch",
+      "narration_text": "Two physicists went up a hill in New Jersey to measure radio noise. They thought their machine was broken. Instead, they tuned into the beginning of everything.",
+      "visual_type": "typography_slam",
+      "visual_description": "Final tactile cream paper frame. 1-bit dithered kinetic serif punches in with typewriter cursor: 'The universe was whispering all along. _'",
+      "assigned_editor": "antigravity",
+      "audio_file": "03_voiceover/beat_24_closing_philosophical_punch.mp3",
+      "duration_seconds": 11.112,
+      "duration_frames": 333
+    }
+  ],
+  "total_duration_seconds": 277.46,
+  "total_duration_frames": 8323
+}

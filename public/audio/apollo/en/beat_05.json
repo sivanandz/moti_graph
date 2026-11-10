@@ -1,0 +1,27 @@
+{
+  "lang": "en",
+  "beat_id": "beat_05",
+  "id": 5,
+  "act": "ACT III · THE 1202 ALARM",
+  "kicker": "ACT III · THE CRISIS",
+  "headline": "THE 1202 RADAR OVERFLOW",
+  "accent": [
+    "1202",
+    "OVERFLOW"
+  ],
+  "narration": "Three minutes before lunar touchdown, an incorrect radar switch flooded the computer. The DSKY screen flashed 1202: executive CPU overload.",
+  "visual_metaphor": {
+    "badge": "DESCENT CRISIS",
+    "metric": "1202 ALARM",
+    "label": "CPU Executive Overload",
+    "stamp": "WARNING",
+    "details": [
+      "3 Minutes to Touchdown",
+      "Rendezvous Radar Flood",
+      "Memory Stack Overflow"
+    ]
+  },
+  "audio_file": "audio/apollo/en/beat_05.mp3",
+  "duration_seconds": 11.544,
+  "duration_frames": 346
+}

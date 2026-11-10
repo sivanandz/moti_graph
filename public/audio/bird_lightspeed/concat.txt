@@ -1,0 +1,6 @@
+file 'E:/Local_GIT_2/motion_graphics_videos/projects/Bird_Flaps_To_Lightspeed_2026-11-09/03_voiceover/beat_01.mp3'
+file 'E:/Local_GIT_2/motion_graphics_videos/projects/Bird_Flaps_To_Lightspeed_2026-11-09/03_voiceover/beat_02.mp3'
+file 'E:/Local_GIT_2/motion_graphics_videos/projects/Bird_Flaps_To_Lightspeed_2026-11-09/03_voiceover/beat_03.mp3'
+file 'E:/Local_GIT_2/motion_graphics_videos/projects/Bird_Flaps_To_Lightspeed_2026-11-09/03_voiceover/beat_04.mp3'
+file 'E:/Local_GIT_2/motion_graphics_videos/projects/Bird_Flaps_To_Lightspeed_2026-11-09/03_voiceover/beat_05.mp3'
+file 'E:/Local_GIT_2/motion_graphics_videos/projects/Bird_Flaps_To_Lightspeed_2026-11-09/03_voiceover/beat_06.mp3'

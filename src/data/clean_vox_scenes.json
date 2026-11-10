@@ -1,0 +1,212 @@
+{
+  "en": [
+    {
+      "id": 1,
+      "from": 0,
+      "frames": 237,
+      "kicker": "DISPATCH I · THE SCALE",
+      "headline": "500 Million Times Every Day",
+      "accent": ["500", "Million"],
+      "caption": "Right now, half a billion times every single day, this happens: you scan a code, and money moves instantly.",
+      "audio_file": "audio/en/beat_01.mp3",
+      "visualMetaphor": {
+        "badgeText": "VOLUME RECORD",
+        "heroTitle": "500,000,000",
+        "heroSubtitle": "Daily Real-Time Bank Settlements",
+        "stampText": "INSTANT",
+        "details": ["Zero Payment Delay", "Direct Bank-to-Bank", "QR Micro-Transactions"]
+      }
+    },
+    {
+      "id": 2,
+      "from": 237,
+      "frames": 223,
+      "kicker": "DISPATCH II · THE MONOPOLY",
+      "headline": "The Two Percent Card Toll",
+      "accent": ["Two", "Percent"],
+      "caption": "Before this system, every digital swipe went through Visa or Mastercard, pocketing a two to three percent tax.",
+      "audio_file": "audio/en/beat_02.mp3",
+      "visualMetaphor": {
+        "badgeText": "LEGACY DUOPOLY",
+        "heroTitle": "2.5% CUT",
+        "heroSubtitle": "Merchant Interchange Fees",
+        "stampText": "BYPASSED",
+        "details": ["Credit Card Network Tax", "3-Day Clearing Delay", "Overseas Surcharge"]
+      }
+    },
+    {
+      "id": 3,
+      "from": 460,
+      "frames": 220,
+      "kicker": "DISPATCH III · THE SWITCH",
+      "headline": "The 400 Millisecond Switch",
+      "accent": ["400", "Millisecond"],
+      "caption": "Instead of private card rails, an open protocol connects your bank directly to the seller in four hundred milliseconds.",
+      "audio_file": "audio/en/beat_03.mp3",
+      "visualMetaphor": {
+        "badgeText": "NPCI ARCHITECTURE",
+        "heroTitle": "400 MS",
+        "heroSubtitle": "Direct Switchboard Clearing",
+        "stampText": "OPEN PROTOCOL",
+        "details": ["Bank A to Bank B Direct", "Virtual Payment Address", "Zero Intermediary Wall"]
+      }
+    },
+    {
+      "id": 4,
+      "from": 680,
+      "frames": 225,
+      "kicker": "DISPATCH IV · THE MODEL",
+      "headline": "Zero Fees Forever",
+      "accent": ["Zero", "Fees"],
+      "caption": "Zero transaction fees, instant settlement, and an open infrastructure that the rest of the world is now trying to copy.",
+      "audio_file": "audio/en/beat_04.mp3",
+      "visualMetaphor": {
+        "badgeText": "GLOBAL EXPANSION",
+        "heroTitle": "ZERO TAX",
+        "heroSubtitle": "Public Digital Good Standard",
+        "stampText": "VERIFIED",
+        "details": ["Free for Every Citizen", "Open Sovereign Rail", "World-Leading Adoption"]
+      }
+    }
+  ],
+  "ta": [
+    {
+      "id": 1,
+      "from": 0,
+      "frames": 263,
+      "kicker": "ஆவணப் பதிவு I · அளவு",
+      "headline": "தினமும் 50 கோடி பரிமாற்றம்",
+      "accent": ["50", "கோடி"],
+      "caption": "இப்போது, தினமும் ஐம்பது கோடி முறை இது நடக்கிறது: நீங்கள் ஒரு குறியீட்டை ஸ்கேன் செய்கிறீர்கள், பணம் உடனே சென்றுவிடுகிறது.",
+      "audio_file": "audio/ta/beat_01.mp3",
+      "visualMetaphor": {
+        "badgeText": "தினசரி பதிவு",
+        "heroTitle": "50,00,00,000",
+        "heroSubtitle": "உடனடி வங்கி பரிமாற்றங்கள்",
+        "stampText": "உடனடி",
+        "details": ["பூஜ்ஜிய தாமதம்", "நேரடி வங்கி இணைப்பு", "QR நுண் கட்டணம்"]
+      }
+    },
+    {
+      "id": 2,
+      "from": 263,
+      "frames": 247,
+      "kicker": "ஆவணப் பதிவு II · ஆதிக்கம்",
+      "headline": "2% அட்டை கட்டண ஆதிக்கம்",
+      "accent": ["2%"],
+      "caption": "இதற்கு முன்பு, ஒவ்வொரு டிஜிட்டல் பரிவர்த்தனையும் விசா அல்லது மாஸ்டர்கார்டு வழியாகவே இரண்டு சதவீத கட்டணத்துடன் நடந்தது.",
+      "audio_file": "audio/ta/beat_02.mp3",
+      "visualMetaphor": {
+        "badgeText": "பழைய கட்டமைப்பு",
+        "heroTitle": "2.5% கட்டணம்",
+        "heroSubtitle": "வணிகர் மீதான சுமை",
+        "stampText": "தவிர்ப்பு",
+        "details": ["அட்டை நிறுவன கட்டணம்", "3 நாட்கள் தாமதம்", "வெளிநாட்டு நெட்வொர்க்"]
+      }
+    },
+    {
+      "id": 3,
+      "from": 510,
+      "frames": 261,
+      "kicker": "ஆவணப் பதிவு III · நெட்வொர்க்",
+      "headline": "400 மில்லி விநாடி சுவிட்ச்",
+      "accent": ["400"],
+      "caption": "தனியார் நிறுவனங்களுக்குப் பதிலாக, NPCI கட்டமைப்பு உங்கள் வங்கியை வெறும் நானூறு மில்லி விநாடிகளில் நேரடியாக இணைக்கிறது.",
+      "audio_file": "audio/ta/beat_03.mp3",
+      "visualMetaphor": {
+        "badgeText": "NPCI கட்டமைப்பு",
+        "heroTitle": "400 MS",
+        "heroSubtitle": "நேரடி வங்கி இணைப்பு",
+        "stampText": "திறந்த முறை",
+        "details": ["நேரடி பரிமாற்றம்", "VPA முகவரி", "இடைத்தரகர் இல்லை"]
+      }
+    },
+    {
+      "id": 4,
+      "from": 771,
+      "frames": 235,
+      "kicker": "ஆவணப் பதிவு IV · புரட்சி",
+      "headline": "கட்டணமில்லா திறந்த புரட்சி",
+      "accent": ["கட்டணமில்லா"],
+      "caption": "கட்டணமில்லா சேவை, உடனடி பரிமாற்றம், மற்றும் உலகம் முழுவதும் இப்போது பின்பற்றத் துடிக்கும் ஒரு திறந்த கட்டமைப்பு.",
+      "audio_file": "audio/ta/beat_04.mp3",
+      "visualMetaphor": {
+        "badgeText": "உலகளாவிய வளர்ச்சி",
+        "heroTitle": "0% கட்டணம்",
+        "heroSubtitle": "பொது டிஜிட்டல் கட்டமைப்பு",
+        "stampText": "வெற்றி",
+        "details": ["இலவச சேவை", "திறந்த நெட்வொர்க்", "உலக நாடுகளின் முயற்சி"]
+      }
+    }
+  ],
+  "hi": [
+    {
+      "id": 1,
+      "from": 0,
+      "frames": 322,
+      "kicker": "डिस्पैच I · पैमाना",
+      "headline": "हर रोज़ 50 करोड़ ट्रांज़ैक्शन",
+      "accent": ["50", "करोड़"],
+      "caption": "हर रोज़ 50 करोड़ से ज़्यादा बार ये होता है: आप एक क्यूआर कोड स्कैन करते हैं, और पैसा तुरंत बैंक खाते में पहुँच जाता है।",
+      "audio_file": "audio/hi/beat_01.mp3",
+      "visualMetaphor": {
+        "badgeText": "दैनिक रिकॉर्ड",
+        "heroTitle": "50,00,00,000",
+        "heroSubtitle": "रियल-टाइम बैंक सेटलमेंट",
+        "stampText": "तुरंत",
+        "details": ["शून्य पेमेंट देरी", "सीधा बैंक ट्रांसफर", "QR माइक्रो पेमेंट"]
+      }
+    },
+    {
+      "id": 2,
+      "from": 322,
+      "frames": 300,
+      "kicker": "डिस्पैच II · मोनोपोली",
+      "headline": "कार्ड कंपनियों का 2.5% टैक्स",
+      "accent": ["2.5%"],
+      "caption": "इस सिस्टम से पहले, हर डिजिटल पेमेंट वीज़ा या मास्टरकार्ड से होकर गुज़रती थी, जो दो से तीन प्रतिशत तक कमीशन काटते थे।",
+      "audio_file": "audio/hi/beat_02.mp3",
+      "visualMetaphor": {
+        "badgeText": "पुराना मॉडल",
+        "heroTitle": "2.5% टैक्स",
+        "heroSubtitle": "मर्चेंट से भारी कटौती",
+        "stampText": "बाईपास",
+        "details": ["प्राइवेट नेटवर्क कमीशन", "3 दिन की देरी", "विदेशी कंपनियों का दख़ल"]
+      }
+    },
+    {
+      "id": 3,
+      "from": 622,
+      "frames": 319,
+      "kicker": "डिस्पैच III · तकनीक",
+      "headline": "400 मिलीसेकंड का डायरेक्ट खेल",
+      "accent": ["400"],
+      "caption": "प्राइवेट कार्ड नेटवर्क्स के बजाय, NPCI का ओपन प्रोटोकॉल आपके बैंक को सिर्फ़ चार सौ मिलीसेकंड में सीधे सेलर से जोड़ता है।",
+      "audio_file": "audio/hi/beat_03.mp3",
+      "visualMetaphor": {
+        "badgeText": "NPCI सिस्टम",
+        "heroTitle": "400 MS",
+        "heroSubtitle": "डायरेक्ट स्विचबोर्ड सेटलमेंट",
+        "stampText": "ओपन सिस्टम",
+        "details": ["बैंक A से बैंक B सीधा लिंक", "VPA वर्चुअल एड्रेस", "बिचौलियों का ख़ात्मा"]
+      }
+    },
+    {
+      "id": 4,
+      "from": 941,
+      "frames": 269,
+      "kicker": "डिस्पैच IV · क्रांति",
+      "headline": "शून्य फ़ीस हमेशा के लिए",
+      "accent": ["शून्य", "फ़ीस"],
+      "caption": "शून्य फ़ीस, तुरंत सेटलमेंट, और एक ऐसा ओपन सिस्टम जिसे अब पूरी दुनिया अपनाने की कोशिश कर रही है।",
+      "audio_file": "audio/hi/beat_04.mp3",
+      "visualMetaphor": {
+        "badgeText": "ग्लोबल मॉडल",
+        "heroTitle": "0% फ़ीस",
+        "heroSubtitle": "पब्लिक डिजिटल इंफ्रास्ट्रक्चर",
+        "stampText": "वेरिफाइड",
+        "details": ["नागरिकों के लिए मुफ़्त", "संप्रभु डिजिटल रेल", "दुनियाभर में विस्तार"]
+      }
+    }
+  ]
+}

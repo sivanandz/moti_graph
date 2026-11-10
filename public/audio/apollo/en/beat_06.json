@@ -1,0 +1,27 @@
+{
+  "lang": "en",
+  "beat_id": "beat_06",
+  "id": 6,
+  "act": "ACT III · THE 1202 ALARM",
+  "kicker": "ACT III · THE RESOLUTION",
+  "headline": "PRIORITY CODE SAVED THE LANDING",
+  "accent": [
+    "PRIORITY",
+    "SAVED"
+  ],
+  "narration": "Margaret Hamilton’s software recognized the overload, dropped the radar noise, and kept the descent thrusters firing safely down to the lunar surface.",
+  "visual_metaphor": {
+    "badge": "MISSION SUCCESS",
+    "metric": "TOUCHDOWN",
+    "label": "Eagle Lands Safely",
+    "stamp": "SURVIVED",
+    "details": [
+      "Asynchronous Scheduling",
+      "Thruster Commands Preserved",
+      "First Humans on Moon"
+    ]
+  },
+  "audio_file": "audio/apollo/en/beat_06.mp3",
+  "duration_seconds": 9.288,
+  "duration_frames": 279
+}

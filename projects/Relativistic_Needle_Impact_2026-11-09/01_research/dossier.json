@@ -1,0 +1,19 @@
+{
+  "title": "What If a Needle Hit Earth at 99.9999% Lightspeed?",
+  "aspect_ratio": "9:16",
+  "resolution": [1080, 1920],
+  "fps": 30,
+  "duration_seconds": 58,
+  "total_frames": 1740,
+  "physics": {
+    "rest_mass_grams": 1.0,
+    "velocity_c": 0.999999,
+    "lorentz_gamma": 707.107,
+    "kinetic_energy_joules": 6.346e13,
+    "tnt_equivalent_kilotons": 15.17,
+    "rest_length_cm": 5.0,
+    "contracted_length_microns": 70.7,
+    "atmospheric_transit_microseconds": 333.6,
+    "crater_diameter_meters": 320
+  }
+}

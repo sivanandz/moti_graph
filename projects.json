@@ -1,0 +1,154 @@
+[
+  {
+    "id": "indian_finance",
+    "title": "How India Built the World's Fastest Financial Highway",
+    "subtitle": "From the 1991 Secret Gold Airlift to UPI & $5T Stock Market",
+    "topic": "Indian Finance: From Gold Airlift to UPI",
+    "tag": "FINTECH DISPATCH // ARCHITECTURE",
+    "languages": [
+      "en"
+    ],
+    "formats": [
+      "9x16"
+    ],
+    "reelManifestPath": "public/audio/indian_finance_reel/manifest.json",
+    "scenes9x16": "src/data/indian_finance_reel_scenes.json",
+    "compositions": {
+      "9x16": {
+        "en": "IndianFinanceReel-EN"
+      }
+    },
+    "outFiles": {
+      "9x16": {
+        "en": "out/indian_finance_reel_en.mp4"
+      }
+    },
+    "previewPrefix": {
+      "9x16": "preview_indian_finance_reel"
+    }
+  },
+  {
+    "id": "apollo",
+    "title": "The Copper Wire Memory of Apollo 11",
+    "subtitle": "How NASA Wove Software with Sewing Needles to Land on the Moon",
+    "topic": "Apollo 11 Core Rope Memory & The 1202 Alarm",
+    "tag": "SPACE COMPUTING // ARCHIVAL DOSSIER",
+    "languages": [
+      "en",
+      "ta",
+      "hi"
+    ],
+    "formats": [
+      "16x9",
+      "9x16"
+    ],
+    "manifestPath": "public/audio/apollo/manifest.json",
+    "reelManifestPath": "public/audio/apollo_reel/manifest.json",
+    "scenes16x9": "src/data/apollo_scenes.json",
+    "scenes9x16": "src/data/apollo_reel_scenes.json",
+    "compositions": {
+      "16x9": {
+        "en": "ApolloVox-EN",
+        "ta": "ApolloVox-TA",
+        "hi": "ApolloVox-HI"
+      },
+      "9x16": {
+        "en": "ApolloReel-EN",
+        "ta": "ApolloReel-TA",
+        "hi": "ApolloReel-HI"
+      }
+    },
+    "outFiles": {
+      "16x9": {
+        "en": "out/apollovox_en.mp4",
+        "ta": "out/apollovox_ta.mp4",
+        "hi": "out/apollovox_hi.mp4"
+      },
+      "9x16": {
+        "en": "out/apolloreel_en.mp4",
+        "ta": "out/apolloreel_ta.mp4",
+        "hi": "out/apolloreel_hi.mp4"
+      }
+    },
+    "previewPrefix": {
+      "16x9": "preview_apollo_vox",
+      "9x16": "preview_apollo_reel"
+    }
+  },
+  {
+    "id": "upi",
+    "title": "How UPI Works in Real Time",
+    "subtitle": "Bypassing Card Rails with Open Micropayment Protocols",
+    "topic": "India's UPI Settlement Protocol",
+    "tag": "FINTECH DISPATCH // ARCHITECTURE",
+    "languages": [
+      "en",
+      "ta",
+      "hi"
+    ],
+    "formats": [
+      "16x9",
+      "9x16"
+    ],
+    "manifestPath": "public/audio/manifest.json",
+    "reelManifestPath": "public/audio/manifest.json",
+    "scenes16x9": "src/data/clean_vox_scenes.json",
+    "scenes9x16": "src/data/reel_vox_scenes.json",
+    "compositions": {
+      "16x9": {
+        "en": "CleanVox-EN",
+        "ta": "CleanVox-TA",
+        "hi": "CleanVox-HI"
+      },
+      "9x16": {
+        "en": "ReelVox-EN",
+        "ta": "ReelVox-TA",
+        "hi": "ReelVox-HI"
+      }
+    },
+    "outFiles": {
+      "16x9": {
+        "en": "out/cleanvox_en.mp4",
+        "ta": "out/cleanvox_ta.mp4",
+        "hi": "out/cleanvox_hi.mp4"
+      },
+      "9x16": {
+        "en": "out/reelvox_en.mp4",
+        "ta": "out/reelvox_ta.mp4",
+        "hi": "out/reelvox_hi.mp4"
+      }
+    },
+    "previewPrefix": {
+      "16x9": "preview_clean_vox",
+      "9x16": "preview_reel_vox"
+    }
+  },
+  {
+    "id": "big_bang_pigeons",
+    "title": "The Pigeon Poop That Heard the Big Bang",
+    "subtitle": "How Bell Labs Accidentally Tuned Into the Birth of the Universe",
+    "topic": "Cosmic Microwave Background Discovery at Crawford Hill",
+    "tag": "COSMOLOGY // HISTORICAL ANOMALY",
+    "languages": [
+      "en"
+    ],
+    "formats": [
+      "16x9"
+    ],
+    "manifestPath": "public/audio/big_bang_pigeons/manifest.json",
+    "scenes16x9": "src/data/big_bang_pigeons_scenes.json",
+    "compositions": {
+      "16x9": {
+        "en": "BigBangPigeons-EN"
+      }
+    },
+    "outFiles": {
+      "16x9": {
+        "en": "out/big_bang_pigeons_en.mp4"
+      }
+    },
+    "previewPrefix": {
+      "16x9": "preview_big_bang_pigeons"
+    }
+  }
+]

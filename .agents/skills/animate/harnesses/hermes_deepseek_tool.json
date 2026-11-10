@@ -1,0 +1,63 @@
+{
+  "type": "function",
+  "function": {
+    "name": "animate_canvas_engine",
+    "description": "Procedural single-file HTML5 <canvas> animation and hybrid Remotion layer generator. Supports 7 tactile styles (cut-paper, crosshatch, riso, sketchbook, manim-math, pixel-art, isometric), storyboard contact sheets, style comparison, and deterministic MP4/WebM rendering.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "action": {
+          "type": "string",
+          "enum": [
+            "styles",
+            "new",
+            "build",
+            "still",
+            "storyboard",
+            "compare",
+            "beats",
+            "render",
+            "doctor"
+          ],
+          "description": "Pipeline subcommand to execute"
+        },
+        "slug": {
+          "type": "string",
+          "description": "Project folder slug under projects/"
+        },
+        "style": {
+          "type": "string",
+          "enum": [
+            "cut-paper",
+            "crosshatch",
+            "riso",
+            "sketchbook",
+            "manim-math",
+            "pixel-art",
+            "isometric"
+          ]
+        },
+        "format": {
+          "type": "string",
+          "enum": [
+            "9x16",
+            "16x9",
+            "4x5",
+            "1x1"
+          ]
+        },
+        "frame": {
+          "type": "integer",
+          "description": "Frame index for Look-Check still"
+        },
+        "transparent": {
+          "type": "boolean",
+          "description": "Render alpha-transparent VP9 WebM for Remotion compositing"
+        }
+      },
+      "required": [
+        "action"
+      ]
+    }
+  }
+}

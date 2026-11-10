@@ -1,0 +1,50 @@
+{
+  "voice": "en-US-AvaNeural",
+  "rate": "+6%",
+  "totalDuration": 65.424,
+  "totalFrames": 1963,
+  "beats": [
+    {
+      "id": "beat_01",
+      "text": "A pigeon flaps its wings at a peaceful thirty miles per hour. But what if with every single flap, its speed multiplied exponentially without drag?",
+      "file": "projects/Bird_Flaps_To_Lightspeed_2026-11-09/03_voiceover\\beat_01.mp3",
+      "durationSec": 9.0,
+      "framesAt30Fps": 270
+    },
+    {
+      "id": "beat_02",
+      "text": "By flap ten, it shatters the sound barrier at Mach one. A violent vapor cone wraps around its feathers as a sonic boom rocks the landscape below.",
+      "file": "projects/Bird_Flaps_To_Lightspeed_2026-11-09/03_voiceover\\beat_02.mp3",
+      "durationSec": 8.64,
+      "framesAt30Fps": 259
+    },
+    {
+      "id": "beat_03",
+      "text": "At Mach twenty, aerodynamic friction rips air molecules apart. The bird is now enveloped in a blinding four-thousand-degree plasma sheath, glowing like a re-entering meteor.",
+      "file": "projects/Bird_Flaps_To_Lightspeed_2026-11-09/03_voiceover\\beat_03.mp3",
+      "durationSec": 11.16,
+      "framesAt30Fps": 335
+    },
+    {
+      "id": "beat_04",
+      "text": "Passing one percent the speed of light, oncoming air atoms can't get out of the way. Nitrogen nuclei collide against its leading wing edge so hard they trigger runaway nuclear fusion, detonating thermonuclear shockwaves across the stratosphere.",
+      "file": "projects/Bird_Flaps_To_Lightspeed_2026-11-09/03_voiceover\\beat_04.mp3",
+      "durationSec": 14.304,
+      "framesAt30Fps": 429
+    },
+    {
+      "id": "beat_05",
+      "text": "It punches through Earth's atmosphere and escapes into deep space. In the vacuum, aerodynamic lift ceases to exist, yet each wingstroke hurls it past the Moon.",
+      "file": "projects/Bird_Flaps_To_Lightspeed_2026-11-09/03_voiceover\\beat_05.mp3",
+      "durationSec": 10.56,
+      "framesAt30Fps": 317
+    },
+    {
+      "id": "beat_06",
+      "text": "Approaching ninety-nine percent the speed of light, Einstein takes over. The entire universe collapses forward into a blinding ultraviolet pinprick, while on Earth, centuries tick away in a single blink.",
+      "file": "projects/Bird_Flaps_To_Lightspeed_2026-11-09/03_voiceover\\beat_06.mp3",
+      "durationSec": 11.76,
+      "framesAt30Fps": 353
+    }
+  ]
+}

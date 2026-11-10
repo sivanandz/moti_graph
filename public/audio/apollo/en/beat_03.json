@@ -1,0 +1,27 @@
+{
+  "lang": "en",
+  "beat_id": "beat_03",
+  "id": 3,
+  "act": "ACT II · THE SEAMSTRESSES OF SPACE",
+  "kicker": "ACT II · THE CRAFT",
+  "headline": "SOFTWARE WOVEN BY HAND",
+  "accent": [
+    "WOVEN",
+    "BY HAND"
+  ],
+  "narration": "So NASA turned to textile loom seamstresses at Raytheon, who hand-threaded fine copper wires through microscopic magnetic iron rings with literal needles.",
+  "visual_metaphor": {
+    "badge": "RAYTHEON MILLS",
+    "metric": "MONTHS OF WEAVING",
+    "label": "Manual Threading Precision",
+    "stamp": "HAND-MADE",
+    "details": [
+      "Textile Loom Specialists",
+      "Fine Copper Strands",
+      "Needle Embroidery Code"
+    ]
+  },
+  "audio_file": "audio/apollo/en/beat_03.mp3",
+  "duration_seconds": 9.816,
+  "duration_frames": 294
+}

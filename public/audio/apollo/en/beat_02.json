@@ -1,0 +1,27 @@
+{
+  "lang": "en",
+  "beat_id": "beat_02",
+  "id": 2,
+  "act": "ACT I · THE RADICAL CONSTRAINT",
+  "kicker": "ACT I · THE THREAT",
+  "headline": "COSMIC RADIATION WOULD ERASE CHIPS",
+  "accent": [
+    "COSMIC",
+    "RADIATION"
+  ],
+  "narration": "Silicon microchips were too fragile. In deep space, solar radiation and sudden voltage drops would instantly wipe electric memory clean.",
+  "visual_metaphor": {
+    "badge": "DEEP SPACE HAZARD",
+    "metric": "0% LOSS TOLERANCE",
+    "label": "Cosmic Ray Vulnerability",
+    "stamp": "LETHAL RISK",
+    "details": [
+      "Silicon Gate Instability",
+      "Solar Flare Erasure",
+      "Zero Failure Allowed"
+    ]
+  },
+  "audio_file": "audio/apollo/en/beat_02.mp3",
+  "duration_seconds": 9.912,
+  "duration_frames": 297
+}

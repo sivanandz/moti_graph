@@ -1,0 +1,135 @@
+{
+  "slug": "sun_fooled_norad_2026-11-09",
+  "style": "retro-digital-ephemera",
+  "format": "9x16",
+  "vo": "E:\\Local_GIT_2\\motion_graphics_videos\\projects\\sun_fooled_norad_2026-11-09\\03_voiceover\\master_vo.mp3",
+  "scenes": [
+    {
+      "id": 1,
+      "seconds": 27.0,
+      "layout": "fullbleed",
+      "kicker": "MAY 23 1967 // 001",
+      "headline": "RADARS DARK",
+      "accent": ["RADARS", "DARK"],
+      "caption": "May 23, 1967. The three radar sites guarding America from Soviet missiles go dark — all at the same second.",
+      "scene": "three BMEWS radar radomes of different designs standing on a warm cream deckle cardstock desk, their phosphor radar sweep lines tearing into coarse 1-bit static as a teletype prints each site name and a red wax date stamp reads 23 MAY 1967",
+      "hero": "1960s BMEWS geodesic missile-warning radar radome",
+      "props": [
+        "radar phosphor screen with a dying green sweep line dissolving into 1-bit static",
+        "vintage teletype machine printing the site names CLEAR, THULE, FYLINGDALES",
+        "red wax rubber date stamp block reading 23 MAY 1967"
+      ],
+      "backdrop": "warm cream deckle cardstock sheet with faint 1960s blueprint grid",
+      "circles": ["green", "gold"]
+    },
+    {
+      "id": 2,
+      "seconds": 28.0,
+      "layout": "fullbleed",
+      "kicker": "COLD WAR DOCTRINE // 002",
+      "headline": "JAMMING = WAR",
+      "accent": ["JAMMING", "WAR"],
+      "caption": "In Cold War doctrine, jamming meant one thing: Soviet attack was imminent. Nuclear-armed bombers were moved to ready-to-launch.",
+      "scene": "a typewritten war-doctrine memo card stamped JAMMING = ACT OF WAR in red on a cream cardstock desk beside a B-52 bomber on an alert strip, a punched card reader clattering an ALERT card",
+      "hero": "B-52 Stratofortress bomber parked on a runway alert pad, side profile",
+      "props": [
+        "typewritten memo card stamped JAMMING = ACT OF WAR in vermilion red",
+        "80-column punched card with ALERT punched across it",
+        "1967 Cheyenne Mountain entrance blast door with NORAD sign"
+      ],
+      "backdrop": "warm cream deckle cardstock with a horizontal red ribbon rule",
+      "circles": ["gold", "green"]
+    },
+    {
+      "id": 3,
+      "seconds": 27.0,
+      "layout": "fullbleed",
+      "kicker": "SOLAR MAXIMUM // 003",
+      "headline": "THE SUN MOVES",
+      "accent": ["SUN", "MOVES"],
+      "caption": "Days earlier, a vast sunspot group had rotated onto the Sun. On May 21 and 23 it erupted — flares, then the century's biggest radio burst.",
+      "scene": "a vintage solar observatory sunspot drawing on cream cardstock beside an Olivetti CRT showing a flickering H-alpha flare sequence, a 1-bit frequency axis chart 0.01 to 9.0 GHz spiking in vermilion red, a bulletin card marked IMPORTANCE 3B",
+      "hero": "vintage solar observatory drawing of a large irregular sunspot group on the solar disk",
+      "props": [
+        "Olivetti CRT monitor with a 1-bit dithered H-alpha flare sequence on its green screen",
+        "1-bit frequency axis chart from 0.01 to 9.0 GHz with a vermilion red burst spike",
+        "typewritten solar bulletin card marked IMPORTANCE 3B"
+      ],
+      "backdrop": "cream cardstock with a faint solar graticule circle",
+      "circles": ["gold", "green"]
+    },
+    {
+      "id": 4,
+      "seconds": 28.0,
+      "layout": "fullbleed",
+      "kicker": "ENT AFB COLORADO // 004",
+      "headline": "HALF THE SUN",
+      "accent": ["HALF THE SUN", "BLOWN AWAY"],
+      "caption": "At Ent Air Force Base, Colorado, forecaster Arnold Snyder got the panicked call. His answer: 'Yes — half the sun has blown away.'",
+      "scene": "a 1960s forecaster operations desk with a lifted telephone handset, an oversized typewriter quote card reading HALF THE SUN HAS BLOWN AWAY with a vermilion underline, a teletype printing a 36-48 HOUR STORM FORECAST bulletin",
+      "hero": "1960s military operations desk with a vintage black telephone handset lifted off the hook",
+      "props": [
+        "oversized typewriter quote card reading HALF THE SUN HAS BLOWN AWAY with red underline",
+        "teletype bulletin sheet printing 36-48 HOUR STORM FORECAST",
+        "brass desk name plate reading SOLAR FORECAST CENTER"
+      ],
+      "backdrop": "warm cream deckle cardstock with faint punched-paper edge texture",
+      "circles": ["green", "gold"]
+    },
+    {
+      "id": 5,
+      "seconds": 25.0,
+      "layout": "fullbleed",
+      "kicker": "STAND DOWN // 005",
+      "headline": "STAND DOWN",
+      "accent": ["STAND", "DOWN"],
+      "caption": "Forecasters confirmed all three radar sites sat in daylight. As the Sun's burst faded, the 'jamming' faded with it. The launch order never came.",
+      "scene": "a vintage 1960s military radio console beside a split signal strip: a descending vermilion solar burst curve on the left mirrored by a radar sweep line returning to green normal on the right, three small radome cards flipped to green checkmarks",
+      "hero": "1960s military radio console with toggle switches, dials and a small CRT",
+      "props": [
+        "split signal strip card with a descending red burst curve beside a green normalizing radar sweep",
+        "three small radome cards flipped face-up showing green checkmarks",
+        "punched alert card stamped VOID in red"
+      ],
+      "backdrop": "cream deckle cardstock with faint signal-grid ruling",
+      "circles": ["green", "gold"]
+    },
+    {
+      "id": 6,
+      "seconds": 27.0,
+      "layout": "fullbleed",
+      "kicker": "DECLASSIFIED // 006",
+      "headline": "DECLASSIFIED 2016",
+      "accent": ["DECLASSIFIED", "2016"],
+      "caption": "The near-war stayed secret for half a century — until 2016, when a declassified study named the culprit: the May 1967 Great Storm.",
+      "scene": "a manila folder marked CLASSIFIED receiving a red DECLASSIFIED rubber stamp mid-strike on a cream cardstock desk, beside a typewritten 2016 research paper title card and a punch card feeding through a reader",
+      "hero": "manila folder marked CLASSIFIED with a red DECLASSIFIED rubber stamp striking across it",
+      "props": [
+        "typewritten research paper title card reading THE MAY 1967 GREAT STORM",
+        "80-column punched card with citation holes and a red arrow",
+        "typewriter quote card reading COMMENDABLY RIGHT"
+      ],
+      "backdrop": "cream deckle cardstock with faint redaction-bar texture",
+      "circles": ["gold", "green"]
+    },
+    {
+      "id": 7,
+      "seconds": 18.0,
+      "layout": "fullbleed",
+      "status": "void_background",
+      "scene": "a 1-bit dithered sunspot cycle step chart on cardstock with one peak lit vermilion red, beside an Olivetti CRT showing a dithered aurora over a dark city grid silhouette, two cards stamped 1989 BLACKOUT and 2012 NEAR MISS",
+      "hero": "sunspot number cycle step chart drawn in 1-bit dither with one peak lit red",
+      "props": [
+        "Olivetti CRT monitor showing a dithered aurora over a dark city grid silhouette",
+        "card stamped 1989 BLACKOUT with dead city windows",
+        "card stamped 2012 NEAR MISS with a passing comet-like CME arrow"
+      ],
+      "backdrop": "deep matte carbon void paper texture with a cream deckle edge",
+      "circles": ["gold", "green"],
+      "kicker": "PRESENT DAY // 007",
+      "headline": "IT WILL HAPPEN AGAIN",
+      "accent": ["HAPPEN", "AGAIN"],
+      "caption": "Quebec went dark in 1989. Earth missed a Carrington-class blast by days in 2012. We just passed solar maximum. The Sun never demobilized."
+    }
+  ]
+}

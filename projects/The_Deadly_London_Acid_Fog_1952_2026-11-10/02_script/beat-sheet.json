@@ -1,0 +1,87 @@
+{
+  "title": "The Deadly London Acid Fog of 1952",
+  "total_seconds": 55.0,
+  "fps": 30,
+  "format": "9x16",
+  "safe_area": { "top": 250, "bottom": 350, "left": 60, "right": 140 },
+  "beats": [
+    {
+      "id": 1,
+      "time_start": 0.0,
+      "time_end": 8.5,
+      "duration": 8.5,
+      "layout": "Pattern_D_Kinetic_Slam",
+      "kicker": "DECEMBER 1952",
+      "headline": "THE INVISIBLE CINEMA",
+      "accent_words": ["INVISIBLE"],
+      "voiceover": "In December 1952, Londoners walked into movie theaters only to find the screen completely invisible—because the smog had seeped inside the building.",
+      "visual_action": "Establishing shot of London engulfed in deep yellow pea-soup fog; Nelson's column fades into a murky silhouette as lantern light halos.",
+      "asset": "nelson_smog_1952.jpg"
+    },
+    {
+      "id": 2,
+      "time_start": 8.5,
+      "time_end": 17.0,
+      "duration": 8.5,
+      "layout": "Pattern_B_Split_Memo_Right",
+      "kicker": "COGNITIVE DISSONANCE",
+      "headline": "4,000 CITIZENS DEAD",
+      "accent_words": ["DEAD"],
+      "voiceover": "Within five days, four thousand citizens were dead. But this wasn't an enemy wartime chemical attack. It was ordinary living room fireplace smoke.",
+      "visual_action": "Police officer guiding blind pedestrians through the choking fog near Big Ben; red warning casualty counter punches down.",
+      "asset": "big_ben_smog_1952.jpg"
+    },
+    {
+      "id": 3,
+      "time_start": 17.0,
+      "time_end": 26.0,
+      "duration": 9.0,
+      "layout": "Pattern_A_Split_Memo_Left",
+      "kicker": "METEOROLOGY",
+      "headline": "THE THERMAL CEILING",
+      "accent_words": ["CEILING"],
+      "voiceover": "A freak atmospheric inversion trapped a layer of freezing air over the Thames valley. A warm ceiling sat at two hundred meters, locking all smoke beneath it like a glass lid.",
+      "visual_action": "Battersea Power Station chimneys pumping coal smoke straight into an impenetrable thermal boundary layer.",
+      "asset": "battersea_power_1950.jpg"
+    },
+    {
+      "id": 4,
+      "time_start": 26.0,
+      "time_end": 35.5,
+      "duration": 9.5,
+      "layout": "Pattern_C_Macro_Inspection",
+      "kicker": "ATMOSPHERIC CHEMISTRY",
+      "headline": "DROPLETS OF ACID",
+      "accent_words": ["ACID"],
+      "voiceover": "Every day, London burned thousands of tons of high-sulfur coal. Inside the dense fog droplets, sulfur dioxide reacted with nitrogen, catalyzing into airborne sulfuric acid.",
+      "visual_action": "Macro push-in to microscopic water droplets; chemical reaction callout SO2 + H2O -> H2SO4 acid mist.",
+      "asset": "london_bus_1950.jpg"
+    },
+    {
+      "id": 5,
+      "time_start": 35.5,
+      "time_end": 46.0,
+      "duration": 10.5,
+      "layout": "Pattern_E_Forensic_Climax",
+      "kicker": "SMOKING GUN",
+      "headline": "MORTALITY QUADRUPLED",
+      "accent_words": ["QUADRUPLED"],
+      "voiceover": "When the government plotted air samples against morgue intake, the curves matched in absolute lockstep. As sulfur levels peaked, daily deaths quadrupled.",
+      "visual_action": "The authentic 1953 Wilkins mortality chart slams into view; yellow highlighter and red ink callout target the lethal week 49 spike.",
+      "asset": "wilkins_mortality_chart_1952.png"
+    },
+    {
+      "id": 6,
+      "time_start": 46.0,
+      "time_end": 55.0,
+      "duration": 9.0,
+      "layout": "Pattern_D_Kinetic_Slam",
+      "kicker": "THE RESOLUTION",
+      "headline": "CLEAN AIR ACT 1956",
+      "accent_words": ["CLEAN", "AIR"],
+      "voiceover": "The deadly yellow fog forced Parliament to ban smoky fuels in cities forever, giving birth to the modern environmental movement.",
+      "visual_action": "The fog lifts as parliament passes the Clean Air Act 1956; clean blue sky and historical archival stamp lock onto the frame.",
+      "asset": "nelson_smog_1952.jpg"
+    }
+  ]
+}

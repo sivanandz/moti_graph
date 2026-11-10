@@ -1,0 +1,42 @@
+[
+  {
+    "file": "nelson_smog_1952.jpg",
+    "description": "Nelson's Column during the Great Smog of 1952 in Trafalgar Square.",
+    "repository": "Wikimedia Commons / Geograph UK",
+    "url": "https://commons.wikimedia.org/wiki/File:Nelson%27s_Column_during_the_Great_Smog_of_1952.jpg",
+    "license": "Creative Commons Attribution-Share Alike 2.0 Generic / Public Domain equivalent historical press scan",
+    "verified": true
+  },
+  {
+    "file": "big_ben_smog_1952.jpg",
+    "description": "A London police officer guiding pedestrians across a street with Big Ben faintly visible in the dense smog.",
+    "repository": "Nationaal Archief / Anefo (Netherlands National Archives) via Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Een_agent_helpt_mensen_met_oversteken_Op_de_achtergrond_is_Big_Ben_te_zien%2C_Bestanddeelnr_254-1954.jpg",
+    "license": "CC0 1.0 Universal Public Domain Dedication",
+    "verified": true
+  },
+  {
+    "file": "battersea_power_1950.jpg",
+    "description": "Battersea Power Station emitting heavy industrial coal smoke over the River Thames in 1950.",
+    "repository": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Battersea_power_station_1950.jpg",
+    "license": "Public Domain (UK Crown Copyright expired)",
+    "verified": true
+  },
+  {
+    "file": "wilkins_mortality_chart_1952.png",
+    "description": "Government epidemiological chart by E.T. Wilkins demonstrating the spike in deaths and SO2 concentration during December 1952.",
+    "repository": "Committee on Air Pollution: Interim Report (1953) / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:1952_Great_London_Smog_mortality.png",
+    "license": "Public Domain (UK Crown Copyright expired)",
+    "verified": true
+  },
+  {
+    "file": "london_bus_1950.jpg",
+    "description": "London Transport AEC Regent Mk III RT double-decker bus from 1950.",
+    "repository": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:1950_AEC_Regent_Mk_III_RT_double_decker_bus_%285957355930%29.jpg",
+    "license": "Creative Commons Attribution 2.0 Generic",
+    "verified": true
+  }
+]

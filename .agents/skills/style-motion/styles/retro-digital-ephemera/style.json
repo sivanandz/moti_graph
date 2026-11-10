@@ -1,0 +1,98 @@
+{
+  "name": "retro-digital-ephemera",
+  "label": "Tactile Retro-Digital Ephemera: Cream deckle paper, 1-bit dithered kinetic serif, typewriter ribbon ink, retro hardware frames (Nokia 3310, Olivetti CRT, Garakei flip phones, vintage iPhone)",
+  "source": "refs/: 1940s typewriter emoticons, 1881 Puck letterpress, 1982 CRT BBS smilies, 1986 Japanese Kaomoji, and 1999 Kurita 12x12 pixel emoji grid",
+  "canvas": {
+    "fps": 30
+  },
+  "palette": {
+    "paper": "#F4EFE6",
+    "paperShade": "#EBE3D5",
+    "ink": "#191919",
+    "green": "#254838",
+    "gold": "#DE3831",
+    "muted": "#75966B",
+    "pill": "#EAE0C8",
+    "rule": "#DE3831",
+    "crtBlue": "#3F6FB6",
+    "garakeiCyan": "#0A6EB4",
+    "void": "#0C0C0C"
+  },
+  "type": {
+    "kicker": {
+      "font": "Courier Prime, monospace",
+      "size": 24,
+      "tracking": 4,
+      "color": "green",
+      "y": 120
+    },
+    "headline": {
+      "font": "\"Caslon Antique\", \"Century Schoolbook\", \"Playfair Display\", serif",
+      "weight": 700,
+      "size": 68,
+      "tracking": -1,
+      "case": "none",
+      "accentColor": "gold",
+      "restColor": "ink",
+      "accentStyle": "italic",
+      "filter": "contrast(250%) grayscale(100%)",
+      "y": 180
+    },
+    "caption": {
+      "font": "Courier Prime, monospace",
+      "style": "normal",
+      "weight": 400,
+      "size": 30,
+      "color": "ink",
+      "background": "paperShade",
+      "y": 1640
+    },
+    "fonts": [
+      "Courier Prime:ital,wght@0,400;0,700;1,400",
+      "Playfair Display:ital,wght@0,700;1,700"
+    ]
+  },
+  "imagePrompt": "Vintage tactile paper archive illustration of {subject}, high-contrast carbon black typewriter ribbon ink and vermilion red ribbon accents on warm cream deckle cardstock paper (#F4EFE6) with subtle pulp fibers, isolated mechanical hardware cutouts (vintage typewriter, Nokia 3310, Olivetti CRT monitor, Japanese Garakei flip phone) with crisp elevation drop shadows, early digital 1-bit pixel art and ASCII punctuation character portraits, generous negative space, editorial museum archive aesthetic, no digital glow, no smooth 3D render, no watermark",
+  "elementPrompt": "single isolated vintage mechanical cutout of {subject}, typewriter carbon ink texture or retro hardware shell (typewriter, CRT monitor, Nokia 3310, Japanese flip phone), crisp edges with subtle drop shadow, plain pure white background, no text, no watermark",
+  "negative": "modern glossy 3D render, neon gradients, hyper-saturated colors, futuristic holograms, blurry, plastic, watermark, logo",
+  "motion": {
+    "enter": "pop",
+    "stagger": 4,
+    "damping": 14,
+    "stiffness": 220,
+    "drift": 1,
+    "transition": "cut",
+    "headline": "word",
+    "fade": 0,
+    "cursor": true,
+    "rules": [
+      "Background alternates between warm cream deckle cardstock (#F4EFE6) with pulp specks and deep matte carbon void (#0C0C0C) for CRT/hardware beats.",
+      "Headlines snap syllable-by-syllable or word-by-word with 1-bit coarse dithered/bitmap edges and a blinking typewriter underscore cursor (_).",
+      "Physical hardware items (Olivetti Lettera 22, Nokia 3310, Olivetti CRT monitor, Garakei phones, iPhone 4) act as focal storytelling portals with interactive screens.",
+      "Stepped stop-motion cadence on 2s (15fps) or 3s (10fps) with snappy mechanical spring settling.",
+      "Match-cuts across eras (mechanical round typewriter keys transitioning into modern terminal keyboard; 1881 print emoticons dissolving into 1982 CRT terminal smilies)."
+    ],
+    "avoid": [
+      "smooth gummy ease-in-out transitions",
+      "colorful modern glassmorphism",
+      "smooth anti-aliased vector gradients on typography",
+      "borderless floating digital UI screenshots without hardware shells"
+    ]
+  },
+  "layout": "stack",
+  "background": {
+    "type": "radial",
+    "from": "paper",
+    "to": "paperShade"
+  },
+  "defaultCircles": [
+    "green",
+    "gold"
+  ],
+  "ornaments": {
+    "circles": false,
+    "ring": false,
+    "sparkles": false,
+    "color": "gold"
+  }
+}

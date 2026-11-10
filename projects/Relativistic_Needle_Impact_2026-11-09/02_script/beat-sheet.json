@@ -1,0 +1,62 @@
+{
+  "voice": "en-US-AvaNeural",
+  "rate": "+6%",
+  "rawDuration": 81.6,
+  "totalDuration": 84.077958,
+  "fps": 30,
+  "totalFrames": 2522,
+  "paddingSec": 2.5,
+  "paddingFrames": 75,
+  "beats": [
+    {
+      "id": "beat_01",
+      "name": "Exponential Inversion Hook",
+      "text": "Drop a standard sewing needle from your hand, and it hits the floor with barely enough energy to bend a blade of grass. But what if that same one-gram needle struck Earth at ninety-nine point nine-nine-nine-nine percent the speed of light?",
+      "file": "projects/Relativistic_Needle_Impact_2026-11-09/03_voiceover\\beat_01.mp3",
+      "durationSec": 12.936,
+      "startFrame": 0,
+      "endFrame": 388,
+      "frames": 388
+    },
+    {
+      "id": "beat_02",
+      "name": "Perspective 1: Ground Reality",
+      "text": "If you were standing on the ground looking up, the sky would look completely peaceful. You wouldn't see a flaming meteor streak, and you wouldn't hear a screaming whistle. Because the needle travels at lightspeed, light only beats the projectile by a fraction of a nanosecond. You see nothing\u2014until reality explodes.",
+      "file": "projects/Relativistic_Needle_Impact_2026-11-09/03_voiceover\\beat_02.mp3",
+      "durationSec": 17.208,
+      "startFrame": 388,
+      "endFrame": 904,
+      "frames": 516
+    },
+    {
+      "id": "beat_03",
+      "name": "Perspective 2: Relativistic Simulator",
+      "text": "In the physics simulator, Einstein's equations take over. With a Lorentz factor of seven hundred, length contraction crushes the five-centimeter steel pin into a microscopic disc just seventy microns thick. Crossing the entire atmosphere in three hundred microseconds, it punches head-on through air molecules, boring a laser-thin fusion plasma tube straight to the ground.",
+      "file": "projects/Relativistic_Needle_Impact_2026-11-09/03_voiceover\\beat_03.mp3",
+      "durationSec": 23.28,
+      "startFrame": 904,
+      "endFrame": 1602,
+      "frames": 698
+    },
+    {
+      "id": "beat_04",
+      "name": "Crust Impact & Kinetic Dump",
+      "text": "The moment it touches solid rock, sixty-three trillion Joules of kinetic energy dump into the crust in nanoseconds. That is fifteen kilotons of TNT\u2014the exact explosive yield of the Hiroshima atomic bomb\u2014unleashed from a single gram of steel.",
+      "file": "projects/Relativistic_Needle_Impact_2026-11-09/03_voiceover\\beat_04.mp3",
+      "durationSec": 15.744,
+      "startFrame": 1602,
+      "endFrame": 2074,
+      "frames": 472
+    },
+    {
+      "id": "beat_05",
+      "name": "Biological Takeaway",
+      "text": "A three-hundred-meter crater vaporizes in an instant, flattening the landscape for miles. And you would never even know it happened\u2014because you would be gone faster than your optic nerve could send a single signal to your brain.",
+      "file": "projects/Relativistic_Needle_Impact_2026-11-09/03_voiceover\\beat_05.mp3",
+      "durationSec": 12.432,
+      "startFrame": 2074,
+      "endFrame": 2447,
+      "frames": 373
+    }
+  ]
+}

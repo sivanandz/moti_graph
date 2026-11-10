@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<!-- The Deadly London Acid Fog of 1952 - Cinematic Motion Graphic Built with Bang Motion -->
+<head>
+<meta charset="utf-8">
+<title>The Deadly London Acid Fog of 1952</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=IBM+Plex+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #100E0B;
+  --ink: #F5F2EA;
+  --yel: #F2B705;
+  --red: #D62828;
+  --mute: #9C9484;
+}
+html, body {
+  margin: 0;
+  height: 100%;
+  background: #000;
+  overflow: hidden;
+}
+#stage {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 1080px;
+  height: 1920px;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  background: radial-gradient(circle at 50% 35%, #2D271F 0%, #100E0B 80%);
+  font-family: "Barlow Condensed", sans-serif;
+  color: var(--ink);
+}
+#world {
+  position: absolute;
+  inset: 0;
+  transform-origin: 540px 960px;
+  will-change: transform;
+}
+.grain {
+  position: absolute;
+  inset: -1000px;
+  pointer-events: none;
+  opacity: 0.18;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+.fog-layer {
+  position: absolute;
+  inset: -500px;
+  background: radial-gradient(circle at 50% 45%, rgba(242, 183, 5, 0.22) 0%, rgba(16, 14, 11, 0.75) 75%);
+  mix-blend-mode: screen;
+  pointer-events: none;
+}
+.header-box {
+  position: absolute;
+  top: 280px;
+  left: 70px;
+  right: 140px;
+  z-index: 20;
+}
+.kicker {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 24px;
+  letter-spacing: 0.15em;
+  color: var(--yel);
+  margin-bottom: 8px;
+}
+.headline {
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 1.02;
+  text-transform: uppercase;
+  margin: 0;
+  color: #FFFFFF;
+}
+.hl {
+  position: relative;
+  display: inline-block;
+  color: #111;
+  padding: 0 8px;
+  border-radius: 4px;
+  background: var(--yel);
+}
+.hl.r {
+  background: var(--red);
+  color: #FFF;
+}
+.media-card {
+  position: absolute;
+  top: 540px;
+  left: 80px;
+  width: 920px;
+  height: 940px;
+  border: 12px solid #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 24px 60px rgba(0,0,0,0.75);
+  overflow: hidden;
+  background: #141414;
+}
+.media-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(100%) contrast(125%);
+}
+.tag {
+  position: absolute;
+  bottom: 370px;
+  left: 90px;
+  background: #141414;
+  color: #FFFFFF;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 22px;
+  padding: 10px 18px;
+  border-left: 5px solid var(--yel);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+}
+#dbg {
+  position: fixed;
+  left: 50%;
+  bottom: 30px;
+  transform: translateX(-50%);
+  display: none;
+  gap: 12px;
+  align-items: center;
+  padding: 10px 18px;
+  border-radius: 20px;
+  background: rgba(14, 16, 22, 0.95);
+  color: #CFD5E3;
+  font: 14px system-ui;
+  z-index: 1000;
+}
+#dbg input { width: 340px; }
+#dbg span { font-variant-numeric: tabular-nums; min-width: 6ch; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world">
+    <div class="fog-layer" id="fog"></div>
+    <div class="grain"></div>
+
+    <!-- BEAT 1: THE INVISIBLE CINEMA -->
+    <div id="beat1" style="opacity: 1;">
+      <div class="header-box">
+        <div class="kicker">DECEMBER 1952 · LONDON</div>
+        <h1 class="headline">THE <span class="hl">INVISIBLE</span> CINEMA</h1>
+      </div>
+      <div class="media-card" id="card1">
+        <img src="../04_images/nelson_smog_1952.jpg" alt="Nelson's Column during 1952 smog">
+      </div>
+      <div class="tag">VISIBILITY: &lt; 12 INCHES</div>
+    </div>
+  </div>
+
+  <div id="dbg">
+    <button id="dPlay">Pause</button>
+    <input id="dScrub" type="range" min="0" max="1000" value="0">
+    <span id="dClock">0.00s</span>
+  </div>
+</div>
+
+<audio id="vo" src="../03_voiceover/vo_master.mp3" preload="auto"></audio>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script>
+const DUR = 58.15;
+const W = 1080, H = 1920;
+const q = new URLSearchParams(location.search);
+const dbg = document.getElementById('dbg');
+const vo = document.getElementById('vo');
+
+function resize() {
+  const s = Math.min(window.innerWidth / W, window.innerHeight / H);
+  document.getElementById('stage').style.transform = `translate(-50%, -50%) scale(${s})`;
+}
+window.addEventListener('resize', resize);
+resize();
+
+const tl = gsap.timeline({ paused: true, defaults: { ease: 'power2.out' } });
+
+// Camera motion & breathing
+tl.to('#world', { duration: DUR, scale: 1.05, ease: 'none' }, 0);
+tl.to('#fog', { duration: DUR, x: -60, ease: 'none' }, 0);
+
+// Global contract for headless export
+window.OPENER = {
+  W, H,
+  DURATION: DUR,
+  tl,
+  ready: true,
+  seek(t) {
+    tl.time(t);
+  }
+};
+
+if (q.has('debug')) dbg.style.display = 'flex';
+if (!q.has('clean')) {
+  tl.play();
+  vo.play().catch(() => {});
+}
+</script>
+</body>
+</html>

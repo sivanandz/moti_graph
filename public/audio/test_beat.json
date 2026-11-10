@@ -1,0 +1,7 @@
+{
+  "engine": "edge-tts",
+  "audio_file": "public\\audio\\test_beat.mp3",
+  "voice": "en-US-ChristopherNeural",
+  "duration_seconds": 5.856,
+  "status": "success"
+}

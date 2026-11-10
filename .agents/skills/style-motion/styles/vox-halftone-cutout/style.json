@@ -1,0 +1,96 @@
+{
+  "name": "vox-halftone-cutout",
+  "label": "Vox B&W newspaper halftone cutouts + thick white scissor outline + constructivist yellow/cutting-mat collage",
+  "source": "refs/: Mayakovsky constructivist slice, halftone clipboard hand cutout, and Vox dark cutting-mat archival frame",
+  "canvas": {
+    "fps": 30
+  },
+  "palette": {
+    "paper": "#123544",
+    "paperShade": "#3B4652",
+    "ink": "#FFFFFF",
+    "green": "#F2B705",
+    "gold": "#D62828",
+    "muted": "#C8CCC1",
+    "pill": "#EAE0C8",
+    "rule": "#F2B705"
+  },
+  "type": {
+    "kicker": {
+      "font": "Courier Prime, Courier New, monospace",
+      "size": 26,
+      "tracking": 5,
+      "color": "green",
+      "y": 110
+    },
+    "headline": {
+      "font": "Impact, Oswald, Franklin Gothic Bold, sans-serif",
+      "weight": 700,
+      "size": 76,
+      "tracking": 0,
+      "case": "upper",
+      "accentColor": "green",
+      "restColor": "ink",
+      "accentStyle": "normal",
+      "y": 170
+    },
+    "caption": {
+      "font": "Courier Prime, Courier New, monospace",
+      "style": "italic",
+      "weight": 700,
+      "size": 34,
+      "color": "ink",
+      "background": "pill",
+      "y": 1660
+    },
+    "title": {
+      "font": "Impact, sans-serif",
+      "style": "normal"
+    },
+    "fonts": [
+      "Courier Prime:ital,wght@0,400;0,700;1,400",
+      "Oswald:wght@700"
+    ]
+  },
+  "imagePrompt": "Cutout archival newspaper photograph of {subject}, strictly black and white greyscale coarse newspaper halftone dot print (Ben-Day screen dots, high contrast newsprint ink), surrounded by a thick irregular angular hand-scissored solid white paper border outline (#FFFFFF), layered over a torn vintage book page with deckle fibrous edges and a bold cadmium yellow (#F2B705) geometric constructivist paper strip accent, resting on a dark teal architectural self-healing cutting mat grid (#123544) or matte slate cardstock (#3B4652), deep realistic drop shadows between paper layers, generous negative space, tactile stop-motion cut-paper documentary collage aesthetic, 8K, no text, no watermark",
+  "elementPrompt": "single isolated black and white coarse newspaper halftone print cut-out of {subject}, Ben-Day screen dots, high contrast monochrome newsprint ink, surrounded by a thick irregular angular hand-scissored solid white paper border outline (#FFFFFF), plain pure white background, no text, no watermark",
+  "negative": "full color subject, 3d render, CGI gloss, smooth gradient skin, neon, plastic, watermark, logo, blurry",
+  "motion": {
+    "enter": "pop",
+    "stagger": 5,
+    "damping": 13,
+    "drift": 1,
+    "transition": "drift",
+    "headline": "word",
+    "fade": 6,
+    "rules": [
+      "Every scene is a tactile paper stack on either a dark teal cutting mat (#123544) with protractor grid or slate/sage cardstock (#3B4652/#C8CCC1) with torn vintage book pages (#EAE0C8) and binder-clipped graph paper.",
+      "All photographic subjects are strictly 100% B&W coarse newspaper halftone prints with a thick 10-14px hand-scissored white paper outline (#FFFFFF) and crisp drop shadow.",
+      "Constructivist horizontal slicing (Mayakovsky technique) offsets a horizontal band across the hero cutout backed by a Cadmium Yellow (#F2B705) paper strip.",
+      "Physical fasteners (metal binder clips, silver wire paperclips slipped over cutout edges, corner scissors/pen props) ground the scale.",
+      "Ransom-note cutout typewriter letters on white squares and hand-drawn charcoal scribbles/dashed arrows complete the collage."
+    ],
+    "avoid": [
+      "full-color photographic subjects",
+      "borderless floating images",
+      "flat digital rectangles without paper grain or fasteners",
+      "linear fades without spring physics"
+    ]
+  },
+  "layout": "stack",
+  "background": {
+    "type": "radial",
+    "from": "paper",
+    "to": "paperShade"
+  },
+  "defaultCircles": [
+    "green",
+    "gold"
+  ],
+  "ornaments": {
+    "circles": false,
+    "ring": true,
+    "sparkles": false,
+    "color": "green"
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "en": [
+    {
+      "id": 1,
+      "from": 0,
+      "frames": 237,
+      "kicker": "DISPATCH I · REAL-TIME INFRASTRUCTURE",
+      "headline": "500 Million Daily Transfers",
+      "accent": ["500", "Million"],
+      "caption": "Right now, half a billion times every single day, this happens: you scan a code, and money moves instantly.",
+      "circles": ["gold", "green"],
+      "audio_file": "audio/en/beat_01.mp3",
+      "layers": {
+        "backdrop": "images/vintage_paper_texture.jpg",
+        "hero": "images/bank_vault_doors.jpg",
+        "prop1": "images/antique_map.jpg"
+      }
+    },
+    {
+      "id": 2,
+      "from": 237,
+      "frames": 223,
+      "kicker": "DISPATCH II · LEGACY RAILS",
+      "headline": "The Two Percent Card Tax",
+      "accent": ["Two", "Percent"],
+      "caption": "Before this system, every digital swipe went through Visa or Mastercard, pocketing a two to three percent tax.",
+      "circles": ["red", "gold"],
+      "audio_file": "audio/en/beat_02.mp3",
+      "layers": {
+        "backdrop": "images/vintage_paper_texture.jpg",
+        "hero": "images/credit_card_monopoly.jpg",
+        "prop1": "images/bank_vault_doors.jpg"
+      }
+    },
+    {
+      "id": 3,
+      "from": 460,
+      "frames": 220,
+      "kicker": "DISPATCH III · SYSTEM PROTOCOL",
+      "headline": "The 400 Millisecond Switch",
+      "accent": ["400", "Millisecond"],
+      "caption": "Instead of private card rails, an open protocol connects your bank directly to the seller in four hundred milliseconds.",
+      "circles": ["cyan", "green"],
+      "audio_file": "audio/en/beat_03.mp3",
+      "layers": {
+        "backdrop": "images/vintage_paper_texture.jpg",
+        "hero": "images/bank_vault_doors.jpg",
+        "prop1": "images/antique_map.jpg"
+      }
+    },
+    {
+      "id": 4,
+      "from": 680,
+      "frames": 225,
+      "kicker": "DISPATCH IV · GLOBAL STANDARD",
+      "headline": "Zero Fees Forever",
+      "accent": ["Zero", "Fees"],
+      "caption": "Zero transaction fees, instant settlement, and an open infrastructure that the rest of the world is now trying to copy.",
+      "circles": ["green", "gold"],
+      "audio_file": "audio/en/beat_04.mp3",
+      "layers": {
+        "backdrop": "images/vintage_paper_texture.jpg",
+        "hero": "images/antique_map.jpg",
+        "prop1": "images/credit_card_monopoly.jpg"
+      }
+    }
+  ],
+  "ta": [
+    {
+      "id": 1,
+      "from": 0,
+      "frames": 252,
+      "kicker": "ஆவணப் பதிவு I · உடனடி கட்டமைப்பு",
+      "headline": "தினமும் 50 கோடி முறை",
+      "accent": ["50", "கோடி"],
+      "caption": "ஒவ்வொரு நாளும் ஐநூறு மில்லியன் முறை இது நடக்கிறது: நீங்கள் ஒரு குறியீட்டை ஸ்கேன் செய்கிறீர்கள், பணம் உடனே சென்றுவிடுகிறது.",
+      "circles": ["gold", "green"],
+      "audio_file": "audio/ta/beat_01.mp3",
+      "layers": {
+        "backdrop": "images/vintage_paper_texture.jpg",
+        "hero": "images/bank_vault_doors.jpg",
+        "prop1": "images/antique_map.jpg"
+      }
+    },
+    {
+      "id": 2,
+      "from": 252,
+      "frames": 247,
+      "kicker": "ஆவணப் பதிவு II · பழைய கட்டணம்",
+      "headline": "2% அட்டை கட்டண ஆதிக்கம்",
+      "accent": ["2%"],
+      "caption": "இதற்கு முன்பு, ஒவ்வொரு டிஜிட்டல் பரிவர்த்தனையும் விசா அல்லது மாஸ்டர்கார்டு வழியாகவே இரண்டு சதவீத கட்டணத்துடன் நடந்தது.",
+      "circles": ["red", "gold"],
+      "audio_file": "audio/ta/beat_02.mp3",
+      "layers": {
+        "backdrop": "images/vintage_paper_texture.jpg",
+        "hero": "images/credit_card_monopoly.jpg",
+        "prop1": "images/bank_vault_doors.jpg"
+      }
+    },
+    {
+      "id": 3,
+      "from": 499,
+      "frames": 261,
+      "kicker": "ஆவணப் பதிவு III · நேரடி நெட்வொர்க்",
+      "headline": "400 மில்லி விநாடி சுவிட்ச்",
+      "accent": ["400"],
+      "caption": "தனியார் நிறுவனங்களுக்குப் பதிலாக, NPCI கட்டமைப்பு உங்கள் வங்கியை வெறும் நானூறு மில்லி விநாடிகளில் நேரடியாக இணைக்கிறது.",
+      "circles": ["cyan", "green"],
+      "audio_file": "audio/ta/beat_03.mp3",
+      "layers": {
+        "backdrop": "images/vintage_paper_texture.jpg",
+        "hero": "images/bank_vault_doors.jpg",
+        "prop1": "images/antique_map.jpg"
+      }
+    },
+    {
+      "id": 4,
+      "from": 760,
+      "frames": 235,
+      "kicker": "ஆவணப் பதிவு IV · உலகளாவிய புரட்சி",
+      "headline": "கட்டணமில்லா திறந்த கட்டமைப்பு",
+      "accent": ["கட்டணமில்லா"],
+      "caption": "கட்டணமில்லா சேவை, உடனடி பரிமாற்றம், மற்றும் உலகம் முழுவதும் இப்போது பின்பற்றத் துடிக்கும் ஒரு திறந்த கட்டமைப்பு.",
+      "circles": ["green", "gold"],
+      "audio_file": "audio/ta/beat_04.mp3",
+      "layers": {
+        "backdrop": "images/vintage_paper_texture.jpg",
+        "hero": "images/antique_map.jpg",
+        "prop1": "images/credit_card_monopoly.jpg"
+      }
+    }
+  ],
+  "hi": [
+    {
+      "id": 1,
+      "from": 0,
+      "frames": 322,
+      "kicker": "डिस्पैच I · रियल-टाइम सिस्टम",
+      "headline": "हर रोज़ 50 करोड़ ट्रांज़ैक्शन",
+      "accent": ["50", "करोड़"],
+      "caption": "हर रोज़ 50 करोड़ से ज़्यादा बार ये होता है: आप एक क्यूआर कोड स्कैन करते हैं, और पैसा तुरंत बैंक खाते में पहुँच जाता है।",
+      "circles": ["gold", "green"],
+      "audio_file": "audio/hi/beat_01.mp3",
+      "layers": {
+        "backdrop": "images/vintage_paper_texture.jpg",
+        "hero": "images/bank_vault_doors.jpg",
+        "prop1": "images/antique_map.jpg"
+      }
+    },
+    {
+      "id": 2,
+      "from": 322,
+      "frames": 300,
+      "kicker": "डिस्पैच II · पुराना सिस्टम",
+      "headline": "कार्ड कंपनियों का 2.5% टैक्स",
+      "accent": ["2.5%"],
+      "caption": "इस सिस्टम से पहले, हर डिजिटल पेमेंट वीज़ा या मास्टरकार्ड से होकर गुज़रती थी, जो दो से तीन प्रतिशत तक कमीशन काटते थे।",
+      "circles": ["red", "gold"],
+      "audio_file": "audio/hi/beat_02.mp3",
+      "layers": {
+        "backdrop": "images/vintage_paper_texture.jpg",
+        "hero": "images/credit_card_monopoly.jpg",
+        "prop1": "images/bank_vault_doors.jpg"
+      }
+    },
+    {
+      "id": 3,
+      "from": 622,
+      "frames": 319,
+      "kicker": "डिस्पैच III · ओपन आर्किटेक्चर",
+      "headline": "400 मिलीसेकंड का डायरेक्ट खेल",
+      "accent": ["400"],
+      "caption": "प्राइवेट कार्ड नेटवर्क्स के बजाय, NPCI का ओपन प्रोटोकॉल आपके बैंक को सिर्फ़ चार सौ मिलीसेकंड में सीधे सेलर से जोड़ता है।",
+      "circles": ["cyan", "green"],
+      "audio_file": "audio/hi/beat_03.mp3",
+      "layers": {
+        "backdrop": "images/vintage_paper_texture.jpg",
+        "hero": "images/bank_vault_doors.jpg",
+        "prop1": "images/antique_map.jpg"
+      }
+    },
+    {
+      "id": 4,
+      "from": 941,
+      "frames": 269,
+      "kicker": "डिस्पैच IV · वैश्विक मॉडल",
+      "headline": "शून्य फ़ीस हमेशा के लिए",
+      "accent": ["शून्य", "फ़ीस"],
+      "caption": "शून्य फ़ीस, तुरंत सेटलमेंट, और एक ऐसा ओपन सिस्टम जिसे अब पूरी दुनिया अपनाने की कोशिश कर रही है।",
+      "circles": ["green", "gold"],
+      "audio_file": "audio/hi/beat_04.mp3",
+      "layers": {
+        "backdrop": "images/vintage_paper_texture.jpg",
+        "hero": "images/antique_map.jpg",
+        "prop1": "images/credit_card_monopoly.jpg"
+      }
+    }
+  ]
+}

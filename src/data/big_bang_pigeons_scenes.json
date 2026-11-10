@@ -1,0 +1,3524 @@
+{
+  "project_title": "The Pigeon Poop That Heard the Big Bang",
+  "voice": "en-US-GuyNeural",
+  "total_duration_frames": 5897,
+  "total_duration_seconds": 196.57,
+  "scenes": [
+    {
+      "id": 1,
+      "from": 0,
+      "frames": 296,
+      "kicker": "COLD OPEN",
+      "headline": "THE PIGEON POOP THAT HEARD THE BIG BANG",
+      "caption": "In 1964, two scientists accidentally heard the birth of our entire universe. But for an entire year... they were convinced it was just warm pigeon shit.",
+      "audio_file": "audio/big_bang_pigeons/beat_01.mp3",
+      "image": "",
+      "portalType": "kinetic_type_slam",
+      "words": [
+        {
+          "word": "In",
+          "startFrame": 0,
+          "endFrame": 4,
+          "isKeyWord": false
+        },
+        {
+          "word": "1964,",
+          "startFrame": 4,
+          "endFrame": 18,
+          "isKeyWord": true
+        },
+        {
+          "word": "two",
+          "startFrame": 18,
+          "endFrame": 23,
+          "isKeyWord": false
+        },
+        {
+          "word": "scientists",
+          "startFrame": 23,
+          "endFrame": 41,
+          "isKeyWord": false
+        },
+        {
+          "word": "accidentally",
+          "startFrame": 41,
+          "endFrame": 62,
+          "isKeyWord": false
+        },
+        {
+          "word": "heard",
+          "startFrame": 62,
+          "endFrame": 71,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 71,
+          "endFrame": 76,
+          "isKeyWord": false
+        },
+        {
+          "word": "birth",
+          "startFrame": 76,
+          "endFrame": 85,
+          "isKeyWord": false
+        },
+        {
+          "word": "of",
+          "startFrame": 85,
+          "endFrame": 89,
+          "isKeyWord": false
+        },
+        {
+          "word": "our",
+          "startFrame": 89,
+          "endFrame": 94,
+          "isKeyWord": false
+        },
+        {
+          "word": "entire",
+          "startFrame": 94,
+          "endFrame": 105,
+          "isKeyWord": false
+        },
+        {
+          "word": "universe.",
+          "startFrame": 105,
+          "endFrame": 126,
+          "isKeyWord": false
+        },
+        {
+          "word": "But",
+          "startFrame": 126,
+          "endFrame": 131,
+          "isKeyWord": false
+        },
+        {
+          "word": "for",
+          "startFrame": 131,
+          "endFrame": 136,
+          "isKeyWord": false
+        },
+        {
+          "word": "an",
+          "startFrame": 136,
+          "endFrame": 140,
+          "isKeyWord": false
+        },
+        {
+          "word": "entire",
+          "startFrame": 140,
+          "endFrame": 151,
+          "isKeyWord": false
+        },
+        {
+          "word": "year...",
+          "startFrame": 151,
+          "endFrame": 169,
+          "isKeyWord": false
+        },
+        {
+          "word": "they",
+          "startFrame": 169,
+          "endFrame": 176,
+          "isKeyWord": false
+        },
+        {
+          "word": "were",
+          "startFrame": 176,
+          "endFrame": 183,
+          "isKeyWord": false
+        },
+        {
+          "word": "convinced",
+          "startFrame": 183,
+          "endFrame": 199,
+          "isKeyWord": false
+        },
+        {
+          "word": "it",
+          "startFrame": 199,
+          "endFrame": 203,
+          "isKeyWord": false
+        },
+        {
+          "word": "was",
+          "startFrame": 203,
+          "endFrame": 208,
+          "isKeyWord": false
+        },
+        {
+          "word": "just",
+          "startFrame": 208,
+          "endFrame": 215,
+          "isKeyWord": false
+        },
+        {
+          "word": "warm",
+          "startFrame": 215,
+          "endFrame": 222,
+          "isKeyWord": false
+        },
+        {
+          "word": "pigeon",
+          "startFrame": 222,
+          "endFrame": 233,
+          "isKeyWord": true
+        },
+        {
+          "word": "shit.",
+          "startFrame": 233,
+          "endFrame": 247,
+          "isKeyWord": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "from": 296,
+      "frames": 238,
+      "kicker": "CHAPTER I",
+      "headline": "THE 50-FOOT ALUMINUM EAR",
+      "caption": "Atop Crawford Hill in New Jersey sat the Holmdel Horn Antenna—an 18-ton aluminum giant built to bounce signals off giant orbiting NASA balloons.",
+      "audio_file": "audio/big_bang_pigeons/beat_02.mp3",
+      "image": "images/big_bang_pigeons/holmdel_horn_exterior.jpg",
+      "portalType": "macro_document",
+      "words": [
+        {
+          "word": "Atop",
+          "startFrame": 0,
+          "endFrame": 6,
+          "isKeyWord": false
+        },
+        {
+          "word": "Crawford",
+          "startFrame": 6,
+          "endFrame": 18,
+          "isKeyWord": false
+        },
+        {
+          "word": "Hill",
+          "startFrame": 18,
+          "endFrame": 24,
+          "isKeyWord": false
+        },
+        {
+          "word": "in",
+          "startFrame": 24,
+          "endFrame": 28,
+          "isKeyWord": false
+        },
+        {
+          "word": "New",
+          "startFrame": 28,
+          "endFrame": 33,
+          "isKeyWord": false
+        },
+        {
+          "word": "Jersey",
+          "startFrame": 33,
+          "endFrame": 42,
+          "isKeyWord": false
+        },
+        {
+          "word": "sat",
+          "startFrame": 42,
+          "endFrame": 47,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 47,
+          "endFrame": 52,
+          "isKeyWord": false
+        },
+        {
+          "word": "Holmdel",
+          "startFrame": 52,
+          "endFrame": 63,
+          "isKeyWord": false
+        },
+        {
+          "word": "Horn",
+          "startFrame": 63,
+          "endFrame": 69,
+          "isKeyWord": false
+        },
+        {
+          "word": "Antenna—an",
+          "startFrame": 69,
+          "endFrame": 84,
+          "isKeyWord": false
+        },
+        {
+          "word": "18-ton",
+          "startFrame": 84,
+          "endFrame": 93,
+          "isKeyWord": true
+        },
+        {
+          "word": "aluminum",
+          "startFrame": 93,
+          "endFrame": 105,
+          "isKeyWord": false
+        },
+        {
+          "word": "giant",
+          "startFrame": 105,
+          "endFrame": 113,
+          "isKeyWord": false
+        },
+        {
+          "word": "built",
+          "startFrame": 113,
+          "endFrame": 121,
+          "isKeyWord": false
+        },
+        {
+          "word": "to",
+          "startFrame": 121,
+          "endFrame": 125,
+          "isKeyWord": false
+        },
+        {
+          "word": "bounce",
+          "startFrame": 125,
+          "endFrame": 134,
+          "isKeyWord": false
+        },
+        {
+          "word": "signals",
+          "startFrame": 134,
+          "endFrame": 145,
+          "isKeyWord": false
+        },
+        {
+          "word": "off",
+          "startFrame": 145,
+          "endFrame": 150,
+          "isKeyWord": false
+        },
+        {
+          "word": "giant",
+          "startFrame": 150,
+          "endFrame": 158,
+          "isKeyWord": false
+        },
+        {
+          "word": "orbiting",
+          "startFrame": 158,
+          "endFrame": 170,
+          "isKeyWord": false
+        },
+        {
+          "word": "NASA",
+          "startFrame": 170,
+          "endFrame": 176,
+          "isKeyWord": false
+        },
+        {
+          "word": "balloons.",
+          "startFrame": 176,
+          "endFrame": 194,
+          "isKeyWord": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "from": 534,
+      "frames": 256,
+      "kicker": "CHAPTER I",
+      "headline": "TWO PHYSICISTS AT BELL LABS",
+      "caption": "Their names were Arno Penzias and Robert Wilson. With the satellite project completed, they took over the horn for pure radio astronomy.",
+      "audio_file": "audio/big_bang_pigeons/beat_03.mp3",
+      "image": "images/big_bang_pigeons/penzias_wilson_horn_antenna.jpg",
+      "portalType": "split_memo",
+      "words": [
+        {
+          "word": "Their",
+          "startFrame": 0,
+          "endFrame": 9,
+          "isKeyWord": false
+        },
+        {
+          "word": "names",
+          "startFrame": 9,
+          "endFrame": 18,
+          "isKeyWord": false
+        },
+        {
+          "word": "were",
+          "startFrame": 18,
+          "endFrame": 25,
+          "isKeyWord": false
+        },
+        {
+          "word": "Arno",
+          "startFrame": 25,
+          "endFrame": 32,
+          "isKeyWord": false
+        },
+        {
+          "word": "Penzias",
+          "startFrame": 32,
+          "endFrame": 44,
+          "isKeyWord": true
+        },
+        {
+          "word": "and",
+          "startFrame": 44,
+          "endFrame": 49,
+          "isKeyWord": false
+        },
+        {
+          "word": "Robert",
+          "startFrame": 49,
+          "endFrame": 59,
+          "isKeyWord": false
+        },
+        {
+          "word": "Wilson.",
+          "startFrame": 59,
+          "endFrame": 76,
+          "isKeyWord": false
+        },
+        {
+          "word": "With",
+          "startFrame": 76,
+          "endFrame": 83,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 83,
+          "endFrame": 88,
+          "isKeyWord": false
+        },
+        {
+          "word": "satellite",
+          "startFrame": 88,
+          "endFrame": 104,
+          "isKeyWord": false
+        },
+        {
+          "word": "project",
+          "startFrame": 104,
+          "endFrame": 116,
+          "isKeyWord": false
+        },
+        {
+          "word": "completed,",
+          "startFrame": 116,
+          "endFrame": 138,
+          "isKeyWord": false
+        },
+        {
+          "word": "they",
+          "startFrame": 138,
+          "endFrame": 145,
+          "isKeyWord": false
+        },
+        {
+          "word": "took",
+          "startFrame": 145,
+          "endFrame": 152,
+          "isKeyWord": false
+        },
+        {
+          "word": "over",
+          "startFrame": 152,
+          "endFrame": 159,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 159,
+          "endFrame": 164,
+          "isKeyWord": false
+        },
+        {
+          "word": "horn",
+          "startFrame": 164,
+          "endFrame": 171,
+          "isKeyWord": false
+        },
+        {
+          "word": "for",
+          "startFrame": 171,
+          "endFrame": 176,
+          "isKeyWord": false
+        },
+        {
+          "word": "pure",
+          "startFrame": 176,
+          "endFrame": 183,
+          "isKeyWord": false
+        },
+        {
+          "word": "radio",
+          "startFrame": 183,
+          "endFrame": 192,
+          "isKeyWord": false
+        },
+        {
+          "word": "astronomy.",
+          "startFrame": 192,
+          "endFrame": 214,
+          "isKeyWord": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "from": 790,
+      "frames": 238,
+      "kicker": "CHAPTER I",
+      "headline": "TUNED TO 4,080 MEGAHERTZ",
+      "caption": "They chilled their receiver with liquid helium down to four Kelvin and tuned in to 4,080 megahertz, pointing into the quiet halo of the Milky Way.",
+      "audio_file": "audio/big_bang_pigeons/beat_04.mp3",
+      "image": "",
+      "portalType": "hardware_portal",
+      "words": [
+        {
+          "word": "They",
+          "startFrame": 0,
+          "endFrame": 6,
+          "isKeyWord": false
+        },
+        {
+          "word": "chilled",
+          "startFrame": 6,
+          "endFrame": 16,
+          "isKeyWord": false
+        },
+        {
+          "word": "their",
+          "startFrame": 16,
+          "endFrame": 23,
+          "isKeyWord": false
+        },
+        {
+          "word": "receiver",
+          "startFrame": 23,
+          "endFrame": 35,
+          "isKeyWord": false
+        },
+        {
+          "word": "with",
+          "startFrame": 35,
+          "endFrame": 41,
+          "isKeyWord": false
+        },
+        {
+          "word": "liquid",
+          "startFrame": 41,
+          "endFrame": 50,
+          "isKeyWord": false
+        },
+        {
+          "word": "helium",
+          "startFrame": 50,
+          "endFrame": 59,
+          "isKeyWord": false
+        },
+        {
+          "word": "down",
+          "startFrame": 59,
+          "endFrame": 65,
+          "isKeyWord": false
+        },
+        {
+          "word": "to",
+          "startFrame": 65,
+          "endFrame": 69,
+          "isKeyWord": false
+        },
+        {
+          "word": "four",
+          "startFrame": 69,
+          "endFrame": 75,
+          "isKeyWord": false
+        },
+        {
+          "word": "Kelvin",
+          "startFrame": 75,
+          "endFrame": 84,
+          "isKeyWord": true
+        },
+        {
+          "word": "and",
+          "startFrame": 84,
+          "endFrame": 88,
+          "isKeyWord": false
+        },
+        {
+          "word": "tuned",
+          "startFrame": 88,
+          "endFrame": 95,
+          "isKeyWord": false
+        },
+        {
+          "word": "in",
+          "startFrame": 95,
+          "endFrame": 99,
+          "isKeyWord": false
+        },
+        {
+          "word": "to",
+          "startFrame": 99,
+          "endFrame": 103,
+          "isKeyWord": false
+        },
+        {
+          "word": "4,080",
+          "startFrame": 103,
+          "endFrame": 110,
+          "isKeyWord": true
+        },
+        {
+          "word": "megahertz,",
+          "startFrame": 110,
+          "endFrame": 129,
+          "isKeyWord": false
+        },
+        {
+          "word": "pointing",
+          "startFrame": 129,
+          "endFrame": 141,
+          "isKeyWord": false
+        },
+        {
+          "word": "into",
+          "startFrame": 141,
+          "endFrame": 147,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 147,
+          "endFrame": 151,
+          "isKeyWord": false
+        },
+        {
+          "word": "quiet",
+          "startFrame": 151,
+          "endFrame": 158,
+          "isKeyWord": false
+        },
+        {
+          "word": "halo",
+          "startFrame": 158,
+          "endFrame": 164,
+          "isKeyWord": false
+        },
+        {
+          "word": "of",
+          "startFrame": 164,
+          "endFrame": 168,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 168,
+          "endFrame": 172,
+          "isKeyWord": false
+        },
+        {
+          "word": "Milky",
+          "startFrame": 172,
+          "endFrame": 179,
+          "isKeyWord": false
+        },
+        {
+          "word": "Way.",
+          "startFrame": 179,
+          "endFrame": 189,
+          "isKeyWord": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "from": 1028,
+      "frames": 289,
+      "kicker": "CHAPTER I",
+      "headline": "AN UNEXPLAINED 3.5 KELVIN HUM",
+      "caption": "The strip-chart recorder registered an extra 3.5 Kelvin of steady, unyielding static. One hundred times stronger than any expected cosmic signal.",
+      "audio_file": "audio/big_bang_pigeons/beat_05.mp3",
+      "image": "",
+      "portalType": "hardware_portal",
+      "words": [
+        {
+          "word": "The",
+          "startFrame": 0,
+          "endFrame": 6,
+          "isKeyWord": false
+        },
+        {
+          "word": "strip-chart",
+          "startFrame": 6,
+          "endFrame": 26,
+          "isKeyWord": false
+        },
+        {
+          "word": "recorder",
+          "startFrame": 26,
+          "endFrame": 41,
+          "isKeyWord": false
+        },
+        {
+          "word": "registered",
+          "startFrame": 41,
+          "endFrame": 59,
+          "isKeyWord": false
+        },
+        {
+          "word": "an",
+          "startFrame": 59,
+          "endFrame": 63,
+          "isKeyWord": false
+        },
+        {
+          "word": "extra",
+          "startFrame": 63,
+          "endFrame": 72,
+          "isKeyWord": false
+        },
+        {
+          "word": "3.5",
+          "startFrame": 72,
+          "endFrame": 78,
+          "isKeyWord": true
+        },
+        {
+          "word": "Kelvin",
+          "startFrame": 78,
+          "endFrame": 89,
+          "isKeyWord": true
+        },
+        {
+          "word": "of",
+          "startFrame": 89,
+          "endFrame": 93,
+          "isKeyWord": false
+        },
+        {
+          "word": "steady,",
+          "startFrame": 93,
+          "endFrame": 111,
+          "isKeyWord": false
+        },
+        {
+          "word": "unyielding",
+          "startFrame": 111,
+          "endFrame": 129,
+          "isKeyWord": false
+        },
+        {
+          "word": "static.",
+          "startFrame": 129,
+          "endFrame": 147,
+          "isKeyWord": false
+        },
+        {
+          "word": "One",
+          "startFrame": 147,
+          "endFrame": 153,
+          "isKeyWord": false
+        },
+        {
+          "word": "hundred",
+          "startFrame": 153,
+          "endFrame": 166,
+          "isKeyWord": false
+        },
+        {
+          "word": "times",
+          "startFrame": 166,
+          "endFrame": 175,
+          "isKeyWord": false
+        },
+        {
+          "word": "stronger",
+          "startFrame": 175,
+          "endFrame": 190,
+          "isKeyWord": false
+        },
+        {
+          "word": "than",
+          "startFrame": 190,
+          "endFrame": 197,
+          "isKeyWord": false
+        },
+        {
+          "word": "any",
+          "startFrame": 197,
+          "endFrame": 203,
+          "isKeyWord": false
+        },
+        {
+          "word": "expected",
+          "startFrame": 203,
+          "endFrame": 218,
+          "isKeyWord": false
+        },
+        {
+          "word": "cosmic",
+          "startFrame": 218,
+          "endFrame": 229,
+          "isKeyWord": false
+        },
+        {
+          "word": "signal.",
+          "startFrame": 229,
+          "endFrame": 247,
+          "isKeyWord": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "from": 1317,
+      "frames": 235,
+      "kicker": "CHAPTER II",
+      "headline": "RULE 1: IT IS ALWAYS OUR FAULT",
+      "caption": "In physics, you never claim a breakthrough first. You assume your equipment is broken and begin hunting down earthly interference.",
+      "audio_file": "audio/big_bang_pigeons/beat_06.mp3",
+      "image": "",
+      "portalType": "kinetic_type_slam",
+      "words": [
+        {
+          "word": "In",
+          "startFrame": 0,
+          "endFrame": 4,
+          "isKeyWord": false
+        },
+        {
+          "word": "physics,",
+          "startFrame": 4,
+          "endFrame": 22,
+          "isKeyWord": false
+        },
+        {
+          "word": "you",
+          "startFrame": 22,
+          "endFrame": 27,
+          "isKeyWord": false
+        },
+        {
+          "word": "never",
+          "startFrame": 27,
+          "endFrame": 35,
+          "isKeyWord": false
+        },
+        {
+          "word": "claim",
+          "startFrame": 35,
+          "endFrame": 43,
+          "isKeyWord": false
+        },
+        {
+          "word": "a",
+          "startFrame": 43,
+          "endFrame": 47,
+          "isKeyWord": false
+        },
+        {
+          "word": "breakthrough",
+          "startFrame": 47,
+          "endFrame": 67,
+          "isKeyWord": false
+        },
+        {
+          "word": "first.",
+          "startFrame": 67,
+          "endFrame": 82,
+          "isKeyWord": false
+        },
+        {
+          "word": "You",
+          "startFrame": 82,
+          "endFrame": 87,
+          "isKeyWord": false
+        },
+        {
+          "word": "assume",
+          "startFrame": 87,
+          "endFrame": 97,
+          "isKeyWord": false
+        },
+        {
+          "word": "your",
+          "startFrame": 97,
+          "endFrame": 104,
+          "isKeyWord": false
+        },
+        {
+          "word": "equipment",
+          "startFrame": 104,
+          "endFrame": 119,
+          "isKeyWord": false
+        },
+        {
+          "word": "is",
+          "startFrame": 119,
+          "endFrame": 123,
+          "isKeyWord": false
+        },
+        {
+          "word": "broken",
+          "startFrame": 123,
+          "endFrame": 133,
+          "isKeyWord": false
+        },
+        {
+          "word": "and",
+          "startFrame": 133,
+          "endFrame": 138,
+          "isKeyWord": false
+        },
+        {
+          "word": "begin",
+          "startFrame": 138,
+          "endFrame": 146,
+          "isKeyWord": false
+        },
+        {
+          "word": "hunting",
+          "startFrame": 146,
+          "endFrame": 158,
+          "isKeyWord": false
+        },
+        {
+          "word": "down",
+          "startFrame": 158,
+          "endFrame": 165,
+          "isKeyWord": false
+        },
+        {
+          "word": "earthly",
+          "startFrame": 165,
+          "endFrame": 177,
+          "isKeyWord": false
+        },
+        {
+          "word": "interference.",
+          "startFrame": 177,
+          "endFrame": 204,
+          "isKeyWord": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "from": 1552,
+      "frames": 284,
+      "kicker": "CHAPTER II",
+      "headline": "ELIMINATING THE SUSPECTS",
+      "caption": "They checked New York City broadcasts, military coastal radars, and even Starfish Prime nuclear fallout. One by one, every suspect was ruled out.",
+      "audio_file": "audio/big_bang_pigeons/beat_07.mp3",
+      "image": "images/big_bang_pigeons/nyc_skyline_1960s.jpg",
+      "portalType": "suspect_grid",
+      "words": [
+        {
+          "word": "They",
+          "startFrame": 0,
+          "endFrame": 7,
+          "isKeyWord": false
+        },
+        {
+          "word": "checked",
+          "startFrame": 7,
+          "endFrame": 20,
+          "isKeyWord": false
+        },
+        {
+          "word": "New",
+          "startFrame": 20,
+          "endFrame": 25,
+          "isKeyWord": false
+        },
+        {
+          "word": "York",
+          "startFrame": 25,
+          "endFrame": 32,
+          "isKeyWord": false
+        },
+        {
+          "word": "City",
+          "startFrame": 32,
+          "endFrame": 39,
+          "isKeyWord": false
+        },
+        {
+          "word": "broadcasts,",
+          "startFrame": 39,
+          "endFrame": 64,
+          "isKeyWord": false
+        },
+        {
+          "word": "military",
+          "startFrame": 64,
+          "endFrame": 78,
+          "isKeyWord": false
+        },
+        {
+          "word": "coastal",
+          "startFrame": 78,
+          "endFrame": 91,
+          "isKeyWord": false
+        },
+        {
+          "word": "radars,",
+          "startFrame": 91,
+          "endFrame": 109,
+          "isKeyWord": false
+        },
+        {
+          "word": "and",
+          "startFrame": 109,
+          "endFrame": 114,
+          "isKeyWord": false
+        },
+        {
+          "word": "even",
+          "startFrame": 114,
+          "endFrame": 121,
+          "isKeyWord": false
+        },
+        {
+          "word": "Starfish",
+          "startFrame": 121,
+          "endFrame": 135,
+          "isKeyWord": false
+        },
+        {
+          "word": "Prime",
+          "startFrame": 135,
+          "endFrame": 144,
+          "isKeyWord": false
+        },
+        {
+          "word": "nuclear",
+          "startFrame": 144,
+          "endFrame": 157,
+          "isKeyWord": false
+        },
+        {
+          "word": "fallout.",
+          "startFrame": 157,
+          "endFrame": 177,
+          "isKeyWord": false
+        },
+        {
+          "word": "One",
+          "startFrame": 177,
+          "endFrame": 182,
+          "isKeyWord": false
+        },
+        {
+          "word": "by",
+          "startFrame": 182,
+          "endFrame": 186,
+          "isKeyWord": false
+        },
+        {
+          "word": "one,",
+          "startFrame": 186,
+          "endFrame": 199,
+          "isKeyWord": false
+        },
+        {
+          "word": "every",
+          "startFrame": 199,
+          "endFrame": 208,
+          "isKeyWord": false
+        },
+        {
+          "word": "suspect",
+          "startFrame": 208,
+          "endFrame": 221,
+          "isKeyWord": false
+        },
+        {
+          "word": "was",
+          "startFrame": 221,
+          "endFrame": 226,
+          "isKeyWord": false
+        },
+        {
+          "word": "ruled",
+          "startFrame": 226,
+          "endFrame": 235,
+          "isKeyWord": false
+        },
+        {
+          "word": "out.",
+          "startFrame": 235,
+          "endFrame": 248,
+          "isKeyWord": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "from": 1836,
+      "frames": 309,
+      "kicker": "CHAPTER II",
+      "headline": "IT WAS COMING FROM EVERYWHERE",
+      "caption": "They rotated the giant horn across 360 degrees. The hum was completely isotropic. Identical in day, night, winter, and summer.",
+      "audio_file": "audio/big_bang_pigeons/beat_08.mp3",
+      "image": "",
+      "portalType": "hardware_portal",
+      "words": [
+        {
+          "word": "They",
+          "startFrame": 0,
+          "endFrame": 9,
+          "isKeyWord": false
+        },
+        {
+          "word": "rotated",
+          "startFrame": 9,
+          "endFrame": 25,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 25,
+          "endFrame": 32,
+          "isKeyWord": false
+        },
+        {
+          "word": "giant",
+          "startFrame": 32,
+          "endFrame": 43,
+          "isKeyWord": false
+        },
+        {
+          "word": "horn",
+          "startFrame": 43,
+          "endFrame": 52,
+          "isKeyWord": false
+        },
+        {
+          "word": "across",
+          "startFrame": 52,
+          "endFrame": 66,
+          "isKeyWord": false
+        },
+        {
+          "word": "360",
+          "startFrame": 66,
+          "endFrame": 73,
+          "isKeyWord": true
+        },
+        {
+          "word": "degrees.",
+          "startFrame": 73,
+          "endFrame": 98,
+          "isKeyWord": false
+        },
+        {
+          "word": "The",
+          "startFrame": 98,
+          "endFrame": 105,
+          "isKeyWord": false
+        },
+        {
+          "word": "hum",
+          "startFrame": 105,
+          "endFrame": 112,
+          "isKeyWord": true
+        },
+        {
+          "word": "was",
+          "startFrame": 112,
+          "endFrame": 119,
+          "isKeyWord": false
+        },
+        {
+          "word": "completely",
+          "startFrame": 119,
+          "endFrame": 142,
+          "isKeyWord": false
+        },
+        {
+          "word": "isotropic.",
+          "startFrame": 142,
+          "endFrame": 171,
+          "isKeyWord": false
+        },
+        {
+          "word": "Identical",
+          "startFrame": 171,
+          "endFrame": 191,
+          "isKeyWord": false
+        },
+        {
+          "word": "in",
+          "startFrame": 191,
+          "endFrame": 196,
+          "isKeyWord": false
+        },
+        {
+          "word": "day,",
+          "startFrame": 196,
+          "endFrame": 212,
+          "isKeyWord": false
+        },
+        {
+          "word": "night,",
+          "startFrame": 212,
+          "endFrame": 232,
+          "isKeyWord": false
+        },
+        {
+          "word": "winter,",
+          "startFrame": 232,
+          "endFrame": 255,
+          "isKeyWord": false
+        },
+        {
+          "word": "and",
+          "startFrame": 255,
+          "endFrame": 262,
+          "isKeyWord": false
+        },
+        {
+          "word": "summer.",
+          "startFrame": 262,
+          "endFrame": 285,
+          "isKeyWord": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "from": 2145,
+      "frames": 218,
+      "kicker": "CHAPTER III",
+      "headline": "CRAWLING INTO THE HORN THROAT",
+      "caption": "Desperate, Penzias and Wilson put on coveralls and climbed physically inside the aluminum horn to inspect every millimeter of the waveguide.",
+      "audio_file": "audio/big_bang_pigeons/beat_09.mp3",
+      "image": "images/big_bang_pigeons/holmdel_horn_interior.jpg",
+      "portalType": "macro_document",
+      "words": [
+        {
+          "word": "Desperate,",
+          "startFrame": 0,
+          "endFrame": 19,
+          "isKeyWord": false
+        },
+        {
+          "word": "Penzias",
+          "startFrame": 19,
+          "endFrame": 29,
+          "isKeyWord": true
+        },
+        {
+          "word": "and",
+          "startFrame": 29,
+          "endFrame": 33,
+          "isKeyWord": false
+        },
+        {
+          "word": "Wilson",
+          "startFrame": 33,
+          "endFrame": 42,
+          "isKeyWord": true
+        },
+        {
+          "word": "put",
+          "startFrame": 42,
+          "endFrame": 46,
+          "isKeyWord": false
+        },
+        {
+          "word": "on",
+          "startFrame": 46,
+          "endFrame": 50,
+          "isKeyWord": false
+        },
+        {
+          "word": "coveralls",
+          "startFrame": 50,
+          "endFrame": 63,
+          "isKeyWord": false
+        },
+        {
+          "word": "and",
+          "startFrame": 63,
+          "endFrame": 67,
+          "isKeyWord": false
+        },
+        {
+          "word": "climbed",
+          "startFrame": 67,
+          "endFrame": 77,
+          "isKeyWord": false
+        },
+        {
+          "word": "physically",
+          "startFrame": 77,
+          "endFrame": 91,
+          "isKeyWord": false
+        },
+        {
+          "word": "inside",
+          "startFrame": 91,
+          "endFrame": 100,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 100,
+          "endFrame": 104,
+          "isKeyWord": false
+        },
+        {
+          "word": "aluminum",
+          "startFrame": 104,
+          "endFrame": 116,
+          "isKeyWord": false
+        },
+        {
+          "word": "horn",
+          "startFrame": 116,
+          "endFrame": 122,
+          "isKeyWord": false
+        },
+        {
+          "word": "to",
+          "startFrame": 122,
+          "endFrame": 126,
+          "isKeyWord": false
+        },
+        {
+          "word": "inspect",
+          "startFrame": 126,
+          "endFrame": 136,
+          "isKeyWord": false
+        },
+        {
+          "word": "every",
+          "startFrame": 136,
+          "endFrame": 143,
+          "isKeyWord": false
+        },
+        {
+          "word": "millimeter",
+          "startFrame": 143,
+          "endFrame": 157,
+          "isKeyWord": false
+        },
+        {
+          "word": "of",
+          "startFrame": 157,
+          "endFrame": 161,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 161,
+          "endFrame": 165,
+          "isKeyWord": false
+        },
+        {
+          "word": "waveguide.",
+          "startFrame": 165,
+          "endFrame": 184,
+          "isKeyWord": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "from": 2363,
+      "frames": 251,
+      "kicker": "CHAPTER III",
+      "headline": "WHITE DIELECTRIC MATERIAL",
+      "caption": "Deep in the narrow throat, they found two roosting pigeons. And coating the aluminum walls was a layer of warm white dielectric material.",
+      "audio_file": "audio/big_bang_pigeons/beat_10.mp3",
+      "image": "images/big_bang_pigeons/pigeon_cutout.jpg",
+      "portalType": "split_memo",
+      "words": [
+        {
+          "word": "Deep",
+          "startFrame": 0,
+          "endFrame": 7,
+          "isKeyWord": false
+        },
+        {
+          "word": "in",
+          "startFrame": 7,
+          "endFrame": 11,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 11,
+          "endFrame": 16,
+          "isKeyWord": false
+        },
+        {
+          "word": "narrow",
+          "startFrame": 16,
+          "endFrame": 26,
+          "isKeyWord": false
+        },
+        {
+          "word": "throat,",
+          "startFrame": 26,
+          "endFrame": 43,
+          "isKeyWord": false
+        },
+        {
+          "word": "they",
+          "startFrame": 43,
+          "endFrame": 50,
+          "isKeyWord": false
+        },
+        {
+          "word": "found",
+          "startFrame": 50,
+          "endFrame": 58,
+          "isKeyWord": false
+        },
+        {
+          "word": "two",
+          "startFrame": 58,
+          "endFrame": 63,
+          "isKeyWord": false
+        },
+        {
+          "word": "roosting",
+          "startFrame": 63,
+          "endFrame": 76,
+          "isKeyWord": false
+        },
+        {
+          "word": "pigeons.",
+          "startFrame": 76,
+          "endFrame": 94,
+          "isKeyWord": false
+        },
+        {
+          "word": "And",
+          "startFrame": 94,
+          "endFrame": 99,
+          "isKeyWord": false
+        },
+        {
+          "word": "coating",
+          "startFrame": 99,
+          "endFrame": 111,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 111,
+          "endFrame": 116,
+          "isKeyWord": false
+        },
+        {
+          "word": "aluminum",
+          "startFrame": 116,
+          "endFrame": 129,
+          "isKeyWord": false
+        },
+        {
+          "word": "walls",
+          "startFrame": 129,
+          "endFrame": 137,
+          "isKeyWord": false
+        },
+        {
+          "word": "was",
+          "startFrame": 137,
+          "endFrame": 142,
+          "isKeyWord": false
+        },
+        {
+          "word": "a",
+          "startFrame": 142,
+          "endFrame": 146,
+          "isKeyWord": false
+        },
+        {
+          "word": "layer",
+          "startFrame": 146,
+          "endFrame": 154,
+          "isKeyWord": false
+        },
+        {
+          "word": "of",
+          "startFrame": 154,
+          "endFrame": 158,
+          "isKeyWord": false
+        },
+        {
+          "word": "warm",
+          "startFrame": 158,
+          "endFrame": 165,
+          "isKeyWord": false
+        },
+        {
+          "word": "white",
+          "startFrame": 165,
+          "endFrame": 173,
+          "isKeyWord": false
+        },
+        {
+          "word": "dielectric",
+          "startFrame": 173,
+          "endFrame": 190,
+          "isKeyWord": true
+        },
+        {
+          "word": "material.",
+          "startFrame": 190,
+          "endFrame": 210,
+          "isKeyWord": false
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "from": 2614,
+      "frames": 236,
+      "kicker": "CHAPTER III",
+      "headline": "THE HOMING PIGEONS RETURN",
+      "caption": "They trapped the pigeons in a box and mailed them sixty miles away. But being homing pigeons, they flew right back into the horn.",
+      "audio_file": "audio/big_bang_pigeons/beat_11.mp3",
+      "image": "images/big_bang_pigeons/homing_pigeon_racing.jpg",
+      "portalType": "split_memo",
+      "words": [
+        {
+          "word": "They",
+          "startFrame": 0,
+          "endFrame": 7,
+          "isKeyWord": false
+        },
+        {
+          "word": "trapped",
+          "startFrame": 7,
+          "endFrame": 19,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 19,
+          "endFrame": 24,
+          "isKeyWord": false
+        },
+        {
+          "word": "pigeons",
+          "startFrame": 24,
+          "endFrame": 36,
+          "isKeyWord": false
+        },
+        {
+          "word": "in",
+          "startFrame": 36,
+          "endFrame": 40,
+          "isKeyWord": false
+        },
+        {
+          "word": "a",
+          "startFrame": 40,
+          "endFrame": 44,
+          "isKeyWord": false
+        },
+        {
+          "word": "box",
+          "startFrame": 44,
+          "endFrame": 49,
+          "isKeyWord": false
+        },
+        {
+          "word": "and",
+          "startFrame": 49,
+          "endFrame": 54,
+          "isKeyWord": false
+        },
+        {
+          "word": "mailed",
+          "startFrame": 54,
+          "endFrame": 64,
+          "isKeyWord": false
+        },
+        {
+          "word": "them",
+          "startFrame": 64,
+          "endFrame": 71,
+          "isKeyWord": false
+        },
+        {
+          "word": "sixty",
+          "startFrame": 71,
+          "endFrame": 79,
+          "isKeyWord": false
+        },
+        {
+          "word": "miles",
+          "startFrame": 79,
+          "endFrame": 87,
+          "isKeyWord": false
+        },
+        {
+          "word": "away.",
+          "startFrame": 87,
+          "endFrame": 100,
+          "isKeyWord": false
+        },
+        {
+          "word": "But",
+          "startFrame": 100,
+          "endFrame": 105,
+          "isKeyWord": false
+        },
+        {
+          "word": "being",
+          "startFrame": 105,
+          "endFrame": 113,
+          "isKeyWord": false
+        },
+        {
+          "word": "homing",
+          "startFrame": 113,
+          "endFrame": 123,
+          "isKeyWord": false
+        },
+        {
+          "word": "pigeons,",
+          "startFrame": 123,
+          "endFrame": 141,
+          "isKeyWord": false
+        },
+        {
+          "word": "they",
+          "startFrame": 141,
+          "endFrame": 148,
+          "isKeyWord": false
+        },
+        {
+          "word": "flew",
+          "startFrame": 148,
+          "endFrame": 155,
+          "isKeyWord": false
+        },
+        {
+          "word": "right",
+          "startFrame": 155,
+          "endFrame": 163,
+          "isKeyWord": false
+        },
+        {
+          "word": "back",
+          "startFrame": 163,
+          "endFrame": 170,
+          "isKeyWord": false
+        },
+        {
+          "word": "into",
+          "startFrame": 170,
+          "endFrame": 177,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 177,
+          "endFrame": 182,
+          "isKeyWord": false
+        },
+        {
+          "word": "horn.",
+          "startFrame": 182,
+          "endFrame": 195,
+          "isKeyWord": false
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "from": 2850,
+      "frames": 274,
+      "kicker": "CHAPTER III",
+      "headline": "THE BROOM SCRUB: 3.5K PERSISTS",
+      "caption": "The birds were permanently evicted, and the horn was scrubbed with brooms and alcohol. They turned on the receiver: the 3.5 Kelvin hum remained.",
+      "audio_file": "audio/big_bang_pigeons/beat_12.mp3",
+      "image": "",
+      "portalType": "hardware_portal",
+      "words": [
+        {
+          "word": "The",
+          "startFrame": 0,
+          "endFrame": 5,
+          "isKeyWord": false
+        },
+        {
+          "word": "birds",
+          "startFrame": 5,
+          "endFrame": 14,
+          "isKeyWord": false
+        },
+        {
+          "word": "were",
+          "startFrame": 14,
+          "endFrame": 21,
+          "isKeyWord": false
+        },
+        {
+          "word": "permanently",
+          "startFrame": 21,
+          "endFrame": 40,
+          "isKeyWord": false
+        },
+        {
+          "word": "evicted,",
+          "startFrame": 40,
+          "endFrame": 59,
+          "isKeyWord": false
+        },
+        {
+          "word": "and",
+          "startFrame": 59,
+          "endFrame": 64,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 64,
+          "endFrame": 69,
+          "isKeyWord": false
+        },
+        {
+          "word": "horn",
+          "startFrame": 69,
+          "endFrame": 76,
+          "isKeyWord": false
+        },
+        {
+          "word": "was",
+          "startFrame": 76,
+          "endFrame": 81,
+          "isKeyWord": false
+        },
+        {
+          "word": "scrubbed",
+          "startFrame": 81,
+          "endFrame": 95,
+          "isKeyWord": false
+        },
+        {
+          "word": "with",
+          "startFrame": 95,
+          "endFrame": 102,
+          "isKeyWord": false
+        },
+        {
+          "word": "brooms",
+          "startFrame": 102,
+          "endFrame": 112,
+          "isKeyWord": false
+        },
+        {
+          "word": "and",
+          "startFrame": 112,
+          "endFrame": 117,
+          "isKeyWord": false
+        },
+        {
+          "word": "alcohol.",
+          "startFrame": 117,
+          "endFrame": 136,
+          "isKeyWord": false
+        },
+        {
+          "word": "They",
+          "startFrame": 136,
+          "endFrame": 143,
+          "isKeyWord": false
+        },
+        {
+          "word": "turned",
+          "startFrame": 143,
+          "endFrame": 153,
+          "isKeyWord": false
+        },
+        {
+          "word": "on",
+          "startFrame": 153,
+          "endFrame": 157,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 157,
+          "endFrame": 162,
+          "isKeyWord": false
+        },
+        {
+          "word": "receiver:",
+          "startFrame": 162,
+          "endFrame": 183,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 183,
+          "endFrame": 188,
+          "isKeyWord": false
+        },
+        {
+          "word": "3.5",
+          "startFrame": 188,
+          "endFrame": 193,
+          "isKeyWord": true
+        },
+        {
+          "word": "Kelvin",
+          "startFrame": 193,
+          "endFrame": 203,
+          "isKeyWord": true
+        },
+        {
+          "word": "hum",
+          "startFrame": 203,
+          "endFrame": 208,
+          "isKeyWord": true
+        },
+        {
+          "word": "remained.",
+          "startFrame": 208,
+          "endFrame": 229,
+          "isKeyWord": false
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "from": 3124,
+      "frames": 238,
+      "kicker": "CHAPTER IV",
+      "headline": "THE PRINCETON THEORISTS",
+      "caption": "Thirty miles away at Princeton University, astrophysicist Robert Dicke and Jim Peebles were calculating the death rattle of the early cosmos.",
+      "audio_file": "audio/big_bang_pigeons/beat_13.mp3",
+      "image": "images/big_bang_pigeons/bell_labs_holmdel_building.jpg",
+      "portalType": "macro_document",
+      "words": [
+        {
+          "word": "Thirty",
+          "startFrame": 0,
+          "endFrame": 9,
+          "isKeyWord": false
+        },
+        {
+          "word": "miles",
+          "startFrame": 9,
+          "endFrame": 17,
+          "isKeyWord": false
+        },
+        {
+          "word": "away",
+          "startFrame": 17,
+          "endFrame": 23,
+          "isKeyWord": false
+        },
+        {
+          "word": "at",
+          "startFrame": 23,
+          "endFrame": 27,
+          "isKeyWord": false
+        },
+        {
+          "word": "Princeton",
+          "startFrame": 27,
+          "endFrame": 41,
+          "isKeyWord": false
+        },
+        {
+          "word": "University,",
+          "startFrame": 41,
+          "endFrame": 63,
+          "isKeyWord": false
+        },
+        {
+          "word": "astrophysicist",
+          "startFrame": 63,
+          "endFrame": 85,
+          "isKeyWord": false
+        },
+        {
+          "word": "Robert",
+          "startFrame": 85,
+          "endFrame": 94,
+          "isKeyWord": false
+        },
+        {
+          "word": "Dicke",
+          "startFrame": 94,
+          "endFrame": 102,
+          "isKeyWord": true
+        },
+        {
+          "word": "and",
+          "startFrame": 102,
+          "endFrame": 107,
+          "isKeyWord": false
+        },
+        {
+          "word": "Jim",
+          "startFrame": 107,
+          "endFrame": 112,
+          "isKeyWord": false
+        },
+        {
+          "word": "Peebles",
+          "startFrame": 112,
+          "endFrame": 123,
+          "isKeyWord": false
+        },
+        {
+          "word": "were",
+          "startFrame": 123,
+          "endFrame": 129,
+          "isKeyWord": false
+        },
+        {
+          "word": "calculating",
+          "startFrame": 129,
+          "endFrame": 146,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 146,
+          "endFrame": 151,
+          "isKeyWord": false
+        },
+        {
+          "word": "death",
+          "startFrame": 151,
+          "endFrame": 159,
+          "isKeyWord": false
+        },
+        {
+          "word": "rattle",
+          "startFrame": 159,
+          "endFrame": 168,
+          "isKeyWord": false
+        },
+        {
+          "word": "of",
+          "startFrame": 168,
+          "endFrame": 172,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 172,
+          "endFrame": 177,
+          "isKeyWord": false
+        },
+        {
+          "word": "early",
+          "startFrame": 177,
+          "endFrame": 185,
+          "isKeyWord": false
+        },
+        {
+          "word": "cosmos.",
+          "startFrame": 185,
+          "endFrame": 201,
+          "isKeyWord": false
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "from": 3362,
+      "frames": 233,
+      "kicker": "CHAPTER IV",
+      "headline": "THE PRIMORDIAL FIREBALL",
+      "caption": "If the Big Bang was true, the searing fireball of creation must have cooled over billions of years into a faint, ubiquitous bath of microwaves.",
+      "audio_file": "audio/big_bang_pigeons/beat_14.mp3",
+      "image": "images/big_bang_pigeons/jim_peebles_tight.jpg",
+      "portalType": "macro_document",
+      "words": [
+        {
+          "word": "If",
+          "startFrame": 0,
+          "endFrame": 4,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 4,
+          "endFrame": 8,
+          "isKeyWord": false
+        },
+        {
+          "word": "Big",
+          "startFrame": 8,
+          "endFrame": 12,
+          "isKeyWord": false
+        },
+        {
+          "word": "Bang",
+          "startFrame": 12,
+          "endFrame": 18,
+          "isKeyWord": true
+        },
+        {
+          "word": "was",
+          "startFrame": 18,
+          "endFrame": 22,
+          "isKeyWord": false
+        },
+        {
+          "word": "true,",
+          "startFrame": 22,
+          "endFrame": 34,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 34,
+          "endFrame": 38,
+          "isKeyWord": false
+        },
+        {
+          "word": "searing",
+          "startFrame": 38,
+          "endFrame": 48,
+          "isKeyWord": false
+        },
+        {
+          "word": "fireball",
+          "startFrame": 48,
+          "endFrame": 60,
+          "isKeyWord": true
+        },
+        {
+          "word": "of",
+          "startFrame": 60,
+          "endFrame": 64,
+          "isKeyWord": false
+        },
+        {
+          "word": "creation",
+          "startFrame": 64,
+          "endFrame": 76,
+          "isKeyWord": false
+        },
+        {
+          "word": "must",
+          "startFrame": 76,
+          "endFrame": 82,
+          "isKeyWord": false
+        },
+        {
+          "word": "have",
+          "startFrame": 82,
+          "endFrame": 88,
+          "isKeyWord": false
+        },
+        {
+          "word": "cooled",
+          "startFrame": 88,
+          "endFrame": 97,
+          "isKeyWord": false
+        },
+        {
+          "word": "over",
+          "startFrame": 97,
+          "endFrame": 103,
+          "isKeyWord": false
+        },
+        {
+          "word": "billions",
+          "startFrame": 103,
+          "endFrame": 115,
+          "isKeyWord": false
+        },
+        {
+          "word": "of",
+          "startFrame": 115,
+          "endFrame": 119,
+          "isKeyWord": false
+        },
+        {
+          "word": "years",
+          "startFrame": 119,
+          "endFrame": 126,
+          "isKeyWord": false
+        },
+        {
+          "word": "into",
+          "startFrame": 126,
+          "endFrame": 132,
+          "isKeyWord": false
+        },
+        {
+          "word": "a",
+          "startFrame": 132,
+          "endFrame": 136,
+          "isKeyWord": false
+        },
+        {
+          "word": "faint,",
+          "startFrame": 136,
+          "endFrame": 149,
+          "isKeyWord": false
+        },
+        {
+          "word": "ubiquitous",
+          "startFrame": 149,
+          "endFrame": 164,
+          "isKeyWord": false
+        },
+        {
+          "word": "bath",
+          "startFrame": 164,
+          "endFrame": 170,
+          "isKeyWord": false
+        },
+        {
+          "word": "of",
+          "startFrame": 170,
+          "endFrame": 174,
+          "isKeyWord": false
+        },
+        {
+          "word": "microwaves.",
+          "startFrame": 174,
+          "endFrame": 195,
+          "isKeyWord": false
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "from": 3595,
+      "frames": 215,
+      "kicker": "CHAPTER IV",
+      "headline": "HUNTING THE MICROWAVE GHOST",
+      "caption": "Dicke's team was actively constructing a radiometer on the roof of the Princeton physics building, hoping to catch this cosmic glow.",
+      "audio_file": "audio/big_bang_pigeons/beat_15.mp3",
+      "image": "images/big_bang_pigeons/robert_dicke_portrait.jpg",
+      "portalType": "split_memo",
+      "words": [
+        {
+          "word": "Dicke's",
+          "startFrame": 0,
+          "endFrame": 10,
+          "isKeyWord": false
+        },
+        {
+          "word": "team",
+          "startFrame": 10,
+          "endFrame": 16,
+          "isKeyWord": false
+        },
+        {
+          "word": "was",
+          "startFrame": 16,
+          "endFrame": 20,
+          "isKeyWord": false
+        },
+        {
+          "word": "actively",
+          "startFrame": 20,
+          "endFrame": 32,
+          "isKeyWord": false
+        },
+        {
+          "word": "constructing",
+          "startFrame": 32,
+          "endFrame": 50,
+          "isKeyWord": false
+        },
+        {
+          "word": "a",
+          "startFrame": 50,
+          "endFrame": 54,
+          "isKeyWord": false
+        },
+        {
+          "word": "radiometer",
+          "startFrame": 54,
+          "endFrame": 69,
+          "isKeyWord": false
+        },
+        {
+          "word": "on",
+          "startFrame": 69,
+          "endFrame": 73,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 73,
+          "endFrame": 77,
+          "isKeyWord": false
+        },
+        {
+          "word": "roof",
+          "startFrame": 77,
+          "endFrame": 83,
+          "isKeyWord": false
+        },
+        {
+          "word": "of",
+          "startFrame": 83,
+          "endFrame": 87,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 87,
+          "endFrame": 91,
+          "isKeyWord": false
+        },
+        {
+          "word": "Princeton",
+          "startFrame": 91,
+          "endFrame": 104,
+          "isKeyWord": false
+        },
+        {
+          "word": "physics",
+          "startFrame": 104,
+          "endFrame": 114,
+          "isKeyWord": false
+        },
+        {
+          "word": "building,",
+          "startFrame": 114,
+          "endFrame": 132,
+          "isKeyWord": false
+        },
+        {
+          "word": "hoping",
+          "startFrame": 132,
+          "endFrame": 141,
+          "isKeyWord": false
+        },
+        {
+          "word": "to",
+          "startFrame": 141,
+          "endFrame": 145,
+          "isKeyWord": false
+        },
+        {
+          "word": "catch",
+          "startFrame": 145,
+          "endFrame": 152,
+          "isKeyWord": false
+        },
+        {
+          "word": "this",
+          "startFrame": 152,
+          "endFrame": 158,
+          "isKeyWord": false
+        },
+        {
+          "word": "cosmic",
+          "startFrame": 158,
+          "endFrame": 167,
+          "isKeyWord": false
+        },
+        {
+          "word": "glow.",
+          "startFrame": 167,
+          "endFrame": 179,
+          "isKeyWord": false
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "from": 3810,
+      "frames": 240,
+      "kicker": "CHAPTER IV",
+      "headline": "WELL BOYS, WE HAVE BEEN SCOOPED",
+      "caption": "When Penzias called Dicke to ask about antenna noise, Dicke listened in silence, hung up the phone, and told his colleagues: Boys, we have been scooped.",
+      "audio_file": "audio/big_bang_pigeons/beat_16.mp3",
+      "image": "",
+      "portalType": "kinetic_type_slam",
+      "words": [
+        {
+          "word": "When",
+          "startFrame": 0,
+          "endFrame": 6,
+          "isKeyWord": false
+        },
+        {
+          "word": "Penzias",
+          "startFrame": 6,
+          "endFrame": 16,
+          "isKeyWord": true
+        },
+        {
+          "word": "called",
+          "startFrame": 16,
+          "endFrame": 25,
+          "isKeyWord": false
+        },
+        {
+          "word": "Dicke",
+          "startFrame": 25,
+          "endFrame": 32,
+          "isKeyWord": true
+        },
+        {
+          "word": "to",
+          "startFrame": 32,
+          "endFrame": 36,
+          "isKeyWord": false
+        },
+        {
+          "word": "ask",
+          "startFrame": 36,
+          "endFrame": 40,
+          "isKeyWord": false
+        },
+        {
+          "word": "about",
+          "startFrame": 40,
+          "endFrame": 47,
+          "isKeyWord": false
+        },
+        {
+          "word": "antenna",
+          "startFrame": 47,
+          "endFrame": 57,
+          "isKeyWord": false
+        },
+        {
+          "word": "noise,",
+          "startFrame": 57,
+          "endFrame": 70,
+          "isKeyWord": false
+        },
+        {
+          "word": "Dicke",
+          "startFrame": 70,
+          "endFrame": 77,
+          "isKeyWord": true
+        },
+        {
+          "word": "listened",
+          "startFrame": 77,
+          "endFrame": 89,
+          "isKeyWord": false
+        },
+        {
+          "word": "in",
+          "startFrame": 89,
+          "endFrame": 93,
+          "isKeyWord": false
+        },
+        {
+          "word": "silence,",
+          "startFrame": 93,
+          "endFrame": 109,
+          "isKeyWord": false
+        },
+        {
+          "word": "hung",
+          "startFrame": 109,
+          "endFrame": 115,
+          "isKeyWord": false
+        },
+        {
+          "word": "up",
+          "startFrame": 115,
+          "endFrame": 119,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 119,
+          "endFrame": 123,
+          "isKeyWord": false
+        },
+        {
+          "word": "phone,",
+          "startFrame": 123,
+          "endFrame": 136,
+          "isKeyWord": false
+        },
+        {
+          "word": "and",
+          "startFrame": 136,
+          "endFrame": 140,
+          "isKeyWord": false
+        },
+        {
+          "word": "told",
+          "startFrame": 140,
+          "endFrame": 146,
+          "isKeyWord": false
+        },
+        {
+          "word": "his",
+          "startFrame": 146,
+          "endFrame": 150,
+          "isKeyWord": false
+        },
+        {
+          "word": "colleagues:",
+          "startFrame": 150,
+          "endFrame": 170,
+          "isKeyWord": false
+        },
+        {
+          "word": "Boys,",
+          "startFrame": 170,
+          "endFrame": 182,
+          "isKeyWord": false
+        },
+        {
+          "word": "we",
+          "startFrame": 182,
+          "endFrame": 186,
+          "isKeyWord": false
+        },
+        {
+          "word": "have",
+          "startFrame": 186,
+          "endFrame": 192,
+          "isKeyWord": false
+        },
+        {
+          "word": "been",
+          "startFrame": 192,
+          "endFrame": 198,
+          "isKeyWord": false
+        },
+        {
+          "word": "scooped.",
+          "startFrame": 198,
+          "endFrame": 214,
+          "isKeyWord": false
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "from": 4050,
+      "frames": 258,
+      "kicker": "CHAPTER V",
+      "headline": "THE JULY 1965 PACT",
+      "caption": "In July 1965, the two teams published companion papers in the Astrophysical Journal, jointly resolving the greatest mystery in cosmology.",
+      "audio_file": "audio/big_bang_pigeons/beat_17.mp3",
+      "image": "images/big_bang_pigeons/holmdel_horn_restoration.jpg",
+      "portalType": "macro_document",
+      "words": [
+        {
+          "word": "In",
+          "startFrame": 0,
+          "endFrame": 4,
+          "isKeyWord": false
+        },
+        {
+          "word": "July",
+          "startFrame": 4,
+          "endFrame": 11,
+          "isKeyWord": false
+        },
+        {
+          "word": "1965,",
+          "startFrame": 11,
+          "endFrame": 25,
+          "isKeyWord": true
+        },
+        {
+          "word": "the",
+          "startFrame": 25,
+          "endFrame": 30,
+          "isKeyWord": false
+        },
+        {
+          "word": "two",
+          "startFrame": 30,
+          "endFrame": 35,
+          "isKeyWord": false
+        },
+        {
+          "word": "teams",
+          "startFrame": 35,
+          "endFrame": 44,
+          "isKeyWord": false
+        },
+        {
+          "word": "published",
+          "startFrame": 44,
+          "endFrame": 60,
+          "isKeyWord": false
+        },
+        {
+          "word": "companion",
+          "startFrame": 60,
+          "endFrame": 76,
+          "isKeyWord": false
+        },
+        {
+          "word": "papers",
+          "startFrame": 76,
+          "endFrame": 86,
+          "isKeyWord": false
+        },
+        {
+          "word": "in",
+          "startFrame": 86,
+          "endFrame": 90,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 90,
+          "endFrame": 95,
+          "isKeyWord": false
+        },
+        {
+          "word": "Astrophysical",
+          "startFrame": 95,
+          "endFrame": 118,
+          "isKeyWord": false
+        },
+        {
+          "word": "Journal,",
+          "startFrame": 118,
+          "endFrame": 137,
+          "isKeyWord": false
+        },
+        {
+          "word": "jointly",
+          "startFrame": 137,
+          "endFrame": 149,
+          "isKeyWord": false
+        },
+        {
+          "word": "resolving",
+          "startFrame": 149,
+          "endFrame": 165,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 165,
+          "endFrame": 170,
+          "isKeyWord": false
+        },
+        {
+          "word": "greatest",
+          "startFrame": 170,
+          "endFrame": 184,
+          "isKeyWord": false
+        },
+        {
+          "word": "mystery",
+          "startFrame": 184,
+          "endFrame": 196,
+          "isKeyWord": false
+        },
+        {
+          "word": "in",
+          "startFrame": 196,
+          "endFrame": 200,
+          "isKeyWord": false
+        },
+        {
+          "word": "cosmology.",
+          "startFrame": 200,
+          "endFrame": 223,
+          "isKeyWord": false
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "from": 4308,
+      "frames": 252,
+      "kicker": "CHAPTER V",
+      "headline": "TWO PAPERS, ONE TRUTH",
+      "caption": "Penzias and Wilson reported the raw numbers with pure understatement. Dicke and Peebles explained what it meant: the echo of the Big Bang.",
+      "audio_file": "audio/big_bang_pigeons/beat_18.mp3",
+      "image": "images/big_bang_pigeons/bell_labs_horn_historic.jpg",
+      "portalType": "split_memo",
+      "words": [
+        {
+          "word": "Penzias",
+          "startFrame": 0,
+          "endFrame": 12,
+          "isKeyWord": true
+        },
+        {
+          "word": "and",
+          "startFrame": 12,
+          "endFrame": 17,
+          "isKeyWord": false
+        },
+        {
+          "word": "Wilson",
+          "startFrame": 17,
+          "endFrame": 27,
+          "isKeyWord": true
+        },
+        {
+          "word": "reported",
+          "startFrame": 27,
+          "endFrame": 40,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 40,
+          "endFrame": 45,
+          "isKeyWord": false
+        },
+        {
+          "word": "raw",
+          "startFrame": 45,
+          "endFrame": 50,
+          "isKeyWord": false
+        },
+        {
+          "word": "numbers",
+          "startFrame": 50,
+          "endFrame": 62,
+          "isKeyWord": false
+        },
+        {
+          "word": "with",
+          "startFrame": 62,
+          "endFrame": 69,
+          "isKeyWord": false
+        },
+        {
+          "word": "pure",
+          "startFrame": 69,
+          "endFrame": 76,
+          "isKeyWord": false
+        },
+        {
+          "word": "understatement.",
+          "startFrame": 76,
+          "endFrame": 106,
+          "isKeyWord": false
+        },
+        {
+          "word": "Dicke",
+          "startFrame": 106,
+          "endFrame": 114,
+          "isKeyWord": true
+        },
+        {
+          "word": "and",
+          "startFrame": 114,
+          "endFrame": 119,
+          "isKeyWord": false
+        },
+        {
+          "word": "Peebles",
+          "startFrame": 119,
+          "endFrame": 131,
+          "isKeyWord": false
+        },
+        {
+          "word": "explained",
+          "startFrame": 131,
+          "endFrame": 146,
+          "isKeyWord": false
+        },
+        {
+          "word": "what",
+          "startFrame": 146,
+          "endFrame": 153,
+          "isKeyWord": false
+        },
+        {
+          "word": "it",
+          "startFrame": 153,
+          "endFrame": 157,
+          "isKeyWord": false
+        },
+        {
+          "word": "meant:",
+          "startFrame": 157,
+          "endFrame": 172,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 172,
+          "endFrame": 177,
+          "isKeyWord": false
+        },
+        {
+          "word": "echo",
+          "startFrame": 177,
+          "endFrame": 184,
+          "isKeyWord": false
+        },
+        {
+          "word": "of",
+          "startFrame": 184,
+          "endFrame": 188,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 188,
+          "endFrame": 193,
+          "isKeyWord": false
+        },
+        {
+          "word": "Big",
+          "startFrame": 193,
+          "endFrame": 198,
+          "isKeyWord": false
+        },
+        {
+          "word": "Bang.",
+          "startFrame": 198,
+          "endFrame": 211,
+          "isKeyWord": false
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "from": 4560,
+      "frames": 230,
+      "kicker": "CHAPTER V",
+      "headline": "THE STEADY STATE IS DEAD",
+      "caption": "The discovery dealt a fatal blow to the Steady State model of the universe. The cosmos had a definite beginning in time.",
+      "audio_file": "audio/big_bang_pigeons/beat_19.mp3",
+      "image": "",
+      "portalType": "kinetic_type_slam",
+      "words": [
+        {
+          "word": "The",
+          "startFrame": 0,
+          "endFrame": 5,
+          "isKeyWord": false
+        },
+        {
+          "word": "discovery",
+          "startFrame": 5,
+          "endFrame": 21,
+          "isKeyWord": false
+        },
+        {
+          "word": "dealt",
+          "startFrame": 21,
+          "endFrame": 30,
+          "isKeyWord": false
+        },
+        {
+          "word": "a",
+          "startFrame": 30,
+          "endFrame": 34,
+          "isKeyWord": false
+        },
+        {
+          "word": "fatal",
+          "startFrame": 34,
+          "endFrame": 43,
+          "isKeyWord": false
+        },
+        {
+          "word": "blow",
+          "startFrame": 43,
+          "endFrame": 50,
+          "isKeyWord": false
+        },
+        {
+          "word": "to",
+          "startFrame": 50,
+          "endFrame": 54,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 54,
+          "endFrame": 59,
+          "isKeyWord": false
+        },
+        {
+          "word": "Steady",
+          "startFrame": 59,
+          "endFrame": 69,
+          "isKeyWord": false
+        },
+        {
+          "word": "State",
+          "startFrame": 69,
+          "endFrame": 78,
+          "isKeyWord": false
+        },
+        {
+          "word": "model",
+          "startFrame": 78,
+          "endFrame": 87,
+          "isKeyWord": false
+        },
+        {
+          "word": "of",
+          "startFrame": 87,
+          "endFrame": 91,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 91,
+          "endFrame": 96,
+          "isKeyWord": false
+        },
+        {
+          "word": "universe.",
+          "startFrame": 96,
+          "endFrame": 117,
+          "isKeyWord": false
+        },
+        {
+          "word": "The",
+          "startFrame": 117,
+          "endFrame": 122,
+          "isKeyWord": false
+        },
+        {
+          "word": "cosmos",
+          "startFrame": 122,
+          "endFrame": 132,
+          "isKeyWord": false
+        },
+        {
+          "word": "had",
+          "startFrame": 132,
+          "endFrame": 137,
+          "isKeyWord": false
+        },
+        {
+          "word": "a",
+          "startFrame": 137,
+          "endFrame": 141,
+          "isKeyWord": false
+        },
+        {
+          "word": "definite",
+          "startFrame": 141,
+          "endFrame": 155,
+          "isKeyWord": false
+        },
+        {
+          "word": "beginning",
+          "startFrame": 155,
+          "endFrame": 171,
+          "isKeyWord": false
+        },
+        {
+          "word": "in",
+          "startFrame": 171,
+          "endFrame": 175,
+          "isKeyWord": false
+        },
+        {
+          "word": "time.",
+          "startFrame": 175,
+          "endFrame": 189,
+          "isKeyWord": false
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "from": 4790,
+      "frames": 229,
+      "kicker": "CHAPTER VI",
+      "headline": "THE 1978 NOBEL PRIZE",
+      "caption": "In 1978, Arno Penzias and Robert Wilson received the Nobel Prize in Physics for discovering the Cosmic Microwave Background.",
+      "audio_file": "audio/big_bang_pigeons/beat_20.mp3",
+      "image": "images/big_bang_pigeons/nobel_prize_medal_physics.jpg",
+      "portalType": "split_memo",
+      "words": [
+        {
+          "word": "In",
+          "startFrame": 0,
+          "endFrame": 4,
+          "isKeyWord": false
+        },
+        {
+          "word": "1978,",
+          "startFrame": 4,
+          "endFrame": 18,
+          "isKeyWord": true
+        },
+        {
+          "word": "Arno",
+          "startFrame": 18,
+          "endFrame": 25,
+          "isKeyWord": false
+        },
+        {
+          "word": "Penzias",
+          "startFrame": 25,
+          "endFrame": 37,
+          "isKeyWord": true
+        },
+        {
+          "word": "and",
+          "startFrame": 37,
+          "endFrame": 42,
+          "isKeyWord": false
+        },
+        {
+          "word": "Robert",
+          "startFrame": 42,
+          "endFrame": 52,
+          "isKeyWord": false
+        },
+        {
+          "word": "Wilson",
+          "startFrame": 52,
+          "endFrame": 62,
+          "isKeyWord": true
+        },
+        {
+          "word": "received",
+          "startFrame": 62,
+          "endFrame": 76,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 76,
+          "endFrame": 81,
+          "isKeyWord": false
+        },
+        {
+          "word": "Nobel",
+          "startFrame": 81,
+          "endFrame": 90,
+          "isKeyWord": true
+        },
+        {
+          "word": "Prize",
+          "startFrame": 90,
+          "endFrame": 99,
+          "isKeyWord": false
+        },
+        {
+          "word": "in",
+          "startFrame": 99,
+          "endFrame": 103,
+          "isKeyWord": false
+        },
+        {
+          "word": "Physics",
+          "startFrame": 103,
+          "endFrame": 115,
+          "isKeyWord": false
+        },
+        {
+          "word": "for",
+          "startFrame": 115,
+          "endFrame": 120,
+          "isKeyWord": false
+        },
+        {
+          "word": "discovering",
+          "startFrame": 120,
+          "endFrame": 139,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 139,
+          "endFrame": 144,
+          "isKeyWord": false
+        },
+        {
+          "word": "Cosmic",
+          "startFrame": 144,
+          "endFrame": 154,
+          "isKeyWord": false
+        },
+        {
+          "word": "Microwave",
+          "startFrame": 154,
+          "endFrame": 169,
+          "isKeyWord": false
+        },
+        {
+          "word": "Background.",
+          "startFrame": 169,
+          "endFrame": 193,
+          "isKeyWord": false
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "from": 5019,
+      "frames": 228,
+      "kicker": "CHAPTER VI",
+      "headline": "RECOMBINATION: 380,000 YEARS",
+      "caption": "Today satellites like COBE, WMAP, and Planck have mapped this relic radiation across the entire sky with breathtaking fidelity.",
+      "audio_file": "audio/big_bang_pigeons/beat_21.mp3",
+      "image": "images/big_bang_pigeons/cobe_spacecraft_mission.jpg",
+      "portalType": "hardware_portal",
+      "words": [
+        {
+          "word": "Today",
+          "startFrame": 0,
+          "endFrame": 8,
+          "isKeyWord": false
+        },
+        {
+          "word": "satellites",
+          "startFrame": 8,
+          "endFrame": 25,
+          "isKeyWord": false
+        },
+        {
+          "word": "like",
+          "startFrame": 25,
+          "endFrame": 32,
+          "isKeyWord": false
+        },
+        {
+          "word": "COBE,",
+          "startFrame": 32,
+          "endFrame": 45,
+          "isKeyWord": false
+        },
+        {
+          "word": "WMAP,",
+          "startFrame": 45,
+          "endFrame": 58,
+          "isKeyWord": false
+        },
+        {
+          "word": "and",
+          "startFrame": 58,
+          "endFrame": 63,
+          "isKeyWord": false
+        },
+        {
+          "word": "Planck",
+          "startFrame": 63,
+          "endFrame": 73,
+          "isKeyWord": false
+        },
+        {
+          "word": "have",
+          "startFrame": 73,
+          "endFrame": 80,
+          "isKeyWord": false
+        },
+        {
+          "word": "mapped",
+          "startFrame": 80,
+          "endFrame": 90,
+          "isKeyWord": false
+        },
+        {
+          "word": "this",
+          "startFrame": 90,
+          "endFrame": 97,
+          "isKeyWord": false
+        },
+        {
+          "word": "relic",
+          "startFrame": 97,
+          "endFrame": 105,
+          "isKeyWord": false
+        },
+        {
+          "word": "radiation",
+          "startFrame": 105,
+          "endFrame": 120,
+          "isKeyWord": false
+        },
+        {
+          "word": "across",
+          "startFrame": 120,
+          "endFrame": 130,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 130,
+          "endFrame": 135,
+          "isKeyWord": false
+        },
+        {
+          "word": "entire",
+          "startFrame": 135,
+          "endFrame": 145,
+          "isKeyWord": false
+        },
+        {
+          "word": "sky",
+          "startFrame": 145,
+          "endFrame": 150,
+          "isKeyWord": false
+        },
+        {
+          "word": "with",
+          "startFrame": 150,
+          "endFrame": 157,
+          "isKeyWord": false
+        },
+        {
+          "word": "breathtaking",
+          "startFrame": 157,
+          "endFrame": 177,
+          "isKeyWord": false
+        },
+        {
+          "word": "fidelity.",
+          "startFrame": 177,
+          "endFrame": 197,
+          "isKeyWord": false
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "from": 5247,
+      "frames": 233,
+      "kicker": "CHAPTER VI",
+      "headline": "THE SATELLITE LEGACY",
+      "caption": "Tiny temperature fluctuations in this glow reveal the primordial seeds that condensed into every galaxy, star, and planet in existence.",
+      "audio_file": "audio/big_bang_pigeons/beat_22.mp3",
+      "image": "images/big_bang_pigeons/cobe_cmb_map.jpg",
+      "portalType": "macro_document",
+      "words": [
+        {
+          "word": "Tiny",
+          "startFrame": 0,
+          "endFrame": 6,
+          "isKeyWord": false
+        },
+        {
+          "word": "temperature",
+          "startFrame": 6,
+          "endFrame": 24,
+          "isKeyWord": false
+        },
+        {
+          "word": "fluctuations",
+          "startFrame": 24,
+          "endFrame": 43,
+          "isKeyWord": false
+        },
+        {
+          "word": "in",
+          "startFrame": 43,
+          "endFrame": 47,
+          "isKeyWord": false
+        },
+        {
+          "word": "this",
+          "startFrame": 47,
+          "endFrame": 53,
+          "isKeyWord": false
+        },
+        {
+          "word": "glow",
+          "startFrame": 53,
+          "endFrame": 59,
+          "isKeyWord": false
+        },
+        {
+          "word": "reveal",
+          "startFrame": 59,
+          "endFrame": 69,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 69,
+          "endFrame": 74,
+          "isKeyWord": false
+        },
+        {
+          "word": "primordial",
+          "startFrame": 74,
+          "endFrame": 90,
+          "isKeyWord": false
+        },
+        {
+          "word": "seeds",
+          "startFrame": 90,
+          "endFrame": 98,
+          "isKeyWord": false
+        },
+        {
+          "word": "that",
+          "startFrame": 98,
+          "endFrame": 104,
+          "isKeyWord": false
+        },
+        {
+          "word": "condensed",
+          "startFrame": 104,
+          "endFrame": 118,
+          "isKeyWord": false
+        },
+        {
+          "word": "into",
+          "startFrame": 118,
+          "endFrame": 124,
+          "isKeyWord": false
+        },
+        {
+          "word": "every",
+          "startFrame": 124,
+          "endFrame": 132,
+          "isKeyWord": false
+        },
+        {
+          "word": "galaxy,",
+          "startFrame": 132,
+          "endFrame": 148,
+          "isKeyWord": false
+        },
+        {
+          "word": "star,",
+          "startFrame": 148,
+          "endFrame": 161,
+          "isKeyWord": false
+        },
+        {
+          "word": "and",
+          "startFrame": 161,
+          "endFrame": 166,
+          "isKeyWord": false
+        },
+        {
+          "word": "planet",
+          "startFrame": 166,
+          "endFrame": 176,
+          "isKeyWord": false
+        },
+        {
+          "word": "in",
+          "startFrame": 176,
+          "endFrame": 180,
+          "isKeyWord": false
+        },
+        {
+          "word": "existence.",
+          "startFrame": 180,
+          "endFrame": 201,
+          "isKeyWord": false
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "from": 5480,
+      "frames": 229,
+      "kicker": "CHAPTER VI",
+      "headline": "THE STATIC ON YOUR OLD TV",
+      "caption": "If you ever turned an old cathode-ray TV to an empty channel, roughly one percent of that dancing snow was radiation from the Big Bang itself.",
+      "audio_file": "audio/big_bang_pigeons/beat_23.mp3",
+      "image": "",
+      "portalType": "hardware_portal",
+      "words": [
+        {
+          "word": "If",
+          "startFrame": 0,
+          "endFrame": 4,
+          "isKeyWord": false
+        },
+        {
+          "word": "you",
+          "startFrame": 4,
+          "endFrame": 8,
+          "isKeyWord": false
+        },
+        {
+          "word": "ever",
+          "startFrame": 8,
+          "endFrame": 14,
+          "isKeyWord": false
+        },
+        {
+          "word": "turned",
+          "startFrame": 14,
+          "endFrame": 23,
+          "isKeyWord": false
+        },
+        {
+          "word": "an",
+          "startFrame": 23,
+          "endFrame": 27,
+          "isKeyWord": false
+        },
+        {
+          "word": "old",
+          "startFrame": 27,
+          "endFrame": 31,
+          "isKeyWord": false
+        },
+        {
+          "word": "cathode-ray",
+          "startFrame": 31,
+          "endFrame": 47,
+          "isKeyWord": false
+        },
+        {
+          "word": "TV",
+          "startFrame": 47,
+          "endFrame": 51,
+          "isKeyWord": false
+        },
+        {
+          "word": "to",
+          "startFrame": 51,
+          "endFrame": 55,
+          "isKeyWord": false
+        },
+        {
+          "word": "an",
+          "startFrame": 55,
+          "endFrame": 59,
+          "isKeyWord": false
+        },
+        {
+          "word": "empty",
+          "startFrame": 59,
+          "endFrame": 66,
+          "isKeyWord": false
+        },
+        {
+          "word": "channel,",
+          "startFrame": 66,
+          "endFrame": 82,
+          "isKeyWord": false
+        },
+        {
+          "word": "roughly",
+          "startFrame": 82,
+          "endFrame": 92,
+          "isKeyWord": false
+        },
+        {
+          "word": "one",
+          "startFrame": 92,
+          "endFrame": 96,
+          "isKeyWord": false
+        },
+        {
+          "word": "percent",
+          "startFrame": 96,
+          "endFrame": 106,
+          "isKeyWord": false
+        },
+        {
+          "word": "of",
+          "startFrame": 106,
+          "endFrame": 110,
+          "isKeyWord": false
+        },
+        {
+          "word": "that",
+          "startFrame": 110,
+          "endFrame": 116,
+          "isKeyWord": false
+        },
+        {
+          "word": "dancing",
+          "startFrame": 116,
+          "endFrame": 126,
+          "isKeyWord": false
+        },
+        {
+          "word": "snow",
+          "startFrame": 126,
+          "endFrame": 132,
+          "isKeyWord": false
+        },
+        {
+          "word": "was",
+          "startFrame": 132,
+          "endFrame": 136,
+          "isKeyWord": false
+        },
+        {
+          "word": "radiation",
+          "startFrame": 136,
+          "endFrame": 149,
+          "isKeyWord": false
+        },
+        {
+          "word": "from",
+          "startFrame": 149,
+          "endFrame": 155,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 155,
+          "endFrame": 159,
+          "isKeyWord": false
+        },
+        {
+          "word": "Big",
+          "startFrame": 159,
+          "endFrame": 163,
+          "isKeyWord": false
+        },
+        {
+          "word": "Bang",
+          "startFrame": 163,
+          "endFrame": 169,
+          "isKeyWord": true
+        },
+        {
+          "word": "itself.",
+          "startFrame": 169,
+          "endFrame": 184,
+          "isKeyWord": false
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "from": 5709,
+      "frames": 188,
+      "kicker": "CONCLUSION",
+      "headline": "THE UNIVERSE WAS WHISPERING",
+      "caption": "All it took was two stubborn physicists, an 18-ton aluminum horn, and a refusal to let the pigeons win.",
+      "audio_file": "audio/big_bang_pigeons/beat_24.mp3",
+      "image": "images/big_bang_pigeons/penzias_wilson_horn_antenna.jpg",
+      "portalType": "kinetic_type_slam",
+      "words": [
+        {
+          "word": "All",
+          "startFrame": 0,
+          "endFrame": 5,
+          "isKeyWord": false
+        },
+        {
+          "word": "it",
+          "startFrame": 5,
+          "endFrame": 9,
+          "isKeyWord": false
+        },
+        {
+          "word": "took",
+          "startFrame": 9,
+          "endFrame": 16,
+          "isKeyWord": false
+        },
+        {
+          "word": "was",
+          "startFrame": 16,
+          "endFrame": 21,
+          "isKeyWord": false
+        },
+        {
+          "word": "two",
+          "startFrame": 21,
+          "endFrame": 26,
+          "isKeyWord": false
+        },
+        {
+          "word": "stubborn",
+          "startFrame": 26,
+          "endFrame": 39,
+          "isKeyWord": false
+        },
+        {
+          "word": "physicists,",
+          "startFrame": 39,
+          "endFrame": 62,
+          "isKeyWord": false
+        },
+        {
+          "word": "an",
+          "startFrame": 62,
+          "endFrame": 66,
+          "isKeyWord": false
+        },
+        {
+          "word": "18-ton",
+          "startFrame": 66,
+          "endFrame": 76,
+          "isKeyWord": true
+        },
+        {
+          "word": "aluminum",
+          "startFrame": 76,
+          "endFrame": 89,
+          "isKeyWord": false
+        },
+        {
+          "word": "horn,",
+          "startFrame": 89,
+          "endFrame": 102,
+          "isKeyWord": false
+        },
+        {
+          "word": "and",
+          "startFrame": 102,
+          "endFrame": 107,
+          "isKeyWord": false
+        },
+        {
+          "word": "a",
+          "startFrame": 107,
+          "endFrame": 111,
+          "isKeyWord": false
+        },
+        {
+          "word": "refusal",
+          "startFrame": 111,
+          "endFrame": 123,
+          "isKeyWord": false
+        },
+        {
+          "word": "to",
+          "startFrame": 123,
+          "endFrame": 127,
+          "isKeyWord": false
+        },
+        {
+          "word": "let",
+          "startFrame": 127,
+          "endFrame": 132,
+          "isKeyWord": false
+        },
+        {
+          "word": "the",
+          "startFrame": 132,
+          "endFrame": 137,
+          "isKeyWord": false
+        },
+        {
+          "word": "pigeons",
+          "startFrame": 137,
+          "endFrame": 149,
+          "isKeyWord": false
+        },
+        {
+          "word": "win.",
+          "startFrame": 149,
+          "endFrame": 161,
+          "isKeyWord": false
+        }
+      ]
+    }
+  ]
+}

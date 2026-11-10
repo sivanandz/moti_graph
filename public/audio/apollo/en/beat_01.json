@@ -1,0 +1,27 @@
+{
+  "lang": "en",
+  "beat_id": "beat_01",
+  "id": 1,
+  "act": "ACT I · THE RADICAL CONSTRAINT",
+  "kicker": "ACT I · THE SCALE",
+  "headline": "72 KILOBYTES TO THE MOON",
+  "accent": [
+    "72",
+    "KILOBYTES"
+  ],
+  "narration": "In 1969, humanity flew 380,000 kilometers to the moon on a computer with just 72 kilobytes of storage—less memory than a single email today.",
+  "visual_metaphor": {
+    "badge": "RADICAL LIMIT",
+    "metric": "72 KB",
+    "label": "Total Flight ROM",
+    "stamp": "VERIFIED",
+    "details": [
+      "36,864 Fixed Words",
+      "2,048 Words RAM",
+      "Apollo Guidance Computer"
+    ]
+  },
+  "audio_file": "audio/apollo/en/beat_01.mp3",
+  "duration_seconds": 10.944,
+  "duration_frames": 328
+}

@@ -1,0 +1,7 @@
+# Vox Motion Graphics TTS Dependencies
+kokoro>=0.8.4
+soundfile>=0.13.0
+torch>=2.2.0
+edge-tts>=6.1.12
+mutagen>=1.47.0
+numpy>=1.26.0

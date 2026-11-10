@@ -1,0 +1,42 @@
+{
+  "topic": "The Copper Wire Memory of Apollo 11: How Women Hand-Wove Software with Needles",
+  "core_thesis": "Before silicon microchips could reliably survive space radiation and power blackouts, the Apollo Guidance Computer's flight software was physical copper wire hand-woven through magnetic iron donuts by former textile loom seamstresses at Raytheon.",
+  "counter_intuitive_hook": "You couldn't download software updates to Apollo 11—every line of code was physically woven with sewing needles into 72 kilobytes of copper rope.",
+  "primary_mechanism": "A fine copper wire threaded through a magnetic ferrite core induced a current representing a binary '1'; a wire routed outside the core induced zero current, representing a binary '0'. The software program was literally the physical path of the wire.",
+  "technical_specifications": {
+    "rom_capacity": "36,864 words (approx. 72–74 KB) of Core Rope Memory",
+    "ram_capacity": "2,048 words (approx. 4 KB) of Magnetic-Core RAM",
+    "word_length": "15-bit + 1 parity bit (16 bits total)",
+    "clock_speed": "2.048 MHz",
+    "power_consumption": "55 Watts",
+    "weight": "70 lbs (32 kg)",
+    "physical_durability": "100% immune to cosmic rays, EMP, vibration, and total power loss"
+  },
+  "facts_and_citations": [
+    {
+      "claim": "The AGC's ROM was nicknamed 'LOL Memory' (Little Old Lady memory) because Raytheon hired skilled female textile loom workers in Waltham, Massachusetts to weave the copper ropes.",
+      "data_point": "Months of hand-threading with literal needles per memory module",
+      "source_name": "MIT Instrumentation Laboratory / NASA Historical Data",
+      "url": "https://www.nasa.gov/history/alsj/computers.html"
+    },
+    {
+      "claim": "Margaret Hamilton, Director of Software Engineering Division at MIT Instrumentation Lab, pioneered the asynchronous priority executive scheduling that prevented system crashes.",
+      "data_point": "Colossus and Luminary flight software suites",
+      "source_name": "IEEE Annals of the History of Computing",
+      "url": "https://www.ieee.org"
+    },
+    {
+      "claim": "During Apollo 11 descent, the AGC flashed 1202 and 1201 radar overflow alarms, but Hamilton's priority architecture dropped non-critical radar cycles while preserving thruster firing.",
+      "data_point": "1202 CPU Executive Overflow Alarm 3 minutes before landing",
+      "source_name": "Apollo 11 Lunar Surface Journal (ALSJ)",
+      "url": "https://www.nasa.gov/history/alsj/a11/a11.landing.html"
+    }
+  ],
+  "visual_evidence_ideas": [
+    "Diagram: Ferrite donut core showing wire going through (Binary 1) vs around (Binary 0)",
+    "Archival photo: Raytheon textile workers peering through microscopes with wire needles",
+    "Iconic photo: Margaret Hamilton standing beside the human-height AGC source code printout",
+    "DSKY Interface: Neon green digit readout flashing [PROG 63] and [12 02 ALARM]",
+    "Constructivist collage: Mayakovsky slice of the Lunar Module engine mounted on Kraft paper"
+  ]
+}

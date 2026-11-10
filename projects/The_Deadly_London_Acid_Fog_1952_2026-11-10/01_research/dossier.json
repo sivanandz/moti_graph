@@ -1,0 +1,33 @@
+{
+  "topic": "The Great Smog of London 1952",
+  "title": "The Deadly London Acid Fog: When Air Turned to Poison",
+  "dates": "December 5 – December 9, 1952",
+  "location": "London, England (Thames Basin)",
+  "phenomenon": {
+    "type": "Toxic Radiation Fog & Severe Thermal Inversion",
+    "meteorological_trigger": "High-pressure anticyclone settled over southern England, trapping cold moist surface air beneath a warm ceiling at 100-200 meters altitude.",
+    "emissions": {
+      "smoke_particles_daily_tons": 1000,
+      "sulfur_dioxide_daily_tons": 2000,
+      "hydrochloric_acid_daily_tons": 140,
+      "primary_sources": ["Household bituminous coal fireplaces", "Battersea & Bankside coal power stations", "Industrial steam locomotives"]
+    },
+    "chemical_mechanism": "Fog water droplets acted as micro-reactors. Sulfur dioxide (SO2) catalyzed with atmospheric nitrogen dioxide (NO2) and soot particles, rapidly oxidizing into dilute sulfuric acid (H2SO4) mist."
+  },
+  "impact": {
+    "visibility": "Reduced to a few inches ('could not see your feet')",
+    "indoor_penetration": "Cinema and theater screenings canceled as smoke blocked projector beams indoors",
+    "livestock": "Prize cattle choked and died of respiratory failure at the Smithfield Agricultural Show",
+    "transport": "Ambulances grounded; walking inspectors used flares to guide double-decker buses",
+    "fatalities": {
+      "initial_5_day_toll": 4000,
+      "epidemiological_revised_total": 12000,
+      "primary_causes": "Acute bronchitis, bronchopneumonia, respiratory and cardiac arrest"
+    }
+  },
+  "forensic_smoking_gun": {
+    "chart": "Wilkins Mortality & Pollution Correlation (1953)",
+    "finding": "Direct hour-by-hour lockstep correlation between SO2 / smoke concentration peaks and sudden quadrupling of daily mortalities."
+  },
+  "historical_resolution": "The disaster ended the era of unregulated domestic coal burning, leading directly to the landmark UK Clean Air Act of 1956."
+}

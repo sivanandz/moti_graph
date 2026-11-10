@@ -1,0 +1,58 @@
+{
+  "title": "What If a Bird Flapped to Lightspeed?",
+  "aspect_ratio": "9:16",
+  "resolution": [1080, 1920],
+  "fps": 30,
+  "duration_seconds": 48,
+  "total_frames": 1440,
+  "milestones": [
+    {
+      "beat": 1,
+      "name": "Natural Flight",
+      "start_sec": 0,
+      "end_sec": 7,
+      "speed_range": "0 - 100 m/s",
+      "phenomena": "Aerodynamic lift, feather flutter, countryside backdrop"
+    },
+    {
+      "beat": 2,
+      "name": "Transonic Shock Cone",
+      "start_sec": 7,
+      "end_sec": 14,
+      "speed_range": "Mach 1 - Mach 5",
+      "phenomena": "Prandtl-Glauert vapor cone, sonic boom shockwave, cloud deck"
+    },
+    {
+      "beat": 3,
+      "name": "Hypersonic Plasma",
+      "start_sec": 14,
+      "end_sec": 22,
+      "speed_range": "Mach 5 - Mach 25",
+      "phenomena": "Atmospheric ionization, superheated plasma sheath, fiery trail"
+    },
+    {
+      "beat": 4,
+      "name": "Nuclear Atmospheric Ramjet",
+      "start_sec": 22,
+      "end_sec": 30,
+      "speed_range": "0.01c (3,000 km/s)",
+      "phenomena": "Thermonuclear fusion shockwaves, stratosphere explosion trail"
+    },
+    {
+      "beat": 5,
+      "name": "Orbital Escape & Vacuum",
+      "start_sec": 30,
+      "end_sec": 38,
+      "speed_range": "0.1c - 0.5c",
+      "phenomena": "Earth curves away, deep black void, starfield entrance"
+    },
+    {
+      "beat": 6,
+      "name": "Ultra-Relativistic Lightspeed",
+      "start_sec": 38,
+      "end_sec": 48,
+      "speed_range": "0.999c - 0.999999c",
+      "phenomena": "Lorentz contraction, Doppler blueshift tunnel, Terrell-Penrose forward cone collapse"
+    }
+  ]
+}

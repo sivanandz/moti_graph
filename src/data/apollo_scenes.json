@@ -1,0 +1,438 @@
+{
+  "en": [
+    {
+      "id": 1,
+      "from": 0,
+      "frames": 328,
+      "kicker": "ACT I · THE SCALE",
+      "headline": "72 KILOBYTES TO THE MOON",
+      "accent": [
+        "72",
+        "KILOBYTES"
+      ],
+      "caption": "In 1969, humanity flew 380,000 kilometers to the moon on a computer with just 72 kilobytes of storage—less memory than a single email today.",
+      "audio_file": "audio/apollo/en/beat_01.mp3",
+      "visualMetaphor": {
+        "badgeText": "RADICAL LIMIT",
+        "heroTitle": "72 KB",
+        "heroSubtitle": "Total Flight ROM",
+        "stampText": "VERIFIED",
+        "details": [
+          "36,864 Fixed Words",
+          "2,048 Words RAM",
+          "Apollo Guidance Computer"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "from": 328,
+      "frames": 297,
+      "kicker": "ACT I · THE THREAT",
+      "headline": "COSMIC RADIATION WOULD ERASE CHIPS",
+      "accent": [
+        "COSMIC",
+        "RADIATION"
+      ],
+      "caption": "Silicon microchips were too fragile. In deep space, solar radiation and sudden voltage drops would instantly wipe electric memory clean.",
+      "audio_file": "audio/apollo/en/beat_02.mp3",
+      "visualMetaphor": {
+        "badgeText": "DEEP SPACE HAZARD",
+        "heroTitle": "0% LOSS TOLERANCE",
+        "heroSubtitle": "Cosmic Ray Vulnerability",
+        "stampText": "LETHAL RISK",
+        "details": [
+          "Silicon Gate Instability",
+          "Solar Flare Erasure",
+          "Zero Failure Allowed"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "from": 625,
+      "frames": 294,
+      "kicker": "ACT II · THE CRAFT",
+      "headline": "SOFTWARE WOVEN BY HAND",
+      "accent": [
+        "WOVEN",
+        "BY HAND"
+      ],
+      "caption": "So NASA turned to textile loom seamstresses at Raytheon, who hand-threaded fine copper wires through microscopic magnetic iron rings with literal needles.",
+      "audio_file": "audio/apollo/en/beat_03.mp3",
+      "visualMetaphor": {
+        "badgeText": "RAYTHEON MILLS",
+        "heroTitle": "MONTHS OF WEAVING",
+        "heroSubtitle": "Manual Threading Precision",
+        "stampText": "HAND-MADE",
+        "details": [
+          "Textile Loom Specialists",
+          "Fine Copper Strands",
+          "Needle Embroidery Code"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "from": 919,
+      "frames": 352,
+      "kicker": "ACT II · THE PLUMBING",
+      "headline": "THROUGH IS ONE, AROUND IS ZERO",
+      "accent": [
+        "ONE",
+        "ZERO"
+      ],
+      "caption": "If a copper wire passed through a magnetic ring, it was a binary one. If it routed around, it was a zero. The flight software was physically indestructible.",
+      "audio_file": "audio/apollo/en/beat_04.mp3",
+      "visualMetaphor": {
+        "badgeText": "HARDWIRED BINARY",
+        "heroTitle": "1 vs 0",
+        "heroSubtitle": "Physical Core Induction",
+        "stampText": "PERMANENT",
+        "details": [
+          "Current Induced = 1",
+          "Bypassed Core = 0",
+          "Cannot Be Erased"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "from": 1271,
+      "frames": 346,
+      "kicker": "ACT III · THE CRISIS",
+      "headline": "THE 1202 RADAR OVERFLOW",
+      "accent": [
+        "1202",
+        "OVERFLOW"
+      ],
+      "caption": "Three minutes before lunar touchdown, an incorrect radar switch flooded the computer. The DSKY screen flashed 1202: executive CPU overload.",
+      "audio_file": "audio/apollo/en/beat_05.mp3",
+      "visualMetaphor": {
+        "badgeText": "DESCENT CRISIS",
+        "heroTitle": "1202 ALARM",
+        "heroSubtitle": "CPU Executive Overload",
+        "stampText": "WARNING",
+        "details": [
+          "3 Minutes to Touchdown",
+          "Rendezvous Radar Flood",
+          "Memory Stack Overflow"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "from": 1617,
+      "frames": 279,
+      "kicker": "ACT III · THE RESOLUTION",
+      "headline": "PRIORITY CODE SAVED THE LANDING",
+      "accent": [
+        "PRIORITY",
+        "SAVED"
+      ],
+      "caption": "Margaret Hamilton’s software recognized the overload, dropped the radar noise, and kept the descent thrusters firing safely down to the lunar surface.",
+      "audio_file": "audio/apollo/en/beat_06.mp3",
+      "visualMetaphor": {
+        "badgeText": "MISSION SUCCESS",
+        "heroTitle": "TOUCHDOWN",
+        "heroSubtitle": "Eagle Lands Safely",
+        "stampText": "SURVIVED",
+        "details": [
+          "Asynchronous Scheduling",
+          "Thruster Commands Preserved",
+          "First Humans on Moon"
+        ]
+      }
+    }
+  ],
+  "ta": [
+    {
+      "id": 1,
+      "from": 0,
+      "frames": 387,
+      "kicker": "பகுதி I · அளவு",
+      "headline": "72 கிலோபைட் மெமரியில் நிலவுப் பயணம்",
+      "accent": [
+        "72",
+        "கிலோபைட்"
+      ],
+      "caption": "1969 இல், வெறும் 72 கிலோபைட் நினைவகம் கொண்ட ஒரு கம்ப்யூட்டரைக் கொண்டு மனித இனம் 3 லட்சத்து 80 ஆயிரம் கிலோமீட்டர் கடந்து நிலவுக்குச் சென்றது.",
+      "audio_file": "audio/apollo/ta/beat_01.mp3",
+      "visualMetaphor": {
+        "badgeText": "வரலாற்று சாதனை",
+        "heroTitle": "72 KB",
+        "heroSubtitle": "முழுமையான ரோம் நினைவகம்",
+        "stampText": "உறுதியானது",
+        "details": [
+          "36,864 வார்த்தைகள்",
+          "2,048 வார்த்தைகள் ரேம்",
+          "அப்பல்லோ வழிகாட்டி"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "from": 387,
+      "frames": 298,
+      "kicker": "பகுதி I · அச்சுறுத்தல்",
+      "headline": "கதிர்வீச்சில் அழியும் சிலிக்கான் சிப்புகள்",
+      "accent": [
+        "கதிர்வீச்சு"
+      ],
+      "caption": "சிலிக்கான் சிப்புகள் விண்வெளியில் மிகவும் பலவீனமானவை. காஸ்மிக் கதிர்வீச்சும் மின்சாரத் தடங்கலும் எலக்ட்ரானிக் நினைவகத்தை நொடியில் அழித்துவிடும்.",
+      "audio_file": "audio/apollo/ta/beat_02.mp3",
+      "visualMetaphor": {
+        "badgeText": "விண்வெளி ஆபத்து",
+        "heroTitle": "0% பிழை வரம்பு",
+        "heroSubtitle": "கதிர்வீச்சு பாதிப்பு",
+        "stampText": "ஆபத்து",
+        "details": [
+          "சிப் பாதிப்பு",
+          "சூரிய கதிர்வீச்சு",
+          "தவறுக்கு இடமில்லை"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "from": 685,
+      "frames": 307,
+      "kicker": "பகுதி II · கைத்திறன்",
+      "headline": "ஊசியால் நெய்யப்பட்ட கணினி சாப்ட்வேர்",
+      "accent": [
+        "நெய்யப்பட்ட",
+        "சாப்ட்வேர்"
+      ],
+      "caption": "இதனால் நாசா ரேதியான் நிறுவனத்தின் கைத்தறி நெசவாளர்களை நாடியது. அவர்கள் நுண்ணிய காந்த வளையங்களுக்குள் ஊசி மூலம் தாமிரக் கம்பிகளைத் தைத்தனர்.",
+      "audio_file": "audio/apollo/ta/beat_03.mp3",
+      "visualMetaphor": {
+        "badgeText": "நெசவுத் தொழில்",
+        "heroTitle": "மாதக்கணக்கில் நெசவு",
+        "heroSubtitle": "துல்லியமான கைவேலை",
+        "stampText": "கைவினை",
+        "details": [
+          "கைத்தறி நிபுணர்கள்",
+          "தாமிர கம்பிகள்",
+          "ஊசி மூலம் நிரல்"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "from": 992,
+      "frames": 345,
+      "kicker": "பகுதி II · கட்டமைப்பு",
+      "headline": "உள்ளே போனால் ஒன்று, வெளியே சுற்றினால் பூஜ்ஜியம்",
+      "accent": [
+        "ஒன்று",
+        "பூஜ்ஜியம்"
+      ],
+      "caption": "காந்த வளையத்திற்குள் கம்பி சென்றால் அது ஒன்று. வெளியே சுற்றினால் அது பூஜ்ஜியம். அப்பல்லோவின் சாப்ட்வேர் உடலளவிலேயே அழிக்க முடியாததாக மாறியது.",
+      "audio_file": "audio/apollo/ta/beat_04.mp3",
+      "visualMetaphor": {
+        "badgeText": "பைனரி அமைப்பு",
+        "heroTitle": "1 vs 0",
+        "heroSubtitle": "காந்த தூண்டல் முறை",
+        "stampText": "நிலையானது",
+        "details": [
+          "வளையத்திற்குள் = 1",
+          "வளையத்திற்கு வெளியே = 0",
+          "அழிக்க முடியாது"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "from": 1337,
+      "frames": 352,
+      "kicker": "பகுதி III · நெருக்கடி",
+      "headline": "நிலவில் இறங்கும் முன் 1202 அலாரம்",
+      "accent": [
+        "1202",
+        "அலாரம்"
+      ],
+      "caption": "நிலவில் தரையிறங்க வெறும் மூன்று நிமிடங்கள் இருந்தபோது, ரேடார் தகவல்கள் குவிந்து கம்ப்யூட்டரை திணறடித்தன. திரை 1202 அலாரத்தை எச்சரித்தது.",
+      "audio_file": "audio/apollo/ta/beat_05.mp3",
+      "visualMetaphor": {
+        "badgeText": "தரையிறங்கும் ஆபத்து",
+        "heroTitle": "1202 அலாரம்",
+        "heroSubtitle": "கம்ப்யூட்டர் பணிச்சுமை",
+        "stampText": "எச்சரிக்கை",
+        "details": [
+          "3 நிமிட இடைவெளி",
+          "ரேடார் சுமை",
+          "நினைவக திணறல்"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "from": 1689,
+      "frames": 276,
+      "kicker": "பகுதி III · வெற்றி",
+      "headline": "முன்னுரிமை நிரல் காப்பாற்றிய விண்கலம்",
+      "accent": [
+        "முன்னுரிமை",
+        "வெற்றி"
+      ],
+      "caption": "மார்கரெட் ஹாமில்டனின் நிரல் ரேடார் இரைச்சலை ஒதுக்கி, த்ரஸ்டர் எஞ்சின்களை தொடர்ந்து இயக்கி விண்கலத்தை பாதுகாப்பாக நிலவில் தரையிறக்கியது.",
+      "audio_file": "audio/apollo/ta/beat_06.mp3",
+      "visualMetaphor": {
+        "badgeText": "வரலாற்று வெற்றி",
+        "heroTitle": "தரையிறங்கியது",
+        "heroSubtitle": "பாதுகாப்பான வெற்றி",
+        "stampText": "வெற்றி",
+        "details": [
+          "முன்னுரிமை கட்டமைப்பு",
+          "எஞ்சின் இயக்கம் பாதுகாப்பு",
+          "மனிதனின் காலடி"
+        ]
+      }
+    }
+  ],
+  "hi": [
+    {
+      "id": 1,
+      "from": 0,
+      "frames": 322,
+      "kicker": "भाग I · पैमाना",
+      "headline": "72 किलोबाइट में चाँद की यात्रा",
+      "accent": [
+        "72",
+        "किलोबाइट"
+      ],
+      "caption": "1969 में, इंसान सिर्फ़ 72 किलोबाइट मेमोरी वाले कंप्यूटर के सहारे 3 लाख 80 हज़ार किलोमीटर दूर चाँद पर पहुँचा था।",
+      "audio_file": "audio/apollo/hi/beat_01.mp3",
+      "visualMetaphor": {
+        "badgeText": "ऐतिहासिक रिकॉर्ड",
+        "heroTitle": "72 KB",
+        "heroSubtitle": "कुल फ्लाइट रॉम",
+        "stampText": "सत्यापित",
+        "details": [
+          "36,864 शब्द",
+          "2,048 शब्द रैम",
+          "अपोलो गाइडेंस"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "from": 322,
+      "frames": 315,
+      "kicker": "भाग I · ख़तरा",
+      "headline": "रेडिएशन से मिट जातीं सिलिकॉन चिप्स",
+      "accent": [
+        "रेडिएशन"
+      ],
+      "caption": "गहरे अंतरिक्ष में सिलिकॉन चिप्स बेकार साबित होतीं। कॉस्मिक किरणों और पावर फ्लक्चुएशन से इलेक्ट्रॉनिक मेमोरी तुरंत उड़ जाती।",
+      "audio_file": "audio/apollo/hi/beat_02.mp3",
+      "visualMetaphor": {
+        "badgeText": "स्पेस का ख़तरा",
+        "heroTitle": "0% गलती बर्दाश्त",
+        "heroSubtitle": "रेडिएशन का हमला",
+        "stampText": "जोखिम",
+        "details": [
+          "चिप का नुक़सान",
+          "सोलर रेडिएशन",
+          "ग़लती की गुंजाइश नहीं"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "from": 637,
+      "frames": 286,
+      "kicker": "भाग II · कारीगरी",
+      "headline": "सुई-धागे से बुना गया सॉफ्टवेयर",
+      "accent": [
+        "सुई-धागे",
+        "सॉफ्टवेयर"
+      ],
+      "caption": "इसलिए नासा ने रेथियॉन की बुनकर महिलाओं की मदद ली, जिन्होंने सुइयों से तांबे के बारीक तारों को चुंबकीय छल्लों में पिरोया।",
+      "audio_file": "audio/apollo/hi/beat_03.mp3",
+      "visualMetaphor": {
+        "badgeText": "टेक्सटाइल कारीगरी",
+        "heroTitle": "महीनों की बुनाई",
+        "heroSubtitle": "हाथ से तैयार मेमोरी",
+        "stampText": "हस्तनिर्मित",
+        "details": [
+          "बुनकर विशेषज्ञ",
+          "तांबे के तार",
+          "सुई से तैयार कोड"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "from": 923,
+      "frames": 297,
+      "kicker": "भाग II · तकनीक",
+      "headline": "छल्ले के अंदर 1, छल्ले के बाहर 0",
+      "accent": [
+        "1",
+        "0"
+      ],
+      "caption": "तार चुंबकीय छल्ले के अंदर से गुज़रा तो 1, बाहर से निकला तो 0। अपोलो का कोड भौतिक रूप से अमर हो चुका था।",
+      "audio_file": "audio/apollo/hi/beat_04.mp3",
+      "visualMetaphor": {
+        "badgeText": "बाइनरी सिस्टम",
+        "heroTitle": "1 vs 0",
+        "heroSubtitle": "मैग्नेटिक इंडक्शन",
+        "stampText": "अमर कोड",
+        "details": [
+          "छल्ले के अंदर = 1",
+          "छल्ले के बाहर = 0",
+          "कभी मिट नहीं सकता"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "from": 1220,
+      "frames": 339,
+      "kicker": "भाग III · संकट",
+      "headline": "लैंडिंग से 3 मिनट पहले 1202 अलार्म",
+      "accent": [
+        "1202",
+        "अलार्म"
+      ],
+      "caption": "चाँद पर उतरने से सिर्फ़ 3 मिनट पहले रडार डेटा ने कंप्यूटर को ओवरलोड कर दिया। स्क्रीन पर 1202 अलार्म चमकने लगा।",
+      "audio_file": "audio/apollo/hi/beat_05.mp3",
+      "visualMetaphor": {
+        "badgeText": "लैंडिंग संकट",
+        "heroTitle": "1202 अलार्म",
+        "heroSubtitle": "CPU ओवरलोड",
+        "stampText": "चेतावनी",
+        "details": [
+          "3 मिनट बाक़ी",
+          "रडार डेटा का हमला",
+          "मेमोरी ओवरफ्लो"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "from": 1559,
+      "frames": 300,
+      "kicker": "भाग III · सफलता",
+      "headline": "प्रायोरिटी कोड ने बचाई लैंडिंग",
+      "accent": [
+        "प्रायोरिटी",
+        "सफलता"
+      ],
+      "caption": "मार्गरेट हैमिल्टन के सॉफ्टवेयर ने फ़ालतू रडार डेटा को छोड़ दिया, इंजन थ्रस्टर्स को चालू रखा और अपोलो 11 को सुरक्षित उतारा।",
+      "audio_file": "audio/apollo/hi/beat_06.mp3",
+      "visualMetaphor": {
+        "badgeText": "मिशन सफल",
+        "heroTitle": "सफल लैंडिंग",
+        "heroSubtitle": "ईगल सुरक्षित उतरा",
+        "stampText": "कामयाब",
+        "details": [
+          "प्रायोरिटी शेड्यूलिंग",
+          "इंजन कमांड सुरक्षित",
+          "चाँद पर इंसान"
+        ]
+      }
+    }
+  ]
+}

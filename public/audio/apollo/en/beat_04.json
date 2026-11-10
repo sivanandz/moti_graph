@@ -1,0 +1,27 @@
+{
+  "lang": "en",
+  "beat_id": "beat_04",
+  "id": 4,
+  "act": "ACT II · THE SEAMSTRESSES OF SPACE",
+  "kicker": "ACT II · THE PLUMBING",
+  "headline": "THROUGH IS ONE, AROUND IS ZERO",
+  "accent": [
+    "ONE",
+    "ZERO"
+  ],
+  "narration": "If a copper wire passed through a magnetic ring, it was a binary one. If it routed around, it was a zero. The flight software was physically indestructible.",
+  "visual_metaphor": {
+    "badge": "HARDWIRED BINARY",
+    "metric": "1 vs 0",
+    "label": "Physical Core Induction",
+    "stamp": "PERMANENT",
+    "details": [
+      "Current Induced = 1",
+      "Bypassed Core = 0",
+      "Cannot Be Erased"
+    ]
+  },
+  "audio_file": "audio/apollo/en/beat_04.mp3",
+  "duration_seconds": 11.736,
+  "duration_frames": 352
+}

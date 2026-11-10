@@ -1,0 +1,160 @@
+{
+  "en": [
+    {
+      "id": 1,
+      "hookKicker": "SPACE SECRET // 001",
+      "hookHeadline": "APOLLO 11 HAD NO HARD DRIVE",
+      "accent": [
+        "NO",
+        "HARD DRIVE"
+      ],
+      "caption": "You couldn't download software updates to Apollo 11—because its entire flight code was hand-woven with sewing needles.",
+      "heroMetric": "72 KB",
+      "heroLabel": "Total Moon ROM",
+      "stampText": "HAND-WOVEN",
+      "takeawayBullet": "Woven into copper wire to survive deep space cosmic radiation.",
+      "audio_file": "audio/apollo_reel/en/reel_01.mp3",
+      "duration_seconds": 7.776,
+      "duration_frames": 233
+    },
+    {
+      "id": 2,
+      "hookKicker": "THE METHOD // 002",
+      "hookHeadline": "SEWING NEEDLES AND COPPER",
+      "accent": [
+        "SEWING",
+        "NEEDLES"
+      ],
+      "caption": "Textile seamstresses threaded copper wires through magnetic iron rings. Through was a one, around was a zero.",
+      "heroMetric": "36,864",
+      "heroLabel": "16-Bit Woven Words",
+      "stampText": "PERMANENT",
+      "takeawayBullet": "Physical hardware that could never be erased by a power blackout.",
+      "audio_file": "audio/apollo_reel/en/reel_02.mp3",
+      "duration_seconds": 8.424,
+      "duration_frames": 253
+    },
+    {
+      "id": 3,
+      "hookKicker": "THE CRISIS // 003",
+      "hookHeadline": "THE 1202 ALARM RESCUE",
+      "accent": [
+        "1202",
+        "RESCUE"
+      ],
+      "caption": "When radar flooded the CPU 3 minutes before landing, Margaret Hamilton's code dropped the noise and saved the touchdown.",
+      "heroMetric": "1202",
+      "heroLabel": "Descent Program Alarm",
+      "stampText": "TOUCHDOWN",
+      "takeawayBullet": "Asynchronous priority scheduling safely guided Neil Armstrong to the moon.",
+      "audio_file": "audio/apollo_reel/en/reel_03.mp3",
+      "duration_seconds": 7.608,
+      "duration_frames": 228
+    }
+  ],
+  "ta": [
+    {
+      "id": 1,
+      "hookKicker": "விண்வெளி ரகசியம் // 001",
+      "hookHeadline": "அப்பல்லோவில் ஹார்ட் டிஸ்க் இல்லை",
+      "accent": [
+        "ஹார்ட்",
+        "டிஸ்க்"
+      ],
+      "caption": "அப்பல்லோ 11 விண்கலத்திற்கு நீங்கள் அப்டேட் அனுப்ப முடியாது—ஏனெனில் அதன் சாப்ட்வேர் ஊசியால் கைகளால் நெய்யப்பட்டது.",
+      "heroMetric": "72 KB",
+      "heroLabel": "முழுமையான நினைவகம்",
+      "stampText": "கைத்தறி",
+      "takeawayBullet": "விண்வெளி கதிர்வீச்சைத் தாங்க தாமிரக் கம்பியால் நெய்யப்பட்ட நிரல்.",
+      "audio_file": "audio/apollo_reel/ta/reel_01.mp3",
+      "duration_seconds": 8.376,
+      "duration_frames": 251
+    },
+    {
+      "id": 2,
+      "hookKicker": "தயாரிப்பு முறை // 002",
+      "hookHeadline": "தையல் ஊசியும் காந்த வளையமும்",
+      "accent": [
+        "தையல்",
+        "ஊசி"
+      ],
+      "caption": "நெசவாளர்கள் காந்த வளையங்களுக்குள் தாமிரக் கம்பிகளைத் தைத்தனர். உள்ளே போனால் ஒன்று, வெளியே சுற்றினால் பூஜ்ஜியம்.",
+      "heroMetric": "36,864",
+      "heroLabel": "நெய்யப்பட்ட வார்த்தைகள்",
+      "stampText": "அழியாதது",
+      "takeawayBullet": "மின்சாரம் போனாலும் ஒருபோதும் அழியாத உடலளவிலான கம்ப்யூட்டர்.",
+      "audio_file": "audio/apollo_reel/ta/reel_02.mp3",
+      "duration_seconds": 8.496,
+      "duration_frames": 255
+    },
+    {
+      "id": 3,
+      "hookKicker": "நெருக்கடி // 003",
+      "hookHeadline": "1202 அலாரமும் வரலாற்று வெற்றியும்",
+      "accent": [
+        "1202",
+        "வெற்றி"
+      ],
+      "caption": "தரையிறங்க 3 நிமிடங்கள் இருந்தபோது கம்ப்யூட்டர் திணறியது; மார்கரெட் ஹாமில்டனின் நிரல் நிலவுப் பயணத்தைக் காப்பாற்றியது.",
+      "heroMetric": "1202",
+      "heroLabel": "எச்சரிக்கை அலாரம்",
+      "stampText": "வெற்றி",
+      "takeawayBullet": "முன்னுரிமை நிரல் நீல் ஆம்ஸ்ட்ராங்கை நிலவில் பாதுகாப்பாகத் தரையிறக்கியது.",
+      "audio_file": "audio/apollo_reel/ta/reel_03.mp3",
+      "duration_seconds": 8.04,
+      "duration_frames": 241
+    }
+  ],
+  "hi": [
+    {
+      "id": 1,
+      "hookKicker": "स्पेस का सीक्रेट // 001",
+      "hookHeadline": "अपोलो 11 में कोई हार्ड डिस्क नहीं थी",
+      "accent": [
+        "हार्ड",
+        "डिस्क"
+      ],
+      "caption": "अपोलो 11 में आप कोई सॉफ्टवेयर अपडेट डाउनलोड नहीं कर सकते थे—क्योंकि उसका पूरा कोड सुइयों से हाथ से बुना गया था।",
+      "heroMetric": "72 KB",
+      "heroLabel": "कुल फ्लाइट रॉम",
+      "stampText": "हाथ से बुना",
+      "takeawayBullet": "कॉस्मिक रेडिएशन से बचाने के लिए तांबे के तारों में बुना गया कोड।",
+      "audio_file": "audio/apollo_reel/hi/reel_01.mp3",
+      "duration_seconds": 9.624,
+      "duration_frames": 289
+    },
+    {
+      "id": 2,
+      "hookKicker": "बनाने का तरीक़ा // 002",
+      "hookHeadline": "सुई-धागा और तांबे के तार",
+      "accent": [
+        "सुई-धागा"
+      ],
+      "caption": "बुनकरों ने चुंबकीय छल्लों में तांबे के तार पिरोए। छल्ले के अंदर 1, छल्ले के बाहर 0।",
+      "heroMetric": "36,864",
+      "heroLabel": "बुने हुए बाइनरी शब्द",
+      "stampText": "अमर कोड",
+      "takeawayBullet": "ऐसा हार्डवेयर जो पावर कटने पर भी कभी डिलीट नहीं हो सकता था।",
+      "audio_file": "audio/apollo_reel/hi/reel_02.mp3",
+      "duration_seconds": 8.376,
+      "duration_frames": 251
+    },
+    {
+      "id": 3,
+      "hookKicker": "अंतिम संकट // 003",
+      "hookHeadline": "1202 अलार्म और ऐतिहासिक लैंडिंग",
+      "accent": [
+        "1202",
+        "लैंडिंग"
+      ],
+      "caption": "लैंडिंग से 3 मिनट पहले जब कंप्यूटर ओवरलोड हुआ, तो प्रायोरिटी कोड ने फ़ालतू डेटा को रोककर लैंडिंग बचा ली।",
+      "heroMetric": "1202",
+      "heroLabel": "खतरनाक अलार्म",
+      "stampText": "सफलता",
+      "takeawayBullet": "मार्गरेट हैमिल्टन के कोड ने नील आर्मस्ट्रांग को सुरक्षित चाँद पर उतारा।",
+      "audio_file": "audio/apollo_reel/hi/reel_03.mp3",
+      "duration_seconds": 8.88,
+      "duration_frames": 266
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "beat_01_hook",
+    "name": "Exponential Inversion Hook",
+    "startFrame": 0,
+    "endFrame": 210,
+    "durationFrames": 210,
+    "speedDisplay": "30 mph (13.4 m/s)",
+    "biome": "countryside_hills",
+    "visualHighlights": "Green rolling terrain, gentle wing flapping, calm sky, HUD initialising"
+  },
+  {
+    "id": "beat_02_mach",
+    "name": "The Sound Barrier",
+    "startFrame": 210,
+    "endFrame": 420,
+    "durationFrames": 210,
+    "speedDisplay": "Mach 1.2 (411 m/s)",
+    "biome": "cloud_deck",
+    "visualHighlights": "Prandtl-Glauert vapor cone, sonic shockwave rings, screen vibration"
+  },
+  {
+    "id": "beat_03_plasma",
+    "name": "Hypersonic Plasma Sheath",
+    "startFrame": 420,
+    "endFrame": 660,
+    "durationFrames": 240,
+    "speedDisplay": "Mach 25 (8,500 m/s)",
+    "biome": "upper_atmosphere",
+    "visualHighlights": "Blinding incandescent orange/yellow plasma sheath, fire streak tail, high vibration"
+  },
+  {
+    "id": "beat_04_fusion",
+    "name": "Atmospheric Nuclear Fusion",
+    "startFrame": 660,
+    "endFrame": 900,
+    "durationFrames": 240,
+    "speedDisplay": "0.01c (3,000,000 m/s)",
+    "biome": "stratosphere_edge",
+    "visualHighlights": "Thermonuclear shockwave pulses, gamma flash particles, curved blue horizon"
+  },
+  {
+    "id": "beat_05_vacuum",
+    "name": "Vacuum Breakout & Moon",
+    "startFrame": 900,
+    "endFrame": 1140,
+    "durationFrames": 240,
+    "speedDisplay": "0.35c (105,000,000 m/s)",
+    "biome": "low_earth_orbit",
+    "visualHighlights": "Deep black space, Earth sphere receding, Moon passing rapidly, star streaks"
+  },
+  {
+    "id": "beat_06_relativistic",
+    "name": "Relativistic Horizon",
+    "startFrame": 1140,
+    "endFrame": 1440,
+    "durationFrames": 300,
+    "speedDisplay": "0.999c (299,492,000 m/s)",
+    "biome": "cosmic_warp",
+    "visualHighlights": "Lorentz aberration tunnel, blinding blue central singularity, red peripheral drift, extreme time dilation clock"
+  }
+]

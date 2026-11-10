@@ -1,0 +1,61 @@
+{
+  "name": "vintage-collage-editorial",
+  "label": "Vintage collage art + editorial typography (from Artimind style-motion)",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30
+  },
+  "palette": {
+    "paper": "#EFE6D8",
+    "paperShade": "#D9D1C2",
+    "ink": "#18191B",
+    "green": "#24442F",
+    "gold": "#C9A043",
+    "red": "#D62828",
+    "cyan": "#00F5D4",
+    "muted": "#75726B",
+    "pill": "#FAF8F2",
+    "rule": "#C0B7A6"
+  },
+  "layout": "orbit",
+  "ornaments": {
+    "circles": true,
+    "ring": true,
+    "sparkles": true,
+    "color": "gold"
+  },
+  "motion": {
+    "enter": "rise",
+    "stagger": 5,
+    "damping": 18,
+    "drift": 1,
+    "transition": "drift",
+    "headline": "word",
+    "fade": 8
+  },
+  "type": {
+    "kicker": {
+      "font": "Courier New, monospace",
+      "size": 24,
+      "tracking": 5,
+      "color": "muted",
+      "y": 80
+    },
+    "headline": {
+      "font": "Impact, sans-serif",
+      "size": 68,
+      "accentColor": "red",
+      "restColor": "ink",
+      "case": "title",
+      "y": 140
+    },
+    "caption": {
+      "font": "Courier New, monospace",
+      "style": "italic",
+      "size": 26,
+      "color": "ink",
+      "y": 940
+    }
+  }
+}

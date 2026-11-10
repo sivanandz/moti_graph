@@ -1,0 +1,191 @@
+{
+  "en": [
+    {
+      "id": 1,
+      "hookKicker": "1991 DEFAULT // 001",
+      "hookHeadline": "FORTY-SEVEN TONNES OF GOLD AIRLIFTED",
+      "accent": [
+        "FORTY-SEVEN",
+        "GOLD"
+      ],
+      "caption": "In 1991, India was two weeks away from bankruptcy and secretly flew forty-seven tonnes of gold to London just to stay afloat.",
+      "heroMetric": "47 TONNES",
+      "heroLabel": "Emergency Gold Collateral",
+      "stampText": "SECRET AIRLIFT",
+      "takeawayBullet": "Two weeks of foreign reserves left before sovereign default.",
+      "audio_file": "audio/indian_finance_reel/en/reel_01.mp3",
+      "duration_seconds": 8.52,
+      "duration_frames": 256
+    },
+    {
+      "id": 2,
+      "hookKicker": "PAPER AGE // 002",
+      "hookHeadline": "WEEKS FOR A SINGLE SHARE",
+      "accent": [
+        "WEEKS",
+        "SINGLE SHARE"
+      ],
+      "caption": "At that time, buying a single stock took weeks of paper certificates, and half the country did not even own a bank account.",
+      "heroMetric": "50%+",
+      "heroLabel": "Unbanked Population",
+      "stampText": "PAPER CHAOS",
+      "takeawayBullet": "Physical watermarked deeds mailed across cities for settlement.",
+      "audio_file": "audio/indian_finance_reel/en/reel_02.mp3",
+      "duration_seconds": 7.8,
+      "duration_frames": 234
+    },
+    {
+      "id": 3,
+      "hookKicker": "CASH PRISON // 003",
+      "hookHeadline": "LIFE SAVINGS IN SPICE TINS",
+      "accent": [
+        "LIFE SAVINGS",
+        "SPICE TINS"
+      ],
+      "caption": "Most citizens kept their life savings hidden inside steel kitchen spice tins and paid for everything in crumpled cash.",
+      "heroMetric": "90%",
+      "heroLabel": "Cash Transaction Volume",
+      "stampText": "INFORMAL CASH",
+      "takeawayBullet": "No formal credit footprint for hundreds of millions of workers.",
+      "audio_file": "audio/indian_finance_reel/en/reel_03.mp3",
+      "duration_seconds": 7.584,
+      "duration_frames": 228
+    },
+    {
+      "id": 4,
+      "hookKicker": "THE BLUEPRINT // 004",
+      "hookHeadline": "THREE OPEN DIGITAL RAILS",
+      "accent": [
+        "THREE",
+        "DIGITAL RAILS"
+      ],
+      "caption": "Then a quiet team of technologists built three open digital rails for a billion people: identity, banking, and instant payments.",
+      "heroMetric": "3 RAILS",
+      "heroLabel": "Identity · Bank · UPI",
+      "stampText": "PUBLIC HIGHWAY",
+      "takeawayBullet": "Zero-cost open architecture replacing closed private card networks.",
+      "audio_file": "audio/indian_finance_reel/en/reel_04.mp3",
+      "duration_seconds": 8.712,
+      "duration_frames": 261
+    },
+    {
+      "id": 5,
+      "hookKicker": "SCALE // 005",
+      "hookHeadline": "A BILLION BIOMETRIC IDENTITIES",
+      "accent": [
+        "BILLION",
+        "BIOMETRIC"
+      ],
+      "caption": "Over a billion citizens scanned their irises for Aadhaar, and five hundred million unbanked villagers opened zero-balance bank accounts.",
+      "heroMetric": "1.4B",
+      "heroLabel": "Aadhaar IDs Generated",
+      "stampText": "JAN DHAN REVOLUTION",
+      "takeawayBullet": "Direct welfare transfers routed straight to rural bank accounts.",
+      "audio_file": "audio/indian_finance_reel/en/reel_05.mp3",
+      "duration_seconds": 8.328,
+      "duration_frames": 250
+    },
+    {
+      "id": 6,
+      "hookKicker": "LEAPFROG // 006",
+      "hookHeadline": "EVERY PHONE A BANK BRANCH",
+      "accent": [
+        "EVERY PHONE",
+        "BANK BRANCH"
+      ],
+      "caption": "Next came UPI, a free public highway that turned every cheap smartphone into an instant bank branch.",
+      "heroMetric": "0 FEES",
+      "heroLabel": "Zero Merchant Interchange",
+      "stampText": "INSTANT UPI",
+      "takeawayBullet": "Two-second bank-to-bank transfer via lightweight QR scan.",
+      "audio_file": "audio/indian_finance_reel/en/reel_06.mp3",
+      "duration_seconds": 6.984,
+      "duration_frames": 210
+    },
+    {
+      "id": 7,
+      "hookKicker": "STREET SPEED // 007",
+      "hookHeadline": "CHAI WALA BEATS WALL STREET",
+      "accent": [
+        "CHAI WALA",
+        "BEATS"
+      ],
+      "caption": "Today, a street-side chai vendor with a paper QR code settles payments faster than a luxury boutique in New York or London.",
+      "heroMetric": "< 2 SEC",
+      "heroLabel": "End-to-End Settlement",
+      "stampText": "REAL-TIME",
+      "takeawayBullet": "Soundboxes announce verified micro-payments in regional tongues.",
+      "audio_file": "audio/indian_finance_reel/en/reel_07.mp3",
+      "duration_seconds": 7.896,
+      "duration_frames": 237
+    },
+    {
+      "id": 8,
+      "hookKicker": "GLOBAL DOMINANCE // 008",
+      "hookHeadline": "FIFTEEN BILLION TRANSACTIONS A MONTH",
+      "accent": [
+        "FIFTEEN BILLION",
+        "MONTH"
+      ],
+      "caption": "India now processes more real-time digital transactions every month than the United States, Europe, and China combined.",
+      "heroMetric": "15B+",
+      "heroLabel": "Monthly Digital Swipes",
+      "stampText": "GLOBAL #1",
+      "takeawayBullet": "Accounts for over 46% of all global real-time payment volume.",
+      "audio_file": "audio/indian_finance_reel/en/reel_08.mp3",
+      "duration_seconds": 7.968,
+      "duration_frames": 239
+    },
+    {
+      "id": 9,
+      "hookKicker": "RETAIL CAPITAL // 009",
+      "hookHeadline": "A FIVE TRILLION DOLLAR BULL",
+      "accent": [
+        "FIVE TRILLION",
+        "BULL"
+      ],
+      "caption": "Meanwhile, millions of young Indians invest monthly from small towns, propelling the stock market past five trillion dollars.",
+      "heroMetric": "$5 TRILLION",
+      "heroLabel": "Market Capitalization",
+      "stampText": "SIP POWER",
+      "takeawayBullet": "Small-town monthly retail savings insulate the market from shocks.",
+      "audio_file": "audio/indian_finance_reel/en/reel_09.mp3",
+      "duration_seconds": 8.4,
+      "duration_frames": 252
+    },
+    {
+      "id": 10,
+      "hookKicker": "REDEMPTION // 010",
+      "hookHeadline": "THE GOLD RETURNS HOME",
+      "accent": [
+        "GOLD",
+        "RETURNS HOME"
+      ],
+      "caption": "And the gold once flown abroad in shame has returned home by the planeload to vaults overflowing with record reserves.",
+      "heroMetric": "$650B+",
+      "heroLabel": "Forex Reserve Fortress",
+      "stampText": "REPATRIATED",
+      "takeawayBullet": "Hundreds of tonnes flown back to Mumbai from London vaults.",
+      "audio_file": "audio/indian_finance_reel/en/reel_10.mp3",
+      "duration_seconds": 7.056,
+      "duration_frames": 212
+    },
+    {
+      "id": 11,
+      "hookKicker": "THE VERDICT // 011",
+      "hookHeadline": "LEDGER OF A BILLION DREAMS",
+      "accent": [
+        "LEDGER",
+        "BILLION DREAMS"
+      ],
+      "caption": "In just thirty years, a nation leaped from red-taped paper ledgers to the most advanced financial highway on Earth.",
+      "heroMetric": "30 YEARS",
+      "heroLabel": "Paper to Light-Speed",
+      "stampText": "FINANCIAL STACK",
+      "takeawayBullet": "Democratized trust turning every pocket into an economic engine.",
+      "audio_file": "audio/indian_finance_reel/en/reel_11.mp3",
+      "duration_seconds": 7.104,
+      "duration_frames": 213
+    }
+  ]
+}

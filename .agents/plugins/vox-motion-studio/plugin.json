@@ -1,0 +1,15 @@
+{
+  "name": "vox-motion-studio",
+  "version": "1.0.0",
+  "description": "Vox-style motion graphics video production suite using Remotion, React, Three.js, Kokoro-82M TTS, and dynamic OpenCode delegation.",
+  "author": "Antigravity & OpenCode",
+  "keywords": [
+    "motion-graphics",
+    "remotion",
+    "threejs",
+    "vox-style",
+    "kokoro-tts",
+    "opencode",
+    "youtube-video"
+  ]
+}

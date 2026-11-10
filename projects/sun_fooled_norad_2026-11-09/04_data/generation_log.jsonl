@@ -1,0 +1,16 @@
+{"job": "s01_plate", "kind": "plate", "status": "generate-failed", "seconds": 69.8}
+{"job": "s01_hero", "kind": "element", "status": "generate-failed", "seconds": 189.4}
+{"job": "s01_prop1", "kind": "element", "status": "generated+keyed", "seconds": 156.4}
+{"job": "s01_prop2", "kind": "element", "status": "generated+keyed", "seconds": 192.1}
+{"job": "s01_prop3", "kind": "element", "status": "generate-failed", "seconds": 188.8}
+{"job": "s01_backdrop", "kind": "element", "status": "generated+keyed", "seconds": 188.9}
+{"job": "s02_plate", "kind": "plate", "status": "generate-failed", "seconds": 189.5}
+{"job": "s02_hero", "kind": "element", "status": "generate-failed", "seconds": 193.1}
+{"job": "s02_prop1", "kind": "element", "status": "generate-failed", "seconds": 82.9}
+{"job": "s02_prop2", "kind": "element", "status": "generate-failed", "seconds": 193.7}
+{"job": "s01_plate", "kind": "plate", "status": "ok", "seconds": 131.5}
+{"job": "s01_hero", "kind": "element", "status": "quota-exhausted-batch-stopped", "seconds": 66.4}
+{"job": "s01_plate", "kind": "plate", "status": "skipped", "seconds": 0.0}
+{"job": "s02_plate", "kind": "plate", "status": "quota-exhausted-batch-stopped", "seconds": 145.8}
+{"job": "s01_plate", "kind": "plate", "status": "skipped", "seconds": 0.0}
+{"job": "s02_plate", "kind": "plate", "status": "quota-exhausted-batch-stopped", "seconds": 116.5}

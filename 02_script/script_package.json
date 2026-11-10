@@ -1,0 +1,389 @@
+{
+  "title": "The Copper Wire Memory of Apollo 11",
+  "structure": "3-Act Narrative Architecture (The Constraint, The Seamstresses, The 1202 Crisis)",
+  "long_form_16x9": {
+    "en": [
+      {
+        "id": 1,
+        "act": "ACT I · THE RADICAL CONSTRAINT",
+        "kicker": "ACT I · THE SCALE",
+        "headline": "72 KILOBYTES TO THE MOON",
+        "accent": ["72", "KILOBYTES"],
+        "narration": "In 1969, humanity flew 380,000 kilometers to the moon on a computer with just 72 kilobytes of storage—less memory than a single email today.",
+        "visual_metaphor": {
+          "badge": "RADICAL LIMIT",
+          "metric": "72 KB",
+          "label": "Total Flight ROM",
+          "stamp": "VERIFIED",
+          "details": ["36,864 Fixed Words", "2,048 Words RAM", "Apollo Guidance Computer"]
+        }
+      },
+      {
+        "id": 2,
+        "act": "ACT I · THE RADICAL CONSTRAINT",
+        "kicker": "ACT I · THE THREAT",
+        "headline": "COSMIC RADIATION WOULD ERASE CHIPS",
+        "accent": ["COSMIC", "RADIATION"],
+        "narration": "Silicon microchips were too fragile. In deep space, solar radiation and sudden voltage drops would instantly wipe electric memory clean.",
+        "visual_metaphor": {
+          "badge": "DEEP SPACE HAZARD",
+          "metric": "0% LOSS TOLERANCE",
+          "label": "Cosmic Ray Vulnerability",
+          "stamp": "LETHAL RISK",
+          "details": ["Silicon Gate Instability", "Solar Flare Erasure", "Zero Failure Allowed"]
+        }
+      },
+      {
+        "id": 3,
+        "act": "ACT II · THE SEAMSTRESSES OF SPACE",
+        "kicker": "ACT II · THE CRAFT",
+        "headline": "SOFTWARE WOVEN BY HAND",
+        "accent": ["WOVEN", "BY HAND"],
+        "narration": "So NASA turned to textile loom seamstresses at Raytheon, who hand-threaded fine copper wires through microscopic magnetic iron rings with literal needles.",
+        "visual_metaphor": {
+          "badge": "RAYTHEON MILLS",
+          "metric": "MONTHS OF WEAVING",
+          "label": "Manual Threading Precision",
+          "stamp": "HAND-MADE",
+          "details": ["Textile Loom Specialists", "Fine Copper Strands", "Needle Embroidery Code"]
+        }
+      },
+      {
+        "id": 4,
+        "act": "ACT II · THE SEAMSTRESSES OF SPACE",
+        "kicker": "ACT II · THE PLUMBING",
+        "headline": "THROUGH IS ONE, AROUND IS ZERO",
+        "accent": ["ONE", "ZERO"],
+        "narration": "If a copper wire passed through a magnetic ring, it was a binary one. If it routed around, it was a zero. The flight software was physically indestructible.",
+        "visual_metaphor": {
+          "badge": "HARDWIRED BINARY",
+          "metric": "1 vs 0",
+          "label": "Physical Core Induction",
+          "stamp": "PERMANENT",
+          "details": ["Current Induced = 1", "Bypassed Core = 0", "Cannot Be Erased"]
+        }
+      },
+      {
+        "id": 5,
+        "act": "ACT III · THE 1202 ALARM",
+        "kicker": "ACT III · THE CRISIS",
+        "headline": "THE 1202 RADAR OVERFLOW",
+        "accent": ["1202", "OVERFLOW"],
+        "narration": "Three minutes before lunar touchdown, an incorrect radar switch flooded the computer. The DSKY screen flashed 1202: executive CPU overload.",
+        "visual_metaphor": {
+          "badge": "DESCENT CRISIS",
+          "metric": "1202 ALARM",
+          "label": "CPU Executive Overload",
+          "stamp": "WARNING",
+          "details": ["3 Minutes to Touchdown", "Rendezvous Radar Flood", "Memory Stack Overflow"]
+        }
+      },
+      {
+        "id": 6,
+        "act": "ACT III · THE 1202 ALARM",
+        "kicker": "ACT III · THE RESOLUTION",
+        "headline": "PRIORITY CODE SAVED THE LANDING",
+        "accent": ["PRIORITY", "SAVED"],
+        "narration": "Margaret Hamilton’s software recognized the overload, dropped the radar noise, and kept the descent thrusters firing safely down to the lunar surface.",
+        "visual_metaphor": {
+          "badge": "MISSION SUCCESS",
+          "metric": "TOUCHDOWN",
+          "label": "Eagle Lands Safely",
+          "stamp": "SURVIVED",
+          "details": ["Asynchronous Scheduling", "Thruster Commands Preserved", "First Humans on Moon"]
+        }
+      }
+    ],
+    "ta": [
+      {
+        "id": 1,
+        "act": "பகுதி I · தீவிர வரம்பு",
+        "kicker": "பகுதி I · அளவு",
+        "headline": "72 கிலோபைட் மெமரியில் நிலவுப் பயணம்",
+        "accent": ["72", "கிலோபைட்"],
+        "narration": "1969 இல், வெறும் 72 கிலோபைட் நினைவகம் கொண்ட ஒரு கம்ப்யூட்டரைக் கொண்டு மனித இனம் 3 லட்சத்து 80 ஆயிரம் கிலோமீட்டர் கடந்து நிலவுக்குச் சென்றது.",
+        "visual_metaphor": {
+          "badge": "வரலாற்று சாதனை",
+          "metric": "72 KB",
+          "label": "முழுமையான ரோம் நினைவகம்",
+          "stamp": "உறுதியானது",
+          "details": ["36,864 வார்த்தைகள்", "2,048 வார்த்தைகள் ரேம்", "அப்பல்லோ வழிகாட்டி"]
+        }
+      },
+      {
+        "id": 2,
+        "act": "பகுதி I · தீவிர வரம்பு",
+        "kicker": "பகுதி I · அச்சுறுத்தல்",
+        "headline": "கதிர்வீச்சில் அழியும் சிலிக்கான் சிப்புகள்",
+        "accent": ["கதிர்வீச்சு"],
+        "narration": "சிலிக்கான் சிப்புகள் விண்வெளியில் மிகவும் பலவீனமானவை. காஸ்மிக் கதிர்வீச்சும் மின்சாரத் தடங்கலும் எலக்ட்ரானிக் நினைவகத்தை நொடியில் அழித்துவிடும்.",
+        "visual_metaphor": {
+          "badge": "விண்வெளி ஆபத்து",
+          "metric": "0% பிழை வரம்பு",
+          "label": "கதிர்வீச்சு பாதிப்பு",
+          "stamp": "ஆபத்து",
+          "details": ["சிப் பாதிப்பு", "சூரிய கதிர்வீச்சு", "தவறுக்கு இடமில்லை"]
+        }
+      },
+      {
+        "id": 3,
+        "act": "பகுதி II · விண்வெளி நெசவாளர்கள்",
+        "kicker": "பகுதி II · கைத்திறன்",
+        "headline": "ஊசியால் நெய்யப்பட்ட கணினி சாப்ட்வேர்",
+        "accent": ["நெய்யப்பட்ட", "சாப்ட்வேர்"],
+        "narration": "இதனால் நாசா ரேதியான் நிறுவனத்தின் கைத்தறி நெசவாளர்களை நாடியது. அவர்கள் நுண்ணிய காந்த வளையங்களுக்குள் ஊசி மூலம் தாமிரக் கம்பிகளைத் தைத்தனர்.",
+        "visual_metaphor": {
+          "badge": "நெசவுத் தொழில்",
+          "metric": "மாதக்கணக்கில் நெசவு",
+          "label": "துல்லியமான கைவேலை",
+          "stamp": "கைவினை",
+          "details": ["கைத்தறி நிபுணர்கள்", "தாமிர கம்பிகள்", "ஊசி மூலம் நிரல்"]
+        }
+      },
+      {
+        "id": 4,
+        "act": "பகுதி II · விண்வெளி நெசவாளர்கள்",
+        "kicker": "பகுதி II · கட்டமைப்பு",
+        "headline": "உள்ளே போனால் ஒன்று, வெளியே சுற்றினால் பூஜ்ஜியம்",
+        "accent": ["ஒன்று", "பூஜ்ஜியம்"],
+        "narration": "காந்த வளையத்திற்குள் கம்பி சென்றால் அது ஒன்று. வெளியே சுற்றினால் அது பூஜ்ஜியம். அப்பல்லோவின் சாப்ட்வேர் உடலளவிலேயே அழிக்க முடியாததாக மாறியது.",
+        "visual_metaphor": {
+          "badge": "பைனரி அமைப்பு",
+          "metric": "1 vs 0",
+          "label": "காந்த தூண்டல் முறை",
+          "stamp": "நிலையானது",
+          "details": ["வளையத்திற்குள் = 1", "வளையத்திற்கு வெளியே = 0", "அழிக்க முடியாது"]
+        }
+      },
+      {
+        "id": 5,
+        "act": "பகுதி III · 1202 எச்சரிக்கை",
+        "kicker": "பகுதி III · நெருக்கடி",
+        "headline": "நிலவில் இறங்கும் முன் 1202 அலாரம்",
+        "accent": ["1202", "அலாரம்"],
+        "narration": "நிலவில் தரையிறங்க வெறும் மூன்று நிமிடங்கள் இருந்தபோது, ரேடார் தகவல்கள் குவிந்து கம்ப்யூட்டரை திணறடித்தன. திரை 1202 அலாரத்தை எச்சரித்தது.",
+        "visual_metaphor": {
+          "badge": "தரையிறங்கும் ஆபத்து",
+          "metric": "1202 அலாரம்",
+          "label": "கம்ப்யூட்டர் பணிச்சுமை",
+          "stamp": "எச்சரிக்கை",
+          "details": ["3 நிமிட இடைவெளி", "ரேடார் சுமை", "நினைவக திணறல்"]
+        }
+      },
+      {
+        "id": 6,
+        "act": "பகுதி III · 1202 எச்சரிக்கை",
+        "kicker": "பகுதி III · வெற்றி",
+        "headline": "முன்னுரிமை நிரல் காப்பாற்றிய விண்கலம்",
+        "accent": ["முன்னுரிமை", "வெற்றி"],
+        "narration": "மார்கரெட் ஹாமில்டனின் நிரல் ரேடார் இரைச்சலை ஒதுக்கி, த்ரஸ்டர் எஞ்சின்களை தொடர்ந்து இயக்கி விண்கலத்தை பாதுகாப்பாக நிலவில் தரையிறக்கியது.",
+        "visual_metaphor": {
+          "badge": "வரலாற்று வெற்றி",
+          "metric": "தரையிறங்கியது",
+          "label": "பாதுகாப்பான வெற்றி",
+          "stamp": "வெற்றி",
+          "details": ["முன்னுரிமை கட்டமைப்பு", "எஞ்சின் இயக்கம் பாதுகாப்பு", "மனிதனின் காலடி"]
+        }
+      }
+    ],
+    "hi": [
+      {
+        "id": 1,
+        "act": "भाग I · चरम सीमा",
+        "kicker": "भाग I · पैमाना",
+        "headline": "72 किलोबाइट में चाँद की यात्रा",
+        "accent": ["72", "किलोबाइट"],
+        "narration": "1969 में, इंसान सिर्फ़ 72 किलोबाइट मेमोरी वाले कंप्यूटर के सहारे 3 लाख 80 हज़ार किलोमीटर दूर चाँद पर पहुँचा था।",
+        "visual_metaphor": {
+          "badge": "ऐतिहासिक रिकॉर्ड",
+          "metric": "72 KB",
+          "label": "कुल फ्लाइट रॉम",
+          "stamp": "सत्यापित",
+          "details": ["36,864 शब्द", "2,048 शब्द रैम", "अपोलो गाइडेंस"]
+        }
+      },
+      {
+        "id": 2,
+        "act": "भाग I · चरम सीमा",
+        "kicker": "भाग I · ख़तरा",
+        "headline": "रेडिएशन से मिट जातीं सिलिकॉन चिप्स",
+        "accent": ["रेडिएशन"],
+        "narration": "गहरे अंतरिक्ष में सिलिकॉन चिप्स बेकार साबित होतीं। कॉस्मिक किरणों और पावर फ्लक्चुएशन से इलेक्ट्रॉनिक मेमोरी तुरंत उड़ जाती।",
+        "visual_metaphor": {
+          "badge": "स्पेस का ख़तरा",
+          "metric": "0% गलती बर्दाश्त",
+          "label": "रेडिएशन का हमला",
+          "stamp": "जोखिम",
+          "details": ["चिप का नुक़सान", "सोलर रेडिएशन", "ग़लती की गुंजाइश नहीं"]
+        }
+      },
+      {
+        "id": 3,
+        "act": "भाग II · अंतरिक्ष की बुनकर",
+        "kicker": "भाग II · कारीगरी",
+        "headline": "सुई-धागे से बुना गया सॉफ्टवेयर",
+        "accent": ["सुई-धागे", "सॉफ्टवेयर"],
+        "narration": "इसलिए नासा ने रेथियॉन की बुनकर महिलाओं की मदद ली, जिन्होंने सुइयों से तांबे के बारीक तारों को चुंबकीय छल्लों में पिरोया।",
+        "visual_metaphor": {
+          "badge": "टेक्सटाइल कारीगरी",
+          "metric": "महीनों की बुनाई",
+          "label": "हाथ से तैयार मेमोरी",
+          "stamp": "हस्तनिर्मित",
+          "details": ["बुनकर विशेषज्ञ", "तांबे के तार", "सुई से तैयार कोड"]
+        }
+      },
+      {
+        "id": 4,
+        "act": "भाग II · अंतरिक्ष की बुनकर",
+        "kicker": "भाग II · तकनीक",
+        "headline": "छल्ले के अंदर 1, छल्ले के बाहर 0",
+        "accent": ["1", "0"],
+        "narration": "तार चुंबकीय छल्ले के अंदर से गुज़रा तो 1, बाहर से निकला तो 0। अपोलो का कोड भौतिक रूप से अमर हो चुका था।",
+        "visual_metaphor": {
+          "badge": "बाइनरी सिस्टम",
+          "metric": "1 vs 0",
+          "label": "मैग्नेटिक इंडक्शन",
+          "stamp": "अमर कोड",
+          "details": ["छल्ले के अंदर = 1", "छल्ले के बाहर = 0", "कभी मिट नहीं सकता"]
+        }
+      },
+      {
+        "id": 5,
+        "act": "भाग III · 1202 अलार्म",
+        "kicker": "भाग III · संकट",
+        "headline": "लैंडिंग से 3 मिनट पहले 1202 अलार्म",
+        "accent": ["1202", "अलार्म"],
+        "narration": "चाँद पर उतरने से सिर्फ़ 3 मिनट पहले रडार डेटा ने कंप्यूटर को ओवरलोड कर दिया। स्क्रीन पर 1202 अलार्म चमकने लगा।",
+        "visual_metaphor": {
+          "badge": "लैंडिंग संकट",
+          "metric": "1202 अलार्म",
+          "label": "CPU ओवरलोड",
+          "stamp": "चेतावनी",
+          "details": ["3 मिनट बाक़ी", "रडार डेटा का हमला", "मेमोरी ओवरफ्लो"]
+        }
+      },
+      {
+        "id": 6,
+        "act": "भाग III · 1202 अलार्म",
+        "kicker": "भाग III · सफलता",
+        "headline": "प्रायोरिटी कोड ने बचाई लैंडिंग",
+        "accent": ["प्रायोरिटी", "सफलता"],
+        "narration": "मार्गरेट हैमिल्टन के सॉफ्टवेयर ने फ़ालतू रडार डेटा को छोड़ दिया, इंजन थ्रस्टर्स को चालू रखा और अपोलो 11 को सुरक्षित उतारा।",
+        "visual_metaphor": {
+          "badge": "मिशन सफल",
+          "metric": "सफल लैंडिंग",
+          "label": "ईगल सुरक्षित उतरा",
+          "stamp": "कामयाब",
+          "details": ["प्रायोरिटी शेड्यूलिंग", "इंजन कमांड सुरक्षित", "चाँद पर इंसान"]
+        }
+      }
+    ]
+  },
+  "shorts_reels_9x16": {
+    "en": [
+      {
+        "id": 1,
+        "hookKicker": "SPACE SECRET // 001",
+        "hookHeadline": "APOLLO 11 HAD NO HARD DRIVE",
+        "accent": ["NO", "HARD DRIVE"],
+        "caption": "You couldn't download software updates to Apollo 11—because its entire flight code was hand-woven with sewing needles.",
+        "heroMetric": "72 KB",
+        "heroLabel": "Total Moon ROM",
+        "stampText": "HAND-WOVEN",
+        "takeawayBullet": "Woven into copper wire to survive deep space cosmic radiation."
+      },
+      {
+        "id": 2,
+        "hookKicker": "THE METHOD // 002",
+        "hookHeadline": "SEWING NEEDLES AND COPPER",
+        "accent": ["SEWING", "NEEDLES"],
+        "caption": "Textile seamstresses threaded copper wires through magnetic iron rings. Through was a one, around was a zero.",
+        "heroMetric": "36,864",
+        "heroLabel": "16-Bit Woven Words",
+        "stampText": "PERMANENT",
+        "takeawayBullet": "Physical hardware that could never be erased by a power blackout."
+      },
+      {
+        "id": 3,
+        "hookKicker": "THE CRISIS // 003",
+        "hookHeadline": "THE 1202 ALARM RESCUE",
+        "accent": ["1202", "RESCUE"],
+        "caption": "When radar flooded the CPU 3 minutes before landing, Margaret Hamilton's code dropped the noise and saved the touchdown.",
+        "heroMetric": "1202",
+        "heroLabel": "Descent Program Alarm",
+        "stampText": "TOUCHDOWN",
+        "takeawayBullet": "Asynchronous priority scheduling safely guided Neil Armstrong to the moon."
+      }
+    ],
+    "ta": [
+      {
+        "id": 1,
+        "hookKicker": "விண்வெளி ரகசியம் // 001",
+        "hookHeadline": "அப்பல்லோவில் ஹார்ட் டிஸ்க் இல்லை",
+        "accent": ["ஹார்ட்", "டிஸ்க்"],
+        "caption": "அப்பல்லோ 11 விண்கலத்திற்கு நீங்கள் அப்டேட் அனுப்ப முடியாது—ஏனெனில் அதன் சாப்ட்வேர் ஊசியால் கைகளால் நெய்யப்பட்டது.",
+        "heroMetric": "72 KB",
+        "heroLabel": "முழுமையான நினைவகம்",
+        "stampText": "கைத்தறி",
+        "takeawayBullet": "விண்வெளி கதிர்வீச்சைத் தாங்க தாமிரக் கம்பியால் நெய்யப்பட்ட நிரல்."
+      },
+      {
+        "id": 2,
+        "hookKicker": "தயாரிப்பு முறை // 002",
+        "hookHeadline": "தையல் ஊசியும் காந்த வளையமும்",
+        "accent": ["தையல்", "ஊசி"],
+        "caption": "நெசவாளர்கள் காந்த வளையங்களுக்குள் தாமிரக் கம்பிகளைத் தைத்தனர். உள்ளே போனால் ஒன்று, வெளியே சுற்றினால் பூஜ்ஜியம்.",
+        "heroMetric": "36,864",
+        "heroLabel": "நெய்யப்பட்ட வார்த்தைகள்",
+        "stampText": "அழியாதது",
+        "takeawayBullet": "மின்சாரம் போனாலும் ஒருபோதும் அழியாத உடலளவிலான கம்ப்யூட்டர்."
+      },
+      {
+        "id": 3,
+        "hookKicker": "நெருக்கடி // 003",
+        "hookHeadline": "1202 அலாரமும் வரலாற்று வெற்றியும்",
+        "accent": ["1202", "வெற்றி"],
+        "caption": "தரையிறங்க 3 நிமிடங்கள் இருந்தபோது கம்ப்யூட்டர் திணறியது; மார்கரெட் ஹாமில்டனின் நிரல் நிலவுப் பயணத்தைக் காப்பாற்றியது.",
+        "heroMetric": "1202",
+        "heroLabel": "எச்சரிக்கை அலாரம்",
+        "stampText": "வெற்றி",
+        "takeawayBullet": "முன்னுரிமை நிரல் நீல் ஆம்ஸ்ட்ராங்கை நிலவில் பாதுகாப்பாகத் தரையிறக்கியது."
+      }
+    ],
+    "hi": [
+      {
+        "id": 1,
+        "hookKicker": "स्पेस का सीक्रेट // 001",
+        "hookHeadline": "अपोलो 11 में कोई हार्ड डिस्क नहीं थी",
+        "accent": ["हार्ड", "डिस्क"],
+        "caption": "अपोलो 11 में आप कोई सॉफ्टवेयर अपडेट डाउनलोड नहीं कर सकते थे—क्योंकि उसका पूरा कोड सुइयों से हाथ से बुना गया था।",
+        "heroMetric": "72 KB",
+        "heroLabel": "कुल फ्लाइट रॉम",
+        "stampText": "हाथ से बुना",
+        "takeawayBullet": "कॉस्मिक रेडिएशन से बचाने के लिए तांबे के तारों में बुना गया कोड।"
+      },
+      {
+        "id": 2,
+        "hookKicker": "बनाने का तरीक़ा // 002",
+        "hookHeadline": "सुई-धागा और तांबे के तार",
+        "accent": ["सुई-धागा"],
+        "caption": "बुनकरों ने चुंबकीय छल्लों में तांबे के तार पिरोए। छल्ले के अंदर 1, छल्ले के बाहर 0।",
+        "heroMetric": "36,864",
+        "heroLabel": "बुने हुए बाइनरी शब्द",
+        "stampText": "अमर कोड",
+        "takeawayBullet": "ऐसा हार्डवेयर जो पावर कटने पर भी कभी डिलीट नहीं हो सकता था।"
+      },
+      {
+        "id": 3,
+        "hookKicker": "अंतिम संकट // 003",
+        "hookHeadline": "1202 अलार्म और ऐतिहासिक लैंडिंग",
+        "accent": ["1202", "लैंडिंग"],
+        "caption": "लैंडिंग से 3 मिनट पहले जब कंप्यूटर ओवरलोड हुआ, तो प्रायोरिटी कोड ने फ़ालतू डेटा को रोककर लैंडिंग बचा ली।",
+        "heroMetric": "1202",
+        "heroLabel": "खतरनाक अलार्म",
+        "stampText": "सफलता",
+        "takeawayBullet": "मार्गरेट हैमिल्टन के कोड ने नील आर्मस्ट्रांग को सुरक्षित चाँद पर उतारा।"
+      }
+    ]
+  }
+}

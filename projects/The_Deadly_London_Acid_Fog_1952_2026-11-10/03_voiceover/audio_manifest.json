@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "text": "In December 1952, Londoners walked into movie theaters only to find the screen completely invisible\u2014because the smog had seeped inside the building.",
+    "file": "beat_01.mp3",
+    "duration": 9.456,
+    "start_sec": 0.0,
+    "start_frame": 0,
+    "frames": 284
+  },
+  {
+    "id": 2,
+    "text": "Within five days, four thousand citizens were dead. But this wasn't an enemy wartime chemical attack. It was ordinary living room fireplace smoke.",
+    "file": "beat_02.mp3",
+    "duration": 9.024,
+    "start_sec": 9.46,
+    "start_frame": 284,
+    "frames": 271
+  },
+  {
+    "id": 3,
+    "text": "A freak atmospheric inversion trapped a layer of freezing air over the Thames valley. A warm ceiling sat at two hundred meters, locking all smoke beneath it like a glass lid.",
+    "file": "beat_03.mp3",
+    "duration": 10.968,
+    "start_sec": 18.48,
+    "start_frame": 555,
+    "frames": 329
+  },
+  {
+    "id": 4,
+    "text": "Every day, London burned thousands of tons of high-sulfur coal. Inside the dense fog droplets, sulfur dioxide reacted with nitrogen, catalyzing into airborne sulfuric acid.",
+    "file": "beat_04.mp3",
+    "duration": 11.376,
+    "start_sec": 29.45,
+    "start_frame": 884,
+    "frames": 341
+  },
+  {
+    "id": 5,
+    "text": "When the government plotted air samples against morgue intake, the curves matched in absolute lockstep. As sulfur levels peaked, daily deaths quadrupled.",
+    "file": "beat_05.mp3",
+    "duration": 9.648,
+    "start_sec": 40.82,
+    "start_frame": 1225,
+    "frames": 289
+  },
+  {
+    "id": 6,
+    "text": "The deadly yellow fog forced Parliament to ban smoky fuels in cities forever, giving birth to the modern environmental movement.",
+    "file": "beat_06.mp3",
+    "duration": 7.68,
+    "start_sec": 50.47,
+    "start_frame": 1514,
+    "frames": 230
+  }
+]

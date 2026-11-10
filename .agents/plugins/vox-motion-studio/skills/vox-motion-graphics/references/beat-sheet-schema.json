@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VoxBeatSheet",
+  "type": "object",
+  "required": ["project_title", "fps", "beats"],
+  "properties": {
+    "project_title": { "type": "string" },
+    "fps": { "type": "integer", "default": 30 },
+    "voice_model": { "type": "string", "default": "hexgrad/Kokoro-82M" },
+    "beats": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["beat_id", "narration_text", "visual_type", "assigned_editor"],
+        "properties": {
+          "beat_id": { "type": "string" },
+          "narration_text": { "type": "string" },
+          "visual_type": {
+            "type": "string",
+            "enum": ["paper_cutout_montage", "kinetic_chart", "3d_isometric_doc", "3d_geo_globe", "typography_slam"]
+          },
+          "visual_description": { "type": "string" },
+          "assigned_editor": {
+            "type": "string",
+            "enum": ["antigravity", "opencode"],
+            "description": "Dynamic edit decision for who builds/edits this specific scene"
+          },
+          "audio_file": { "type": "string" },
+          "duration_seconds": { "type": "number" },
+          "duration_frames": { "type": "integer" }
+        }
+      }
+    }
+  }
+}

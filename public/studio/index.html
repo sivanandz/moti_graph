@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vox Motion Studio // Generalist Production Controller</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Oswald:wght@500;700&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Space Grotesk', sans-serif;
+      background-color: #EFE6D8;
+      background-image: linear-gradient(rgba(0,0,0,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(0,0,0,0.03) 1px, transparent 1px);
+      background-size: 36px 36px;
+    }
+    .vox-headline {
+      font-family: 'Oswald', sans-serif;
+      letter-spacing: -0.5px;
+    }
+    .vox-mono {
+      font-family: 'Courier Prime', monospace;
+    }
+    .highlight-yellow {
+      background: linear-gradient(104deg, rgba(255,234,0,0) 0.9%, rgba(255,234,0,1) 2.4%, rgba(255,234,0,0.85) 96%);
+      mix-blend-mode: multiply;
+      padding: 0 4px;
+    }
+    .paper-card {
+      background: #FFFFFF;
+      border: 1px solid #D8D2C5;
+      box-shadow: 0 12px 32px -8px rgba(40, 30, 20, 0.15), 0 2px 6px rgba(0,0,0,0.04);
+    }
+    .tape-badge {
+      background: rgba(245, 240, 220, 0.85);
+      border-left: 2px dashed rgba(180, 170, 140, 0.4);
+      border-right: 2px dashed rgba(180, 170, 140, 0.4);
+    }
+  </style>
+</head>
+<body class="text-neutral-900 min-h-screen p-6 md:p-10">
+
+  <!-- Header -->
+  <header class="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center justify-between pb-8 mb-8 border-b-2 border-neutral-800 gap-4">
+    <div>
+      <div class="inline-flex items-center gap-2 bg-[#D62828] text-white px-3 py-1 text-xs font-bold tracking-widest uppercase mb-2">
+        <span>● LIVE WORKSPACE</span>
+        <span class="text-neutral-300">//</span>
+        <span>GENERALIST MOTION PIPELINE</span>
+      </div>
+      <h1 class="text-4xl md:text-5xl font-bold uppercase vox-headline tracking-tight">
+        Vox Motion Studio <span class="highlight-yellow font-normal text-3xl md:text-4xl text-neutral-800">Controller</span>
+      </h1>
+      <p id="headerProjectSubtitle" class="vox-mono text-xs md:text-sm text-neutral-600 mt-1">
+        Loading active investigative topic...
+      </p>
+    </div>
+
+    <!-- Global Actions -->
+    <div class="flex flex-wrap items-center gap-3">
+      <button onclick="openNewProjectModal()" class="px-4 py-2 bg-[#E63946] hover:bg-red-700 text-white font-bold text-sm tracking-wider uppercase flex items-center gap-2 transition-all shadow-md active:translate-y-0.5">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/></svg>
+        New Investigation
+      </button>
+
+      <button onclick="launchRemotionPreview()" class="px-4 py-2 bg-neutral-900 hover:bg-neutral-800 text-white font-bold text-sm tracking-wider uppercase flex items-center gap-2 transition-all shadow-md active:translate-y-0.5">
+        <svg class="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M4 4l12 6-12 6z"/></svg>
+        Remotion Studio
+      </button>
+
+      <button id="renderBtn" onclick="renderCurrent()" class="px-5 py-2 bg-[#D62828] hover:bg-red-700 text-white font-bold text-sm tracking-wider uppercase flex items-center gap-2 transition-all shadow-md active:translate-y-0.5">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+        <span id="renderBtnLabel">Render 16:9 MP4 (EN)</span>
+      </button>
+
+      <button onclick="openOpenCodeModal()" class="px-4 py-2 bg-[#1D3557] hover:bg-blue-900 text-white font-bold text-sm tracking-wider uppercase flex items-center gap-2 transition-all shadow-md active:translate-y-0.5">
+        <svg class="w-4 h-4 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>
+        Delegate OpenCode
+      </button>
+    </div>
+  </header>
+
+  <!-- Dynamic Project Selector Bar -->
+  <div class="max-w-7xl mx-auto mb-4 p-4 paper-card flex flex-col md:flex-row md:items-center justify-between gap-4">
+    <div class="flex items-center gap-3">
+      <span class="tape-badge px-3 py-1 text-xs font-bold vox-mono uppercase text-neutral-800">INVESTIGATION:</span>
+      <span id="projectTitleLabel" class="text-sm font-bold text-neutral-800">Loading...</span>
+    </div>
+    
+    <!-- Dynamically Populated Project Pills -->
+    <div id="projectListContainer" class="flex flex-wrap items-center rounded-md shadow-sm border border-neutral-300 bg-neutral-100 p-1 gap-1">
+      <!-- Populated via loadProjects() -->
+    </div>
+  </div>
+
+  <!-- Format Selector Bar (16:9 vs 9:16 vs Both) -->
+  <div class="max-w-7xl mx-auto mb-6 p-4 paper-card flex flex-col md:flex-row md:items-center justify-between gap-4">
+    <div class="flex items-center gap-3">
+      <span class="tape-badge px-3 py-1 text-xs font-bold vox-mono uppercase text-neutral-800">DELIVERY FORMAT:</span>
+      <span class="text-sm font-semibold text-neutral-700">Choose multi-platform aspect ratio</span>
+    </div>
+    <div class="inline-flex rounded-md shadow-sm border border-neutral-300 bg-neutral-100 p-1 gap-1">
+      <button id="fmt-16x9" onclick="selectFormat('16x9')" class="px-4 py-2 text-xs md:text-sm font-bold uppercase transition-all bg-white text-neutral-900 shadow-sm border border-neutral-300 flex items-center gap-2">
+        <span>📺 16:9 YouTube Essay</span>
+      </button>
+      <button id="fmt-9x16" onclick="selectFormat('9x16')" class="px-4 py-2 text-xs md:text-sm font-bold uppercase transition-all text-neutral-600 hover:text-neutral-900 flex items-center gap-2">
+        <span>📱 9:16 Short / Reel</span>
+      </button>
+      <button id="fmt-both" onclick="selectFormat('both')" class="px-4 py-2 text-xs md:text-sm font-bold uppercase transition-all text-neutral-600 hover:text-neutral-900 flex items-center gap-2">
+        <span class="text-amber-600 font-bold">⚡ Render Both (16:9 + 9:16)</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Main Grid -->
+  <main class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8">
+    
+    <!-- Left Column: Language Tabs & Beats (8 cols) -->
+    <section class="lg:col-span-8 flex flex-col gap-6">
+      
+      <!-- Language Selector -->
+      <div class="flex items-center gap-2 bg-neutral-200 p-1.5 border border-neutral-400">
+        <button id="tab-en" onclick="selectLang('en')" class="flex-1 py-2 px-4 text-sm font-bold tracking-wider uppercase bg-white shadow-sm border border-neutral-300 text-neutral-900 transition-all flex items-center justify-center gap-2">
+          🇺🇸 English <span id="dur-en" class="vox-mono text-xs text-neutral-500">(--s)</span>
+        </button>
+        <button id="tab-ta" onclick="selectLang('ta')" class="flex-1 py-2 px-4 text-sm font-bold tracking-wider uppercase bg-transparent text-neutral-600 hover:text-neutral-900 transition-all flex items-center justify-center gap-2">
+          🇮🇳 தமிழ் <span id="dur-ta" class="vox-mono text-xs text-neutral-500">(--s)</span>
+        </button>
+        <button id="tab-hi" onclick="selectLang('hi')" class="flex-1 py-2 px-4 text-sm font-bold tracking-wider uppercase bg-transparent text-neutral-600 hover:text-neutral-900 transition-all flex items-center justify-center gap-2">
+          🇮🇳 हिन्दी <span id="dur-hi" class="vox-mono text-xs text-neutral-500">(--s)</span>
+        </button>
+      </div>
+
+      <!-- Beats Container -->
+      <div id="beatsList" class="flex flex-col gap-5">
+        <!-- Rendered by JavaScript -->
+      </div>
+    </section>
+
+    <!-- Right Column: Visual Monitor & Logs (4 cols) -->
+    <aside class="lg:col-span-4 flex flex-col gap-6">
+      
+      <!-- Preview Frame Monitor -->
+      <div class="paper-card p-4">
+        <div class="flex items-center justify-between pb-3 border-b border-neutral-200 mb-3">
+          <span class="tape-badge px-2 py-0.5 text-xs font-bold vox-mono uppercase text-neutral-700">COMPOSITION MONITOR</span>
+          <span id="monitorCaption" class="vox-mono text-xs font-semibold text-neutral-500">PREVIEW</span>
+        </div>
+
+        <div id="monitorWrapper" class="relative bg-neutral-900 rounded overflow-hidden aspect-video border border-neutral-300 shadow-inner flex items-center justify-center group transition-all duration-300">
+          <img id="monitorImg" src="/out/preview_apollo_vox_en_frame30.jpeg" alt="Remotion Frame Preview" class="w-full h-full object-contain">
+          
+          <div class="absolute inset-0 bg-neutral-950/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-2 pointer-events-none">
+            <span class="px-3 py-1 bg-neutral-900/90 text-white text-xs font-mono border border-neutral-600 rounded">
+              High-Fidelity Paper Collage
+            </span>
+          </div>
+        </div>
+
+        <div class="mt-3 flex items-center justify-between text-xs vox-mono text-neutral-600">
+          <span id="monitorRatioBadge">1920x1080 Landscape</span>
+          <span>Frame 30 (1.0s)</span>
+        </div>
+      </div>
+
+      <!-- Completed Renders Section -->
+      <div class="paper-card p-4">
+        <div class="flex items-center justify-between pb-2 border-b border-neutral-200 mb-3">
+          <span class="tape-badge px-2 py-0.5 text-xs font-bold vox-mono uppercase text-neutral-700">RENDER VAULT</span>
+          <button onclick="loadRenderVault()" class="text-xs text-neutral-500 hover:text-neutral-900 font-mono">↻ Refresh</button>
+        </div>
+        <div id="renderVaultList" class="flex flex-col gap-2 max-h-48 overflow-y-auto vox-mono text-xs">
+          <!-- Filled via loadRenderVault() -->
+        </div>
+      </div>
+
+      <!-- Studio Console & Log Terminal -->
+      <div class="paper-card p-4 bg-neutral-900 text-neutral-200 border-neutral-800 shadow-2xl">
+        <div class="flex items-center justify-between pb-2 border-b border-neutral-800 mb-3">
+          <div class="flex items-center gap-2">
+            <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+            <span class="vox-mono text-xs font-bold uppercase tracking-wider text-neutral-400">STUDIO TELEMETRY</span>
+          </div>
+          <span id="renderStatusBadge" class="text-xs px-2 py-0.5 bg-neutral-800 text-neutral-400 font-bold rounded">IDLE</span>
+        </div>
+
+        <pre id="consoleLogs" class="vox-mono text-xs text-neutral-300 h-64 overflow-y-auto whitespace-pre-wrap leading-relaxed">
+[INIT] Vox Generalist Production Suite Active
+[READY] Awaiting user command or autonomous trigger
+        </pre>
+      </div>
+
+    </aside>
+  </main>
+
+  <!-- New Topic Investigation Modal -->
+  <div id="newProjectModal" class="fixed inset-0 bg-neutral-950/70 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+    <div class="paper-card max-w-xl w-full p-6 relative">
+      <div class="flex items-center justify-between pb-3 border-b border-neutral-300 mb-4">
+        <div class="flex items-center gap-2">
+          <span class="tape-badge px-2 py-0.5 text-xs font-bold vox-mono uppercase text-red-700">NEW INVESTIGATION</span>
+          <h3 class="text-xl font-bold uppercase vox-headline">Launch Any Topic Pipeline</h3>
+        </div>
+        <button onclick="closeNewProjectModal()" class="text-neutral-400 hover:text-neutral-800 font-bold text-lg">&times;</button>
+      </div>
+
+      <div class="flex flex-col gap-4">
+        <div>
+          <label class="block text-xs font-bold vox-mono uppercase text-neutral-700 mb-1">Topic Title / Investigation Brief</label>
+          <input id="newTopicTitle" type="text" placeholder="e.g. How the James Webb Telescope Mirrors Work" class="w-full p-2.5 border border-neutral-300 rounded text-sm font-medium focus:ring-2 focus:ring-[#D62828] focus:outline-none">
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold vox-mono uppercase text-neutral-700 mb-1">Editorial Angle / Hook (Optional)</label>
+          <input id="newTopicAngle" type="text" placeholder="e.g. The beryllium hexagonal origami folding mechanism in deep space" class="w-full p-2.5 border border-neutral-300 rounded text-sm focus:ring-2 focus:ring-[#D62828] focus:outline-none">
+        </div>
+
+        <div class="grid grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs font-bold vox-mono uppercase text-neutral-700 mb-1">Target Formats</label>
+            <div class="flex flex-col gap-1.5 text-xs">
+              <label class="flex items-center gap-2"><input id="fmtCheck16" type="checkbox" checked> 16:9 Long-Form Essay</label>
+              <label class="flex items-center gap-2"><input id="fmtCheck9" type="checkbox" checked> 9:16 Short / Reel</label>
+            </div>
+          </div>
+          <div>
+            <label class="block text-xs font-bold vox-mono uppercase text-neutral-700 mb-1">Languages</label>
+            <div class="flex flex-col gap-1.5 text-xs">
+              <label class="flex items-center gap-2"><input id="langCheckEN" type="checkbox" checked> English (`en`)</label>
+              <label class="flex items-center gap-2"><input id="langCheckTA" type="checkbox" checked> தமிழ் (`ta`)</label>
+              <label class="flex items-center gap-2"><input id="langCheckHI" type="checkbox" checked> हिन्दी (`hi`)</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="pt-4 border-t border-neutral-200 flex justify-end gap-3">
+          <button onclick="closeNewProjectModal()" class="px-4 py-2 border border-neutral-300 font-bold text-xs uppercase hover:bg-neutral-100">Cancel</button>
+          <button onclick="submitNewInvestigation()" class="px-5 py-2 bg-[#D62828] hover:bg-red-700 text-white font-bold text-xs uppercase tracking-wider flex items-center gap-2">
+            <span>🚀 Launch Investigation Swarm</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- OpenCode Delegation Modal -->
+  <div id="opencodeModal" class="fixed inset-0 bg-neutral-950/70 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+    <div class="paper-card max-w-lg w-full p-6 relative">
+      <div class="flex items-center justify-between pb-3 border-b border-neutral-300 mb-4">
+        <div class="flex items-center gap-2">
+          <span class="tape-badge px-2 py-0.5 text-xs font-bold vox-mono uppercase text-cyan-800">TUI DELEGATION</span>
+          <h3 class="text-xl font-bold uppercase vox-headline">OpenCode Sub-Agent</h3>
+        </div>
+        <button onclick="closeOpenCodeModal()" class="text-neutral-400 hover:text-neutral-800 font-bold text-lg">&times;</button>
+      </div>
+
+      <p class="text-sm text-neutral-600 mb-4">
+        Dispatch surgical motion code edits to OpenCode TUI subagents in the terminal:
+      </p>
+
+      <textarea id="opencodePrompt" rows="3" class="w-full p-3 border border-neutral-300 rounded font-mono text-xs focus:ring-2 focus:ring-blue-600 focus:outline-none mb-4" placeholder="e.g., Increase spring stiffness on Beat 3 stamp from 150 to 220, or add red yarn connection between nodes..."></textarea>
+
+      <div class="flex justify-end gap-3">
+        <button onclick="closeOpenCodeModal()" class="px-4 py-2 border border-neutral-300 font-bold text-xs uppercase hover:bg-neutral-100">Cancel</button>
+        <button onclick="submitOpenCodeEdit()" class="px-4 py-2 bg-[#1D3557] hover:bg-blue-900 text-white font-bold text-xs uppercase tracking-wider">Execute Edit</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let projectsList = [];
+    let currentProject = 'apollo';
+    let currentLang = 'en';
+    let currentFormat = '16x9'; // '16x9' | '9x16' | 'both'
+    let manifestData = null;
+
+    async function init() {
+      await loadProjects();
+      await loadManifest();
+      loadRenderVault();
+    }
+
+    async function loadProjects() {
+      try {
+        const res = await fetch('/api/projects');
+        projectsList = await res.json();
+        renderProjectTabs();
+      } catch (err) {
+        console.error("Failed to load projects", err);
+      }
+    }
+
+    function renderProjectTabs() {
+      const container = document.getElementById('projectListContainer');
+      container.innerHTML = '';
+
+      projectsList.forEach(proj => {
+        const isActive = proj.id === currentProject;
+        const btn = document.createElement('button');
+        btn.id = `proj-${proj.id}`;
+        btn.onclick = () => selectProject(proj.id);
+        btn.className = `px-3 py-1.5 text-xs md:text-sm font-bold uppercase transition-all flex items-center gap-1.5 ${
+          isActive 
+            ? 'bg-white text-neutral-900 shadow-sm border border-neutral-300' 
+            : 'text-neutral-600 hover:text-neutral-900'
+        }`;
+        
+        const icon = proj.id === 'apollo' ? '🚀' : proj.id === 'upi' ? '💳' : '🎬';
+        btn.innerHTML = `<span>${icon} ${proj.title}</span>`;
+        container.appendChild(btn);
+      });
+
+      updateActiveProjectUI();
+    }
+
+    function updateActiveProjectUI() {
+      const active = projectsList.find(p => p.id === currentProject);
+      if (!active) return;
+
+      document.getElementById('projectTitleLabel').innerText = active.title;
+      document.getElementById('headerProjectSubtitle').innerText = 
+        `DOC: "${active.title}" • ${active.subtitle || 'Multi-Format Production'} • 3 Multi-lingual Editions`;
+      
+      updateMonitor();
+      updateRenderButtonLabel();
+    }
+
+    async function selectProject(projId) {
+      currentProject = projId;
+      renderProjectTabs();
+      await loadManifest();
+      updateMonitor();
+    }
+
+    async function loadManifest() {
+      try {
+        const res = await fetch(`/api/manifest?topic=${currentProject}`);
+        manifestData = await res.json();
+        
+        // Update language durations
+        ['en', 'ta', 'hi'].forEach(l => {
+          if (manifestData[l]) {
+            const sec = manifestData[l].reduce((acc, curr) => acc + (curr.duration_seconds || 0), 0);
+            const durEl = document.getElementById(`dur-${l}`);
+            if (durEl) durEl.innerText = `(${sec.toFixed(1)}s)`;
+          }
+        });
+
+        renderBeats(currentLang);
+      } catch (err) {
+        appendLog(`[ERROR] Manifest load failed for topic: ${currentProject}`);
+      }
+    }
+
+    function selectLang(lang) {
+      currentLang = lang;
+      ['en', 'ta', 'hi'].forEach(l => {
+        const tab = document.getElementById(`tab-${l}`);
+        if (l === lang) {
+          tab.className = "flex-1 py-2 px-4 text-sm font-bold tracking-wider uppercase bg-white shadow-sm border border-neutral-300 text-neutral-900 transition-all flex items-center justify-center gap-2";
+        } else {
+          tab.className = "flex-1 py-2 px-4 text-sm font-bold tracking-wider uppercase bg-transparent text-neutral-600 hover:text-neutral-900 transition-all flex items-center justify-center gap-2";
+        }
+      });
+      renderBeats(lang);
+      updateMonitor();
+      updateRenderButtonLabel();
+    }
+
+    function selectFormat(fmt) {
+      currentFormat = fmt;
+      ['16x9', '9x16', 'both'].forEach(f => {
+        const btn = document.getElementById(`fmt-${f}`);
+        if (f === fmt) {
+          btn.className = "px-4 py-2 text-xs md:text-sm font-bold uppercase transition-all bg-white text-neutral-900 shadow-sm border border-neutral-300 flex items-center gap-2";
+        } else {
+          btn.className = "px-4 py-2 text-xs md:text-sm font-bold uppercase transition-all text-neutral-600 hover:text-neutral-900 flex items-center gap-2";
+        }
+      });
+
+      updateMonitor();
+      updateRenderButtonLabel();
+    }
+
+    function updateRenderButtonLabel() {
+      const label = document.getElementById('renderBtnLabel');
+      const langUpper = currentLang.toUpperCase();
+      const proj = projectsList.find(p => p.id === currentProject);
+      const projName = proj ? proj.id.toUpperCase() : 'DOC';
+
+      if (currentFormat === '16x9') {
+        label.innerText = `Render 16:9 ${projName} (${langUpper})`;
+      } else if (currentFormat === '9x16') {
+        label.innerText = `Render 9:16 Reel ${projName} (${langUpper})`;
+      } else {
+        label.innerText = `Render Both ${projName} (${langUpper})`;
+      }
+    }
+
+    function renderBeats(lang) {
+      if (!manifestData || !manifestData[lang]) return;
+      const container = document.getElementById('beatsList');
+      container.innerHTML = '';
+
+      manifestData[lang].forEach((beat, idx) => {
+        const card = document.createElement('div');
+        card.className = "paper-card p-6 relative transition-transform hover:-translate-y-0.5 duration-200";
+
+        card.innerHTML = `
+          <div class="flex items-center justify-between pb-2 mb-3 border-b border-neutral-200">
+            <span class="vox-mono text-xs font-bold text-neutral-500">${beat.tag || beat.act || `BEAT ${idx+1}`}</span>
+            <span class="vox-mono text-xs text-neutral-600 bg-neutral-100 px-2 py-0.5 border border-neutral-200">${beat.duration_seconds}s (${beat.duration_frames}f)</span>
+          </div>
+
+          <h3 class="text-2xl font-bold uppercase vox-headline tracking-tight mb-2">
+            ${beat.title || beat.headline} <span class="highlight-yellow">${beat.highlight || (Array.isArray(beat.accent) ? beat.accent.join(' ') : beat.accent || '')}</span>
+          </h3>
+
+          <p class="text-neutral-700 text-base leading-relaxed mb-4">
+            "${beat.text || beat.narration}"
+          </p>
+
+          <div class="flex items-center justify-between pt-3 border-t border-neutral-100">
+            <audio controls src="/${beat.audio_file}" class="h-9 w-72"></audio>
+            <span class="vox-mono text-xs text-neutral-400">Beat ${beat.id || idx+1}</span>
+          </div>
+        `;
+
+        container.appendChild(card);
+      });
+    }
+
+    function updateMonitor(frameNum = 30) {
+      const img = document.getElementById('monitorImg');
+      const caption = document.getElementById('monitorCaption');
+      const wrapper = document.getElementById('monitorWrapper');
+      const ratioBadge = document.getElementById('monitorRatioBadge');
+
+      const proj = projectsList.find(p => p.id === currentProject);
+      let variant = 'apollo_vox';
+      if (proj && proj.previewPrefix) {
+        variant = currentFormat === '9x16' ? proj.previewPrefix['9x16'] : proj.previewPrefix['16x9'];
+      } else {
+        variant = currentFormat === '9x16' ? `${currentProject}_reel` : `${currentProject}_vox`;
+      }
+
+      img.src = `/out/${variant}_${currentLang}_frame${frameNum}.jpeg?t=${Date.now()}`;
+      
+      if (currentFormat === '9x16') {
+        caption.innerText = `${currentProject.toUpperCase()} (9:16 Short // Frame ${frameNum})`;
+        wrapper.className = "relative bg-neutral-900 rounded overflow-hidden aspect-[9/16] max-h-[380px] w-auto mx-auto border border-amber-400 shadow-xl flex items-center justify-center group transition-all duration-300";
+        ratioBadge.innerText = "1080x1920 Vertical";
+      } else {
+        caption.innerText = `${currentProject.toUpperCase()} (16:9 Landscape // Frame ${frameNum})`;
+        wrapper.className = "relative bg-neutral-900 rounded overflow-hidden aspect-video border border-neutral-300 shadow-inner flex items-center justify-center group transition-all duration-300";
+        ratioBadge.innerText = "1920x1080 Landscape";
+      }
+    }
+
+    async function launchRemotionPreview() {
+      appendLog("Launching Remotion Studio...");
+      await fetch('/api/preview-remotion', { method: 'POST' });
+      appendLog("Remotion Studio starting on background port (localhost:3000/3001)");
+    }
+
+    async function renderCurrent() {
+      const lang = currentLang.toUpperCase();
+      const proj = projectsList.find(p => p.id === currentProject);
+      let payload = {};
+
+      if (!proj || !proj.compositions) {
+        appendLog(`[ERROR] No registered compositions found for ${currentProject}. Run pipeline first.`);
+        return;
+      }
+
+      if (currentFormat === '16x9') {
+        const comp = proj.compositions['16x9'][currentLang];
+        const out = proj.outFiles['16x9'][currentLang];
+        payload = { composition: comp, outFile: out };
+        appendLog(`[Render] Queued 16:9 Landscape MP4 for ${comp}...`);
+      } else if (currentFormat === '9x16') {
+        const comp = proj.compositions['9x16'][currentLang];
+        const out = proj.outFiles['9x16'][currentLang];
+        payload = { composition: comp, outFile: out };
+        appendLog(`[Render] Queued 9:16 Vertical Reel MP4 for ${comp}...`);
+      } else {
+        payload = {
+          jobs: [
+            { composition: proj.compositions['16x9'][currentLang], outFile: proj.outFiles['16x9'][currentLang] },
+            { composition: proj.compositions['9x16'][currentLang], outFile: proj.outFiles['9x16'][currentLang] }
+          ]
+        };
+        appendLog(`[Render] Queued dual-format batch for ${currentProject} (${currentLang.toUpperCase()})...`);
+      }
+
+      const badge = document.getElementById('renderStatusBadge');
+      badge.className = "text-xs px-2 py-0.5 bg-amber-100 text-amber-800 font-bold rounded animate-pulse";
+      badge.innerText = "RENDERING";
+
+      try {
+        const res = await fetch('/api/render', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        const data = await res.json();
+        if (data.error) {
+          appendLog(`[ERROR] ${data.error}`);
+          badge.className = "text-xs px-2 py-0.5 bg-red-100 text-red-800 font-bold rounded";
+          badge.innerText = "FAILED";
+        } else {
+          appendLog(`Render worker spawned successfully (${data.jobsCount || 1} job(s)).`);
+          pollRenderStatus();
+        }
+      } catch (err) {
+        appendLog(`[ERROR] ${err.message}`);
+      }
+    }
+
+    function pollRenderStatus() {
+      const interval = setInterval(async () => {
+        try {
+          const res = await fetch('/api/render-status');
+          const status = await res.json();
+          if (status.status === 'done') {
+            clearInterval(interval);
+            appendLog(`[SUCCESS] Rendering complete! Saved to ${status.out}`);
+            const badge = document.getElementById('renderStatusBadge');
+            badge.className = "text-xs px-2 py-0.5 bg-emerald-100 text-emerald-800 font-bold rounded";
+            badge.innerText = "DONE";
+            loadRenderVault();
+          } else if (status.status === 'failed') {
+            clearInterval(interval);
+            appendLog(`[FAILED] Render failed with exit code ${status.code}`);
+            const badge = document.getElementById('renderStatusBadge');
+            badge.className = "text-xs px-2 py-0.5 bg-red-100 text-red-800 font-bold rounded";
+            badge.innerText = "FAILED";
+          } else if (status.logs && status.logs.length > 0) {
+            const latest = status.logs[status.logs.length - 1];
+            appendLog(latest.trim());
+          }
+        } catch (e) {
+          clearInterval(interval);
+        }
+      }, 2500);
+    }
+
+    async function loadRenderVault() {
+      try {
+        const res = await fetch('/api/renders');
+        const files = await res.json();
+        const list = document.getElementById('renderVaultList');
+        list.innerHTML = '';
+        if (files.length === 0) {
+          list.innerHTML = '<span class="text-neutral-400">No MP4 files rendered yet</span>';
+          return;
+        }
+        files.filter(f => f.name.endsWith('.mp4')).sort((a,b) => new Date(b.time) - new Date(a.time)).forEach(f => {
+          const mb = (f.size / (1024 * 1024)).toFixed(1);
+          const item = document.createElement('div');
+          item.className = "flex items-center justify-between p-1.5 bg-neutral-50 border border-neutral-200 rounded";
+          item.innerHTML = `
+            <a href="/out/${f.name}" target="_blank" class="font-bold hover:underline text-blue-700 truncate max-w-[180px]">${f.name}</a>
+            <span class="text-neutral-500">${mb} MB</span>
+          `;
+          list.appendChild(item);
+        });
+      } catch (err) {
+        console.error("Vault load error", err);
+      }
+    }
+
+    function openNewProjectModal() {
+      document.getElementById('newProjectModal').classList.remove('hidden');
+    }
+
+    function closeNewProjectModal() {
+      document.getElementById('newProjectModal').classList.add('hidden');
+    }
+
+    async function submitNewInvestigation() {
+      const title = document.getElementById('newTopicTitle').value.trim();
+      const angle = document.getElementById('newTopicAngle').value.trim();
+      if (!title) {
+        alert("Please enter a topic title");
+        return;
+      }
+
+      const formats = [];
+      if (document.getElementById('fmtCheck16').checked) formats.push('16x9');
+      if (document.getElementById('fmtCheck9').checked) formats.push('9x16');
+
+      const languages = [];
+      if (document.getElementById('langCheckEN').checked) languages.push('en');
+      if (document.getElementById('langCheckTA').checked) languages.push('ta');
+      if (document.getElementById('langCheckHI').checked) languages.push('hi');
+
+      appendLog(`[INVESTIGATION] Spawning autonomous swarm for: "${title}"...`);
+      closeNewProjectModal();
+
+      try {
+        const res = await fetch('/api/investigate', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ topic: title, customAngle: angle, formats, languages })
+        });
+        const data = await res.json();
+        if (data.status === 'success') {
+          appendLog(`[INVESTIGATION] Topic registered: ${data.project.id}`);
+          appendLog(`[SWARM] Research dossier initialized. Human-approval gate active.`);
+          await loadProjects();
+          selectProject(data.project.id);
+        }
+      } catch (err) {
+        appendLog(`[ERROR] Failed to launch investigation: ${err.message}`);
+      }
+    }
+
+    function appendLog(msg) {
+      const box = document.getElementById('consoleLogs');
+      box.textContent += `\n${msg}`;
+      box.scrollTop = box.scrollHeight;
+    }
+
+    function openOpenCodeModal() {
+      document.getElementById('opencodeModal').classList.remove('hidden');
+    }
+
+    function closeOpenCodeModal() {
+      document.getElementById('opencodeModal').classList.add('hidden');
+    }
+
+    async function submitOpenCodeEdit() {
+      const prompt = document.getElementById('opencodePrompt').value.trim();
+      if (!prompt) return;
+      appendLog(`[OpenCode] Dispatching edit directive: "${prompt}"`);
+      closeOpenCodeModal();
+      document.getElementById('opencodePrompt').value = '';
+      try {
+        const res = await fetch('/api/opencode-edit', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ prompt })
+        });
+        const data = await res.json();
+        appendLog(`[OpenCode] Process started (PID: ${data.pid || 'Active'})`);
+      } catch (err) {
+        appendLog(`[OpenCode] Error: ${err.message}`);
+      }
+    }
+
+    // Boot
+    window.addEventListener('DOMContentLoaded', init);
+  </script>
+</body>
+</html>

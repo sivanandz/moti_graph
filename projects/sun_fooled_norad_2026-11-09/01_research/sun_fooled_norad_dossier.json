@@ -1,0 +1,392 @@
+{
+  "project_id": "sun_fooled_norad",
+  "title": "The Sun Fooled NORAD",
+  "subtitle": "The 1967 Solar Storm That Blinded America's Missile Radars and Nearly Started a War",
+  "format": "9:16 Vertical Reel (1080x1920)",
+  "target_duration_seconds": 180,
+  "style_profile": "Tactile Retro-Digital Ephemera",
+  "core_thesis": "On May 23, 1967, a colossal solar radio burst blinded all three US BMEWS early-warning radars simultaneously; NORAD read the interference as Soviet jamming and readied nuclear-armed bombers to launch. Forecasters at NORAD's Solar Forecast Center correctly identified the Sun in time, no aircraft launched, and the episode remained classified for nearly 50 years until the 2016 Knipp et al. paper in AGU's Space Weather journal.",
+  "counter_intuitive_hook": "The United States nearly went to war with the Soviet Union over a weather event — and the person who stopped the war was a weather forecaster.",
+  "visual_style": {
+    "canvas": "Cream deckle cardstock (#F4EFE6) with ink bleed, deckle edges, photocopy-grain stamps",
+    "typography": "1-bit coarse-dithered serif with active typewriter cursor (_) and Courier monospace stamps; dual-ribbon red/black ink",
+    "portals": "1967-appropriate hardware windows: teletype, Olivetti CRT, radio console, punch card reader — one portal per beat",
+    "motion_cadence": "12-15fps stepped stop-motion on archival cutouts; 30fps smooth only for signal traces (radar sweep, radio burst curve, Dst spike)",
+    "safe_frame": {
+      "canvas": "1080x1920",
+      "content_box": { "x0": 60, "y0": 250, "x1": 940, "y1": 1570 },
+      "rules": "All on-screen content inside content box; right 140px = action rail (nothing); bottom 350px = caption/CTA zone (nothing)"
+    },
+    "asset_sourcing": "Real archival first (NASA, NARA, DoD/DVIDS, Wikimedia Commons, Openverse); AI generation last-resort fallback ONLY, labeled as generated"
+  },
+  "beats": [
+    {
+      "id": 1,
+      "time_range": "0:00-0:27",
+      "duration_seconds": 27,
+      "title": "Three Screens Go Dark",
+      "hookKicker": "MAY 23 1967 // 001",
+      "hookHeadline": "RADARS DARK",
+      "accent": ["RADARS", "DARK"],
+      "caption": "May 23, 1967. The three radar sites guarding America from Soviet missiles go dark — all at the same second.",
+      "heroMetric": "3 SITES",
+      "heroLabel": "Clear AK · Thule GL · Fylingdales UK",
+      "stampText": "23 MAY 1967",
+      "takeawayBullet": "BMEWS interference looked exactly like deliberate Soviet jamming.",
+      "key_events": [
+        "Colossal solar radio burst at 0.01-9.0 GHz (largest radio burst of the 20th century)",
+        "Radar interference at all three BMEWS sites appeared simultaneously",
+        "PAVE PAWS sites (Beale, Cape Cod) not yet operational"
+      ],
+      "visual_direction": "Three radome cutouts (Clear, Thule, Fylingdales) enter in stepped stop-motion; radar sweep lines die mid-rotation with 1-bit static tear; red-ribbon date stamp; teletype types site names, each struck through in red as its screen dies.",
+      "portal": "teletype",
+      "assets": [
+        {
+          "name": "Original BMEWS antenna, Clear AFS, Alaska",
+          "source": "NARA via Wikimedia Commons",
+          "license": "Public domain",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Original_BMEWS_missile_detection_radar_antenna_at_Clear_Air_Force_Station,_Alaska_(2000467713).jpg"
+        },
+        {
+          "name": "Radar radome at Thule AB, Greenland",
+          "source": "Wikimedia Commons (USAF)",
+          "license": "Public domain",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Radar_at_Thule_Air_Base,_Greenland.jpg"
+        },
+        {
+          "name": "RAF Fylingdales pre-1992 (original BMEWS golf balls)",
+          "source": "Wikimedia Commons (Geograph)",
+          "license": "CC BY-SA 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:RAF_Fylingdales_pre-1992_-_geograph.org.uk_-_80681.jpg"
+        },
+        {
+          "name": "BMEWS site diagram, Clear AFS",
+          "source": "Wikimedia Commons (HAER/NPS)",
+          "license": "Public domain",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Ballistic_Missile_Early_Warning_System_at_Clear_AFS_(diagram).png"
+        },
+        {
+          "name": "1961 USAF film frame 'Eyes of the North' — BMEWS arcs",
+          "source": "Wikimedia Commons (USAF film)",
+          "license": "Public domain",
+          "page_url": "https://commons.wikimedia.org/wiki/File:1961_Eyes_of_the_North_-_minute_4-51_--_BMEWS_arcs_and_Q_points.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "time_range": "0:27-0:55",
+      "duration_seconds": 28,
+      "title": "Jamming Means War",
+      "hookKicker": "COLD WAR DOCTRINE // 002",
+      "hookHeadline": "JAMMING = WAR",
+      "accent": ["JAMMING", "WAR"],
+      "caption": "In Cold War doctrine, jamming meant one thing: Soviet attack was imminent. Nuclear-armed bombers were moved to ready-to-launch.",
+      "heroMetric": "READY-TO-LAUNCH",
+      "heroLabel": "Additional nuclear forces staged",
+      "stampText": "ACT OF WAR",
+      "takeawayBullet": "Documented: aircraft readied, crews scrambled to planes — no bombers launched.",
+      "key_events": [
+        "1967 doctrine: jamming BMEWS = act of war / prelude to attack",
+        "Commanders placed additional forces in 'ready to launch' status",
+        "Continuous airborne-alert B-52s through most of the 1960s",
+        "Briefing likely reached top officials, possibly President Johnson"
+      ],
+      "visual_direction": "Doctrine memo card stamps red 'JAMMING = ACT OF WAR'; B-52 cutout on alert strip (taxi, cut before takeoff — no aircraft launched); 1967 NORAD Cheyenne Mountain photo behind perforated mask; punch-card portal clatters 'ALERT'.",
+      "portal": "punch_card_reader",
+      "assets": [
+        {
+          "name": "B-52 Arc Light strike (1960s SAC)",
+          "source": "Wikimedia Commons (USAF)",
+          "license": "Public domain",
+          "page_url": "https://commons.wikimedia.org/wiki/File:B-52_Arc_Light_strike.jpg"
+        },
+        {
+          "name": "NORAD, Cheyenne Mountain AFS, 1967",
+          "source": "Wikimedia Commons (USAF)",
+          "license": "Public domain (PD US Air Force)",
+          "page_url": "https://commons.wikimedia.org/wiki/File:1967_NORAD_CMAFS.jpg"
+        },
+        {
+          "name": "Cheyenne Mountain NORAD entrance, 1968",
+          "source": "Wikimedia Commons",
+          "license": "Public domain",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Cheyenne_Mountain_NORAD_entrance_1968.jpg"
+        },
+        {
+          "name": "80-column punched card",
+          "source": "Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Punch_card_80_columns_(1).jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "time_range": "0:55-1:22",
+      "duration_seconds": 27,
+      "title": "The Sun Rolls Out Its Move",
+      "hookKicker": "SOLAR MAXIMUM // 003",
+      "hookHeadline": "THE SUN MOVES",
+      "accent": ["SUN", "MOVES"],
+      "caption": "Days earlier, a vast sunspot group had rotated onto the Sun. On May 21 and 23 it erupted — flares, then the century's biggest radio burst.",
+      "heroMetric": "0.01-9.0 GHz",
+      "heroLabel": "Colossal radio burst · McMath region 8818",
+      "stampText": "IMPORTANCE 3B",
+      "takeawayBullet": "76 flares of importance >=1 counted May 23-27; four major flares on May 23.",
+      "key_events": [
+        "May 18: unusually large sunspot group (McMath region 8818) rotates into view",
+        "May 21 and 23: major flare sequence, H-alpha importance up to 3B (Dodson & Hedeman 1969)",
+        "May 23: four major flares + colossal radio burst; flare visible to naked eye from New Mexico and Colorado",
+        "NORAD Solar Forecast Center bulletin forecasts worldwide geomagnetic storm in 36-48 hours"
+      ],
+      "visual_direction": "Carrington-style sunspot drawing slips onto card; SDO X-class flare imagery as modern witness; 1-bit frequency axis 0.01-9.0 GHz draws with red burst spike; 'McMath 8818' typed in; Olivetti CRT shows H-alpha sequence flickering.",
+      "portal": "olivetti_crt",
+      "assets": [
+        {
+          "name": "Carrington's 1859 sunspot drawing",
+          "source": "Wikimedia Commons",
+          "license": "Public domain",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Carrington_Richard_drawing_of_1859_sunspots.jpeg"
+        },
+        {
+          "name": "NASA SDO X-class solar flare",
+          "source": "Wikimedia Commons (NASA)",
+          "license": "Public domain",
+          "page_url": "https://commons.wikimedia.org/wiki/File:NASA%27s_SDO_Observes_an_X-class_Solar_Flare_(15562323166).jpg"
+        },
+        {
+          "name": "Eruptive prominence in H-alpha sequence",
+          "source": "Wikimedia Commons (NASA SDO/Flickr)",
+          "license": "CC BY 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Caught_in_the_Act!_(19813129038).jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "time_range": "1:22-1:50",
+      "duration_seconds": 28,
+      "title": "Half the Sun Has Blown Away",
+      "hookKicker": "ENT AFB COLORADO // 004",
+      "hookHeadline": "HALF THE SUN",
+      "accent": ["HALF THE SUN", "BLOWN AWAY"],
+      "caption": "At Ent Air Force Base, Colorado, forecaster Arnold Snyder got the panicked call. His answer: 'Yes — half the sun has blown away.'",
+      "heroMetric": "1 FORECASTER",
+      "heroLabel": "Col. Arnold L. Snyder · Solar Forecast Center",
+      "stampText": "SOLAR FORECAST CENTER",
+      "takeawayBullet": "4th Weather Wing forecaster's call reached the man who knew the Sun.",
+      "key_events": [
+        "Col. Arnold L. Snyder on duty at NORAD's Solar Forecast Center, Ent AFB, Colorado Springs",
+        "4th Weather Wing tropospheric forecaster calls; Snyder: 'Yes, half the sun has blown away'",
+        "4th Weather Wing documented at Ent AFB via paper bibliography (4WWM 105-1, April 1, 1966)",
+        "Air Weather Service monitored solar flares and fed observations to NORAD forecasters"
+      ],
+      "visual_direction": "Ent AFB operations card; 1-bit phone ringer; Snyder quote in oversized typewriter serif with red underline on 'half the sun'; Solar Forecast Center bulletin types live behind (36-48 hour storm forecast); teletype re-print portal as the answer channel.",
+      "portal": "teletype",
+      "assets": [
+        {
+          "name": "Military teletype TG-7-B (Model 15 family)",
+          "source": "Wikimedia Commons (Computer History Museum)",
+          "license": "CC BY-SA 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:TG-7-B_teletype.jpg"
+        },
+        {
+          "name": "Military teletype operator, message transmission",
+          "source": "Wikimedia Commons (DPLA)",
+          "license": "Public domain",
+          "page_url": "https://commons.wikimedia.org/wiki/File:SSGT_Geneva_P._Brown,_232nd_Combat_Communications_Squadron,_Montgomery,_Alabama,_types_a_message_for_transmission_on_a_teletype_machine_during_exercise_Bright_Star_'80_-_DPLA_-_555b11a248a19d686589df286d82e58a.jpeg"
+        },
+        {
+          "name": "Cheyenne Mountain work area (operations-interior feel)",
+          "source": "Wikimedia Commons",
+          "license": "Public domain",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Cheyenne_Mountain_work_area_generators.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "time_range": "1:50-2:15",
+      "duration_seconds": 25,
+      "title": "The Jamming Fades",
+      "hookKicker": "STAND DOWN // 005",
+      "hookHeadline": "STAND DOWN",
+      "accent": ["STAND", "DOWN"],
+      "caption": "Forecasters confirmed all three radar sites sat in daylight. As the Sun's burst faded, the 'jamming' faded with it. The launch order never came.",
+      "heroMetric": "0 LAUNCHES",
+      "heroLabel": "Alert stood down in time",
+      "stampText": "JAMMING -> SOLAR",
+      "takeawayBullet": "No aircraft launched; information reached commanders in time, possibly to President Johnson.",
+      "key_events": [
+        "All three BMEWS sites were in sunlight when the burst hit",
+        "As solar radio emissions waned, the 'jamming' waned — solar origin confirmed",
+        "CME arrived ~40 hours after the flare; major storm May 25-26 (Dst -387 nT, 6 hours at Kp 9)",
+        "Radio communications disrupted nearly a week; auroras as far south as New Mexico"
+      ],
+      "visual_direction": "Split strip: solar burst curve descending (left) mirrors radar traces normalizing (right) in lockstep — the correlation is the punchline; stamp flips JAMMING to SOLAR; three site cards flip to green sweep; B-52 taxis backward off strip.",
+      "portal": "radio_console",
+      "assets": [
+        {
+          "name": "BMEWS radar beam diagram (signal normalization visual)",
+          "source": "Wikimedia Commons (HAER/NPS)",
+          "license": "Public domain",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Ballistic_Missile_Early_Warning_System_at_Clear_AFS_(diagram).png"
+        },
+        {
+          "name": "ISS aurora over Kazakhstan",
+          "source": "Wikimedia Commons (NASA ISS)",
+          "license": "Public domain",
+          "page_url": "https://commons.wikimedia.org/wiki/File:ISS-39_Aurora_Borealis_over_northeastern_Kazakhstan.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "time_range": "2:15-2:42",
+      "duration_seconds": 27,
+      "title": "Secret for 50 Years",
+      "hookKicker": "DECLASSIFIED // 006",
+      "hookHeadline": "DECLASSIFIED 2016",
+      "accent": ["DECLASSIFIED", "2016"],
+      "caption": "The near-war stayed secret for half a century — until 2016, when a declassified study named the culprit: the May 1967 Great Storm.",
+      "heroMetric": "50 YEARS",
+      "heroLabel": "Classified until Knipp et al. 2016",
+      "stampText": "SPACE WEATHER 2016",
+      "takeawayBullet": "Paper: 'The May 1967 Great Storm and Radio Disruption Event: Extreme Space Weather and Extraordinary Responses.'",
+      "key_events": [
+        "Knipp et al., Space Weather 14(9):614-633, DOI 10.1002/2016SW001423, published online Sept 5, 2016",
+        "Authors include Knipp + retirees of USAF Air Weather Service (Ramsay, Beard, Boright) and AF Research Lab (Shea, Smart)",
+        "Knipp: 'things were going horribly wrong, and then something goes commendably right'",
+        "Outcome: more formal DoD support for current-day space weather forecasting"
+      ],
+      "visual_direction": "CLASSIFIED folder gets red DECLASSIFIED stamp; 2016 paper title types line by line; Knipp quote card; punch-card portal feeds the 1966 4th Weather Wing manual citation.",
+      "portal": "punch_card_reader",
+      "assets": [
+        {
+          "name": "80-column punched card (archive feed)",
+          "source": "Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Punch_card_80_columns_(1).jpg"
+        },
+        {
+          "name": "Military teletype TG-7-B (bulletin re-print portal)",
+          "source": "Wikimedia Commons",
+          "license": "CC BY-SA 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:TG-7-B_teletype.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "time_range": "2:42-3:00",
+      "duration_seconds": 18,
+      "title": "The Sun Is Still Shooting",
+      "hookKicker": "PRESENT DAY // 007",
+      "hookHeadline": "IT WILL HAPPEN AGAIN",
+      "accent": ["HAPPEN", "AGAIN"],
+      "caption": "Quebec went dark in 1989. Earth missed a Carrington-class blast by days in 2012. We just passed solar maximum. The Sun never demobilized.",
+      "heroMetric": "-387 nT / -750 nT",
+      "heroLabel": "1967 Dst · 1989 Dst estimate",
+      "stampText": "CYCLE 25 MAX 2024",
+      "takeawayBullet": "March 13, 1989: Hydro-Quebec grid collapsed in 90 seconds, 6 million people, ~9 hours.",
+      "key_events": [
+        "March 13, 1989: Hydro-Quebec blackout, 90 seconds to collapse, 6 million people, ~9 hours",
+        "July 23, 2012: Carrington-class CME crossed Earth's orbit, hit STEREO-A; ~9 days earlier and it would have hit Earth",
+        "Solar Cycle 25 maximum officially announced Oct 15, 2024 by NASA/NOAA; maximum phase continues into 2025-2026",
+        "'The day the sun declared war' is modern 2016-era editorial framing, not a 1967 headline"
+      ],
+      "visual_direction": "Sunspot-cycle chart animates 1610-present with cycle 20 peak lit for 1967; ISS aurora behind dithered mask; 1989 grid-collapse and 2012 near-miss cards stamp in sequence; end card 'NORAD's radars listen. So does the Sun.' CTA in bottom caption zone only.",
+      "portal": "olivetti_crt",
+      "assets": [
+        {
+          "name": "Sunspot cycle chart (Zurich series, 1610-present)",
+          "source": "Wikimedia Commons",
+          "license": "Public domain",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Sunspots_Zurich.gif"
+        },
+        {
+          "name": "Sunspot butterfly diagram",
+          "source": "Wikimedia Commons",
+          "license": "Public domain",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Sunspot-bfly.gif"
+        },
+        {
+          "name": "ISS aurora over Kazakhstan",
+          "source": "Wikimedia Commons (NASA ISS)",
+          "license": "Public domain",
+          "page_url": "https://commons.wikimedia.org/wiki/File:ISS-39_Aurora_Borealis_over_northeastern_Kazakhstan.jpg"
+        },
+        {
+          "name": "NASA SDO X-class flare",
+          "source": "Wikimedia Commons (NASA)",
+          "license": "Public domain",
+          "page_url": "https://commons.wikimedia.org/wiki/File:NASA%27s_SDO_Observes_an_X-class_Solar_Flare_(15562323166).jpg"
+        }
+      ]
+    }
+  ],
+  "verified_facts": {
+    "solar_event": {
+      "sunspot_region": "McMath plage region 8818, rotated into view May 18, 1967 (AGU press release; Space.com)",
+      "flare_sequence": "Major flares May 21 and May 23, 1967, H-alpha importance up to 3B (Dodson & Hedeman 1969, Solar Physics)",
+      "radio_burst": "Colossal solar radio burst 0.01-9.0 GHz, largest of the 20th century, May 23, 1967 (Knipp et al. 2016 abstract)",
+      "flare_count": "76 flares of importance >=1 during May 23-27 (Knipp et al. 2016)",
+      "geomagnetic_storm": "May 25-26, 1967: Dst -387 nT, 6 hours at Kp 9, double sudden commencement 1019/1235 UT May 25; largest solar proton event on record followed",
+      "disruption_duration": "Radio communications disrupted nearly a week; auroras as far south as New Mexico",
+      "classification_note": "Modern M/X-class system did not exist in 1967; exact modern class not assigned in literature (corrected claim)"
+    },
+    "radar_crisis": {
+      "sites": ["Clear Air Force Station, Alaska", "Thule Air Base, Greenland", "Fylingdales, UK"],
+      "simultaneous": true,
+      "doctrine": "Jamming BMEWS = act of war / imminent Soviet attack (1967 doctrine)",
+      "response": "Additional forces placed in ready-to-launch status; aircraft prepared for war; no aircraft launched",
+      "bmews_note": "PAVE PAWS sites (Beale AFB, Cape Cod) not yet operational in 1967"
+    },
+    "identification": {
+      "forecaster": "Retired Colonel Arnold L. Snyder, NORAD Solar Forecast Center, Ent Air Force Base, Colorado Springs",
+      "quote": "Yes, half the sun has blown away",
+      "diagnosis": "All three BMEWS sites in sunlight; jamming waned as solar radio emissions waned",
+      "wing": "4th Weather Wing at Ent AFB (documented via Knipp 2016 bibliography: 4WWM 105-1, April 1, 1966)"
+    },
+    "declassification_paper": {
+      "title": "The May 1967 Great Storm and Radio Disruption Event: Extreme Space Weather and Extraordinary Responses",
+      "journal": "Space Weather (AGU/Wiley)",
+      "volume_issue_pages": "14(9):614-633",
+      "doi": "10.1002/2016SW001423",
+      "published_online": "2016-09-05",
+      "authors": ["Delores J. Knipp", "A. C. Ramsay", "E. D. Beard", "A. L. Boright", "W. B. Cade", "I. M. Hewins", "R. H. McFadden", "W. F. Denig", "L. M. Kilcommons", "M. A. Shea", "D. F. Smart"]
+    },
+    "follow_on": {
+      "quebec_1989": "March 13, 1989: Hydro-Quebec grid collapsed ~90 seconds after storm onset, 6 million people, ~9 hours blackout",
+      "near_miss_2012": "July 23, 2012: Carrington-class CME at up to ~3000 km/s crossed Earth's orbit, struck STEREO-A; ~9 days earlier it would have hit Earth",
+      "cycle_25_max": "Officially announced Oct 15, 2024 by NASA/NOAA; maximum phase continues into 2025-2026 (dual-peak pattern)"
+    }
+  },
+  "myth_triage": {
+    "bombers_launched": "MYTH vs DOCUMENTED: aircraft readied, crews scrambled to planes, but no bombers launched (AGU; Space.com)",
+    "xb70_launch": "MYTH / UNVERIFIED: no source corroborates XB-70 involvement; XB-70 not part of nuclear alert force",
+    "exercise_crimson_sky": "UNVERIFIED: exercise name not reliably attached to this event; do not use",
+    "sun_declared_war_phrasing": "MODERN FRAMING: 2016-era editorial headline style, not a documented 1967 headline; Dylan Thomas 1954 coinage unrelated"
+  },
+  "unverified_do_not_state": [
+    "Exact modern (GOES X/M) class of the May 23, 1967 flare",
+    "Precise GMT time-of-day of the BMEWS blackout on May 23, 1967",
+    "Confirmation the alert information reached President Johnson (paper says 'possibly')",
+    "Named B-52 unit, base, or number of aircraft placed in ready-to-launch status"
+  ],
+  "sources": [
+    { "name": "AGU press release (Aug 9, 2016)", "url": "https://news.agu.org/press-release/1967-solar-storm-nearly-took-us-to-brink-of-war" },
+    { "name": "Knipp et al. 2016 paper (DOI)", "url": "https://doi.org/10.1002/2016SW001423" },
+    { "name": "Crossref metadata + abstract + bibliography", "url": "https://api.crossref.org/works/10.1002/2016SW001423" },
+    { "name": "NOAA Repository record", "url": "https://repository.library.noaa.gov/view/noaa/20461" },
+    { "name": "Space.com explainer", "url": "https://www.space.com/33687-solar-storm-cold-war-false-alarm.html" },
+    { "name": "UCAR news", "url": "https://news.ucar.edu/122253/1967-solar-storm-nearly-took-us-brink-war" },
+    { "name": "Smithsonian Magazine", "url": "https://www.smithsonianmag.com/science-nature/solar-storm-nearly-set-cold-war-ablaze-180960106/" },
+    { "name": "Courthouse News", "url": "https://www.courthousenews.com/solar-storm-nearly-triggered-nuclear-war-study-finds" },
+    { "name": "Wikipedia: List of solar storms", "url": "https://en.wikipedia.org/wiki/List_of_solar_storms" },
+    { "name": "Wikipedia: March 1989 geomagnetic storm", "url": "https://en.wikipedia.org/wiki/March_1989_geomagnetic_storm" },
+    { "name": "NASA Science: July 2012 near miss", "url": "https://science.nasa.gov/science-research/planetary-science/23jul_superstorm" },
+    { "name": "NASA Science: Solar Cycle 25 maximum", "url": "https://science.nasa.gov/science-research/heliophysics/nasa-noaa-sun-reaches-maximum-phase-in-11-year-solar-cycle" }
+  ]
+}
